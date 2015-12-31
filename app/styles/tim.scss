@@ -139,56 +139,6 @@ footer h2 { font-size: 1em; margin: 0; color: #333; }
     footer .title { float: left; }
 }
 
-/*****************
-Library
-******************/
-
-body.library section:not(.footersection) {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -mx-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: 0 auto 3rem;
-}
-
-body.library section a {
-    width: 50%;
-    font-size: 12px;
-    line-height: 18px;
-    margin-top: 2rem;
-    text-align: center;
-    text-decoration: none;
-    color: #333;
-}
-
-body.library section a:hover { color: crimson; }
-body.library section a:hover b.label { color: crimson; }
-
-body.library section div.imgcontainer {
-    width: 100%;
-    position: relative;
-    height: 0;
-    padding-bottom: 100%;
-}
-
-body.library section div.imgcontainer img {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 20%;
-    width: 60%;
-    margin-bottom: 0.5rem;
-    transition: opacity 0.15s ease-in;
-    -webkit-transition: opacity 0.15s ease-in;
-    -moz-transition: opacity 0.15s ease-in;
-    -ms-transition: opacity 0.15s ease-in;
-}
-
 
 /*****************
 About
