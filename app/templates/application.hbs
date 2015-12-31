@@ -1,3 +1,25 @@
-<h2 id="title">Welcome to Ember</h2>
+<header>
+  <div class="navwrapper">    
+    {{#link-to 'shows' class="name"}}You'll Soon Know{{/link-to}}
+
+    <nav role='navigation'>
+      <ul>
+        <li>{{#link-to 'shows'}}Archive{{/link-to}}</li>
+        <li><a href='http://youllsoonknow.tumblr.com'>Blog</a></li>
+        <li><a href='http://twitter.com/youllsoonknow'>Twitter</a></li>
+        <li><a href='http://mixcloud.com/youllsoonknow'>Mixcloud</a></li>
+        <li>{{#link-to 'about'}}About{{/link-to}}</li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
 {{outlet}}
+
+<footer>
+	<section class="footersection">
+  	Copyright &copy; 2009&ndash;2016 You'll Soon Know · <a href='http://twitter.com/youllsoonknow'>@youllsoonknow</a>
+	</section>
+</footer>
+
+{{mixcloud-player show=streamingShow}}

@@ -1,0 +1,17 @@
+<div class="iframe">
+  <iframe width="300" height="300" id="mixcloud-iframe" src="https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=c46e5ef3-0a95-429a-8f68-ff61595cfa9e&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fyoullsoonknow%2Fnts-16122015-w-special-raminski%2F" frameborder="0"></iframe>
+</div>
+
+{{#if hasSong}}
+<div class="player">
+  {{#if isBuffering}}
+    Buffering...
+  {{else if isPlaying}}
+    <span {{action "pause"}}>Pause</span>
+  {{else}}
+    <span {{action "play"}}>Play</span>
+  {{/if}}
+  
+  - {{show.title}} - {{show.created}}
+</div>
+{{/if}}
