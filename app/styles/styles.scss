@@ -7,10 +7,10 @@ $darkgreen: #399434;
 }
 
 body {
-    background-color: #FAFAFA;
+    background-color: #F0F0F0;
     color: #222;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 80px;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 145%;
@@ -94,7 +94,7 @@ ul.buttons li:first-child a { background-color: #222; color: white; }
 ul.buttons li:first-child:hover a { background-color: $green; }
 
 // Navigation
-header { padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1); margin-bottom: 1rem; font-size: 80%; }
+header { padding: 1rem; margin-bottom: 1rem; font-size: 80%; background: #FCFCFC;} // border-bottom: 1px solid rgba(0,0,0,0.1);
 header h1 { font-size: 1em; font-weight: 400; color: #222; margin: 0; }
 header nav ul { list-style: none; margin: 0 auto; padding: 0; display: inline-block; }
 header nav ul li { display: inline-block; margin-right: 1.5rem; padding-bottom: 0.5rem; }
@@ -260,7 +260,7 @@ ul.tablelist li a {
     .grid div { width: 50%; }
     .grid div:nth-child(odd) { padding-right: 0.5em; }
     .grid div:nth-child(even) { padding-left: 0.5em; }
-    section.featured { border-top: 1px solid rgba(0,0,0,0.1); padding-top: 1.25rem; }
+    section.featured { padding-top: 1.25rem; } // border-top: 1px solid rgba(0,0,0,0.1);
     section.featured h2 { margin-top: 0; }
     section.featured .grid div a { display: block; }
     section.featured .grid div a:after { display: none; clear: none; }
