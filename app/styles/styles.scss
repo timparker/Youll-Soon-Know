@@ -94,7 +94,7 @@ ul.buttons li:first-child a { background-color: #222; color: white; }
 ul.buttons li:first-child:hover a { background-color: $green; }
 
 // Navigation
-header { padding: 1rem; margin-bottom: 1rem; font-size: 80%; background: #FCFCFC;} // border-bottom: 1px solid rgba(0,0,0,0.1);
+header { padding: 1rem; margin-bottom: 1rem; font-size: 80%; background: #FCFCFC; border-bottom: 1px solid rgba(0,0,0,0.1);}
 header h1 { font-size: 1em; font-weight: 400; color: #222; margin: 0; }
 header nav ul { list-style: none; margin: 0 auto; padding: 0; display: inline-block; }
 header nav ul li { display: inline-block; margin-right: 1.5rem; padding-bottom: 0.5rem; }
@@ -244,7 +244,7 @@ ul.tablelist li a {
 
 // Media Queries
 @media (min-width: 500px) {
-    header { margin-bottom: 0; padding: 2rem; border-bottom: none; }
+    header { margin-bottom: 0; padding: 2rem; } //border-bottom: none; 
     header .navwrapper{ text-align: center; }
     .grid {
         display: -webkit-box;
