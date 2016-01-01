@@ -54,10 +54,7 @@ img.fullimg {
     filter: grayscale(1);
 }
 
-/*****************
-Type
-******************/
-
+// Type
 a { color: gray; }
 a:hover { color: crimson; }
 p a { text-decoration: none; border-bottom: 1px solid #bbb; }
@@ -95,10 +92,7 @@ ul.buttons li a {
 ul.buttons li:first-child a { background-color: #222; color: white; }
 ul.buttons li:first-child:hover a { background-color: crimson; }
 
-/*****************
-Navigation
-******************/
-
+// Navigation
 header { padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1); margin-bottom: 1rem; font-size: 80%; }
 header h1 { font-size: 1em; font-weight: 400; color: #222; margin: 0; }
 header nav ul { list-style: none; margin: 0 auto; padding: 0; display: inline-block; }
@@ -110,18 +104,7 @@ header a:hover { color: crimson; }
 svg.monogram { width: 1.75em; fill: #222; }
 a.name { display: block; margin-bottom: 1em; font-weight: 500; color: #222; font-size: 16px; }
 
-/* change header to black on custom pages */
-body.custom a.name { color: #fff; }
-body.custom header { background-color: #151515; border-bottom: none; margin-bottom: 0; }
-body.custom header a.active { color: #fff; border-bottom: 2px solid #aaa; }
-body.custom header h1 { color: #fff; }
-body.custom svg.monogram { fill: #fff; }
-article.fullwidth { margin: 0; padding: 0; max-width: none; }
-article.fullwidth p { max-width: 38rem; margin-left: auto; margin-right: auto; }
-
-/*****************
-Footer
-******************/
+// Footer
 footer {
     color: gray;
     font-weight: 400;
@@ -139,18 +122,7 @@ footer h2 { font-size: 1em; margin: 0; color: #333; }
     footer .title { float: left; }
 }
 
-
-/*****************
-About
-******************/
-
-img.avatar { border-radius: 100%; max-width: 225px; width: 100%; margin: 0 auto 4rem; }
-
-
-/*****************
-Grid Layout
-******************/
-
+// rid Layout
 .grid { padding: 1rem; margin: 0 auto; max-width: 30rem; }
 .grid a { text-decoration: none; }
 .grid a b.label, .grid a em.detail { display: block; font-size: 90%; line-height: 1.4; }
@@ -159,19 +131,7 @@ Grid Layout
 .grid div a p { color: #333; text-decoration: none !important; }
 .grid a:hover b.label { color: crimson; }
 
-
-/*****************
-Mods for Featured Writing
-******************/
-
-section.featured div.grid { padding: 0; max-width: none; }
-section.featured div.grid a img { width: 50%; margin-bottom: 0; float: left; margin-right: 1em; }
-section.featured div.grid a:after { content: ''; display: table; clear: both; }
-
-/*****************
-List Layout
-******************/
-
+// List Layout
 div.textspace + div.textspace { border-top: 1px solid rgba(0,0,0,0.1); }
 ul.tablelist, ul.tablelist li { list-style: none; margin: 0; padding: 0; line-height: 1.4;}
 ul.tablelist li { border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 90%; }
@@ -199,9 +159,30 @@ ul.tablelist li a {
     justify-content: space-between;
 }
 
-/*****************
-Media Queries
-******************/
+// Player
+.mixcloud-player {
+    position: fixed;
+    bottom: -20px;
+    left: 20px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 100px;
+    transition: bottom 1s;
+
+    iframe {
+        visibility: hidden;
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    &.has-song {
+        bottom: 20px;
+    }
+}
+
+// Media Queries
 @media (min-width: 500px) {
     header { margin-bottom: 0; padding: 2rem; border-bottom: none; }
     header .navwrapper{ text-align: center; }
@@ -255,18 +236,15 @@ Media Queries
     body:not(.writingindex) div.writingwrapper { padding-top: 2.5rem; }
 }
 
-/* stretch out figures and images if window is wide enough */
 @media (min-width: 46rem) {
     body:not(.custom) article figure { margin-left: -2rem; margin-right: -3rem; }
     body:not(.custom) article figure figcaption { margin-left: 2rem; margin-right: 3rem; }
 }
 
-/* center listings */
 @media (min-width: 60rem) {
     section.featured, section.writinglist { margin-left: auto; margin-right: auto; }
 }
 
-/* Change library column counts */
 @media (min-width: 500px) { body.library section a { width: 33.3333%; } }
 @media (min-width: 700px) { body.library section a { width: 25%; } }
 @media (min-width: 900px) { body.library section a { width: 20%; } }
