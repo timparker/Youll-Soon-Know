@@ -8,13 +8,12 @@ body {
     color: #222;
     margin: 0 auto;
     padding: 0;
-    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 145%;
 }
 
 p {
-    font-family: 'Times New Roman', Georgia, serif;
     line-height: 140%;
     font-size: 110%;
 }
@@ -33,7 +32,6 @@ article { margin: 0 auto; }
 
 article hr { width: 40%; max-width: 16em; margin: 4em auto; }
 article ul, article ol {
-    font-family: 'Times New Roman', Georgia, serif;
     line-height: 140%;
     font-size: 110%;
 }
@@ -56,14 +54,14 @@ img.fullimg {
 
 // Type
 a { color: gray; }
-a:hover { color: crimson; }
+a:hover { color: #49C743; }
 p a { text-decoration: none; border-bottom: 1px solid #bbb; }
-p a:hover { border-bottom-color: crimson; }
+p a:hover { border-bottom-color: #49C743; }
 
 b.label { display: block; font-weight: normal; color: #333; }
 em.detail { font-style: normal; font-size: 12px; color: #bbb; }
 
-small, time { font-weight: 400; color: gray; font-size: 0.8rem; font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+small, time { font-weight: 400; color: gray; font-size: 0.8rem; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h1, h2, h3, h4 { font-size: 1rem; font-weight: 600; }
 h2+p { margin-top: 0; }
@@ -90,7 +88,7 @@ ul.buttons li a {
 }
 
 ul.buttons li:first-child a { background-color: #222; color: white; }
-ul.buttons li:first-child:hover a { background-color: crimson; }
+ul.buttons li:first-child:hover a { background-color: #49C743; }
 
 // Navigation
 header { padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1); margin-bottom: 1rem; font-size: 80%; }
@@ -100,7 +98,7 @@ header nav ul li { display: inline-block; margin-right: 1.5rem; padding-bottom: 
 header nav ul li:last-child { margin-right: 0; }
 header a { border: none; color: gray; text-decoration: none; padding-bottom: 2px; }
 header nav a.active { color: #222; border-bottom: 2px solid #222; }
-header a:hover { color: crimson; }
+header a:hover { color: #49C743; }
 svg.monogram { width: 1.75em; fill: #222; }
 a.name { display: block; margin-bottom: 1em; font-weight: 500; color: #222; font-size: 16px; }
 
@@ -122,14 +120,18 @@ footer h2 { font-size: 1em; margin: 0; color: #333; }
     footer .title { float: left; }
 }
 
-// rid Layout
+// Grid Layout
 .grid { padding: 1rem; margin: 0 auto; max-width: 30rem; }
 .grid a { text-decoration: none; }
 .grid a b.label, .grid a em.detail { display: block; font-size: 90%; line-height: 1.4; }
 .grid a img { margin-bottom: 1rem; }
 .grid div { margin-bottom: 1rem; }
 .grid div a p { color: #333; text-decoration: none !important; }
-.grid a:hover b.label { color: crimson; }
+.grid a:hover b.label { color: #49C743; }
+
+section.featured div.grid { padding: 0; max-width: none; }
+section.featured div.grid a img { width: 50%; margin-bottom: 0; float: left; margin-right: 1em; }
+section.featured div.grid a:after { content: ''; display: table; clear: both; }
 
 // List Layout
 div.textspace + div.textspace { border-top: 1px solid rgba(0,0,0,0.1); }
@@ -137,7 +139,7 @@ ul.tablelist, ul.tablelist li { list-style: none; margin: 0; padding: 0; line-he
 ul.tablelist li { border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 90%; }
 ul.tablelist li:last-child { border-bottom: none; }
 ul.tablelist li a { border-bottom: 0; text-decoration: none; display: block; padding: 0.5rem 0 0.6rem; }
-ul.tablelist li a:hover b.label { color: crimson; }
+ul.tablelist li a:hover b.label { color: #49C743; }
 section.featured, section.writinglist { margin-left: 1rem; margin-right: 1rem; }
 section.featured, section.writinglist aside { border-bottom: 1px solid rgba(0,0,0,0.1); }
 section.writinglist aside h2 { margin-top: 2em; }
@@ -233,7 +235,6 @@ ul.tablelist li a {
     section.writinglist aside { border-bottom: none; }
     section.writinglist { margin: 0 1em 1em 1em; }
     section.writinglist aside h2 { margin: 0; }
-    body:not(.writingindex) div.writingwrapper { padding-top: 2.5rem; }
 }
 
 @media (min-width: 46rem) {
