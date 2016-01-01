@@ -443,6 +443,51 @@ export default Ember.Route.extend({
         download: "",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-jon-1st-deft-10th-december-2013",
         image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/e25d1c73-96ff-470c-8cb1-f90c5030a0bb.jpg"
+      },
+      {
+        title: "Mocksun & V E I L S",
+        created: "2013-11-27",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-27112013-special-guests-mocksun-v-e-i-l-s",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-26th-november-2013",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/f096ef2d-d07f-427f-bbce-3b45cb4c6d08.jpg"
+      },
+      {
+        title: "Bambooman & Esgar",
+        created: "2013-11-12",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-12112013-special-guests-bambooman-esgar",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/160000-youll-soon-know-192kbps-3",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/2d60417a-009c-4ea8-84ed-ff26c6dec594.jpg"
+      },
+      {
+        title: "Vincent Paolo",
+        created: "2013-10-30",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-30102013-special-guest-vincent-paulo",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/160000-youll-soon-know-192kbps-2",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/8cf89f49-2a75-4635-9b94-3c54953071fb.jpg"
+      },
+      {
+        title: "Ean & Laurent Fintoni",
+        created: "2013-10-15",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-16102013-special-guests-ean-laurent-fintoni",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/160000-youll-soon-know-192kbps-1",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/3b7c70c0-028b-4bdc-81c5-b6ccef9d7c41.jpg"
+      },
+      {
+        title: "Huess & Athar",
+        created: "2013-10-1",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-11013",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/160000-youll-soon-know-192kbps",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/97d7ce2c-35dc-4c96-8fc5-4e5239679e35.jpg"
       }
     ]
   }
