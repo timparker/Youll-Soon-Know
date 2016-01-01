@@ -3,7 +3,7 @@
       <article>
           <div class="body">
               {{#each latestSchedule as |schedule|}}
-                <p>{{schedule.title}} - {{moment-format schedule.date "Do MMM YYYY"}} {{schedule.start}} - {{schedule.end}} GMT</p>
+                <p>{{schedule.title}} - {{moment-format schedule.date "Do MMMM YYYY"}} {{schedule.start}} - {{schedule.end}} GMT</p>
                 <!-- (Show in their timezone? fak how) -->
               {{/each}}
           </div>
