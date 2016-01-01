@@ -434,6 +434,15 @@ export default Ember.Route.extend({
         download: "",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-8th-january-2014",
         image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/930bd6d7-ff62-4bab-a74f-9648c1ec3aa3.jpg"
+      },
+      {
+        title: "Deft & Jon1st",
+        created: "2013-12-10",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-10122013-special-guests-jon1st-deft",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-jon-1st-deft-10th-december-2013",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/e25d1c73-96ff-470c-8cb1-f90c5030a0bb.jpg"
       }
     ]
   }

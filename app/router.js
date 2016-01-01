@@ -8,7 +8,9 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('shows', { path: "/" });
   this.route('about', { path: "/about" });
+  this.route('schedule', { path: "/schedule" });
   this.route('show', { path: "/:show" });
+  // add date before show name for permalink
   this.route('iframe', { path: "/iframe" });
 });
 

@@ -26,8 +26,8 @@
           <ul class="tablelist">
             {{#each shows as |show|}}
           	<li>
-              <a href="#" {{action "play" show}}>
-                <b class="label">{{show.title}}</b>
+              <a href="#">
+                <b class="label"><a href="#" style="display: inline;" {{action "play" show}}>Play</a>&nbsp;&nbsp;{{show.title}}</b>
                 <em class="detail">{{moment-format show.created "Do MMM YYYY"}}</em>
               </a>
             </li>

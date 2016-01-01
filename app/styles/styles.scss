@@ -1,3 +1,6 @@
+$green: #49C743;
+$darkgreen: #399434;
+
 * {
     box-sizing: border-box;
     text-rendering: optimizelegibility;
@@ -54,9 +57,9 @@ img.fullimg {
 
 // Type
 a { color: gray; }
-a:hover { color: #49C743; }
+a:hover { color: $green; }
 p a { text-decoration: none; border-bottom: 1px solid #bbb; }
-p a:hover { border-bottom-color: #49C743; }
+p a:hover { border-bottom-color: $green; }
 
 b.label { display: block; font-weight: normal; color: #333; }
 em.detail { font-style: normal; font-size: 12px; color: #bbb; }
@@ -88,7 +91,7 @@ ul.buttons li a {
 }
 
 ul.buttons li:first-child a { background-color: #222; color: white; }
-ul.buttons li:first-child:hover a { background-color: #49C743; }
+ul.buttons li:first-child:hover a { background-color: $green; }
 
 // Navigation
 header { padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1); margin-bottom: 1rem; font-size: 80%; }
@@ -98,9 +101,48 @@ header nav ul li { display: inline-block; margin-right: 1.5rem; padding-bottom: 
 header nav ul li:last-child { margin-right: 0; }
 header a { border: none; color: gray; text-decoration: none; padding-bottom: 2px; }
 header nav a.active { color: #222; border-bottom: 2px solid #222; }
-header a:hover { color: #49C743; }
+header a:hover { color: $green; }
 svg.monogram { width: 1.75em; fill: #222; }
 a.name { display: block; margin-bottom: 1em; font-weight: 500; color: #222; font-size: 16px; }
+.listen-live {
+    position: relative;
+    color: $green;
+
+    &:after {
+        content: "";
+        width: 8px;
+        height: 8px;
+        background: $green;
+        position: absolute;
+        right: -14px;
+        top: 6px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        animation: blink 1s steps(5, start) infinite;
+        -webkit-animation: blink 1s steps(5, start) infinite;
+    }
+
+    &:hover {
+        color: $darkgreen;
+
+        &:after {
+            background: $darkgreen;
+        }
+    }
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
 
 // Footer
 footer {
@@ -127,7 +169,7 @@ footer h2 { font-size: 1em; margin: 0; color: #333; }
 .grid a img { margin-bottom: 1rem; }
 .grid div { margin-bottom: 1rem; }
 .grid div a p { color: #333; text-decoration: none !important; }
-.grid a:hover b.label { color: #49C743; }
+.grid a:hover b.label { color: $green; }
 
 section.featured div.grid { padding: 0; max-width: none; }
 section.featured div.grid a img { width: 50%; margin-bottom: 0; float: left; margin-right: 1em; }
@@ -139,7 +181,8 @@ ul.tablelist, ul.tablelist li { list-style: none; margin: 0; padding: 0; line-he
 ul.tablelist li { border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 90%; }
 ul.tablelist li:last-child { border-bottom: none; }
 ul.tablelist li a { border-bottom: 0; text-decoration: none; display: block; padding: 0.5rem 0 0.6rem; }
-ul.tablelist li a:hover b.label { color: #49C743; }
+ul.tablelist li a:hover b.label { color: $green; }
+ul.tablelist li em.detail { padding-left: 10px; white-space: nowrap;}
 section.featured, section.writinglist { margin-left: 1rem; margin-right: 1rem; }
 section.featured, section.writinglist aside { border-bottom: 1px solid rgba(0,0,0,0.1); }
 section.writinglist aside h2 { margin-top: 2em; }
