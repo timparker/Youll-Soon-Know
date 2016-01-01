@@ -103,7 +103,7 @@ header a { border: none; color: gray; text-decoration: none; padding-bottom: 2px
 header nav a.active { color: #222; border-bottom: 2px solid #222; }
 header a:hover { color: $green; }
 svg.monogram { width: 1.75em; fill: #222; }
-a.name { display: block; margin-bottom: 1em; font-weight: 500; color: #222; font-size: 16px; }
+a.name { display: inline-block; margin-bottom: 1em; font-weight: 500; color: #222; font-size: 16px; }
 .listen-live {
     position: relative;
     color: $green;
@@ -146,13 +146,15 @@ a.name { display: block; margin-bottom: 1em; font-weight: 500; color: #222; font
 
 // Footer
 footer {
-    color: gray;
+    color: #6F7275;
     font-weight: 400;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     margin-top: 1rem;
     font-size: 14px;
     line-height: 1.4;
-    background-color: #e5e5e5;
+    background-color: #F0F0F0;
+
+    margin-bottom: 60px;
 }
 
 footer a { color: gray; border-bottom-color: lightgray; }
@@ -206,25 +208,38 @@ ul.tablelist li a {
 
 // Player
 .mixcloud-player {
+    // position: fixed;
+    // bottom: -20px;
+    // left: 20px;
+    // padding: 10px 20px;
+    // background: black;
+    // color: white;
+    // border-radius: 100px;
+    // transition: bottom 1s;
+
     position: fixed;
-    bottom: -20px;
-    left: 20px;
-    padding: 10px 20px;
-    background: black;
-    color: white;
-    border-radius: 100px;
-    transition: bottom 1s;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    .iframe {
+        height: 60px;
+    }
 
     iframe {
-        visibility: hidden;
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
+        // visibility: hidden;
+        // position: absolute;
+        // top: -9999px;
+        // left: -9999px;
+
+        margin: 0;
+        padding: 0;
     }
 
-    &.has-song {
-        bottom: 20px;
-    }
+    // &.has-song {
+    //     bottom: 20px;
+    // }
 }
 
 // Media Queries
