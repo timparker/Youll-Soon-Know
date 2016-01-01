@@ -5,7 +5,11 @@ export default Ember.Route.extend({
     return [
       {
         title: "Guest Name",
-        created: "2016-1-13 3pm",
+        date: "2016-1-13 3pm"
+      },
+      {
+        title: "Guest Name",
+        date: "2016-1-27 3pm"
       },
     ]
   }

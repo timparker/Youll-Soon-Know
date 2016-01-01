@@ -2,7 +2,9 @@
   <section class="text">
       <article>
           <div class="body">
-              <p>Schedule here</p>
+              {{#each latestSchedule as |schedule|}}
+                <p>{{schedule.title}} {{schedule.date}}</p>
+              {{/each}}
           </div>
       </article>
   </section>
