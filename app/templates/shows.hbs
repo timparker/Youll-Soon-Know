@@ -1,23 +1,28 @@
-<div class="writingwrapper">
-  <section class="featured">
-    <div class="textspace top">
-      <aside>
-        <h2>Latest Shows</h2>
-      </aside>
-      <div class="grid">
+<div class="featured-wrapper">
+  <div class="writingwrapper">
+      <section class="featured">
+        <div class="textspace top">
+          <aside>
+            <h2>Latest Shows</h2>
+          </aside>
+          <div class="grid">
 
-      {{#each latestShows as |show|}}
-        <div>
-          <a href="#" {{action "play" show}}>
-            <img src="{{show.image}}" class="fullimg" id="fullimg">
-            <b class="label">{{show.title}}</b>
-            <em class="detail">{{moment-format show.created "Do MMMM YYYY"}}</em>
-          </a>
+          {{#each latestShows as |show|}}
+            <div>
+              <a href="#" {{action "play" show}}>
+                <img src="{{show.image}}" class="fullimg" id="fullimg">
+                <b class="label">{{show.title}}</b>
+                <em class="detail">{{moment-format show.created "Do MMMM YYYY"}}</em>
+              </a>
+            </div>
+          {{/each}}
+          </div>
         </div>
-      {{/each}}
-      </div>
-    </div>
-  </section>
+      </section>
+  </div>
+</div>
+
+<div class="writingwrapper">
   <section class="writinglist">
     {{#each-in byYears as |year shows|}}
       <div class="textspace">
