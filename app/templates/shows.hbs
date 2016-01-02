@@ -31,10 +31,10 @@
           <ul class="tablelist">
             {{#each shows as |show|}}
           	<li>
-              <a href="#">
-                <b class="label"><a href="#" style="display: inline;" {{action "play" show}}>Play</a>&nbsp;&nbsp;{{show.title}}</b>
+              {{#link-to 'show'}}
+                <b class="label">{{show.title}}</b>
                 <em class="detail">{{moment-format show.created "Do MMM YYYY"}}</em>
-              </a>
+              {{/link-to}}
             </li>
             {{/each}}
           </ul>
@@ -43,3 +43,4 @@
     {{/each-in}}
   </section>
 </div>
+<!-- {{action "play" show}} -->
