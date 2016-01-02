@@ -668,6 +668,348 @@ export default Ember.Route.extend({
         download: "",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-wotnot-music-31212",
         image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/91c49b7c-755a-4fb7-9496-7e042a366f10.jpeg"
+      },
+      {
+        title: "Kidsuke & Jealousguy",
+        created: "2012-11-19",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-19112012-special-guests-kidsuke-jealousguy",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-kidsuke-jealousguy-191112",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/cc4a0253-4c4b-4531-ae06-62a69ddbd313.jpeg"
+      },
+      {
+        title: "Swede:art & Djemba Djemba",
+        created: "2012-11-5",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-5112012-special-guests-swedeart-djemba-djemba",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-swedeart-djemba-djemba-51112",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/d7d07423-7acd-4a02-b05e-21da283f7821.jpeg"
+      },
+      {
+        title: "Push & Run Records + Pedestrian",
+        created: "2012-10-22",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-22102012-special-guests-push-run-records-pedestrian",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-push-run-records-pedestrian-221012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/680b41d5-5737-41ad-a3c4-a2a20e70dfe9.jpeg"
+      },
+      {
+        title: "Alphabets Heaven, Howse & Time Wharp",
+        created: "2012-10-8",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-8102012-special-guests-alphabets-heaven-howse-time-wharp",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-alphabets-heaven-howse-time-wharp-81012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/3eb0d349-2d7c-4b01-a24d-3009e5008364.jpeg"
+      },
+      {
+        title: "Fybe:One",
+        created: "2012-9-10",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1092012-special-guest-fybeone",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-fybeone-1092012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/19e732eb-f16d-4372-a02d-d34eea5bbefd.jpeg"
+      },
+      {
+        title: "DJ Nonames (Foreign Beggars) & Kid Kanevil",
+        created: "2012-8-27",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2782012-special-guests-dj-nonames-foreign-beggars-kid-kanevil",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-dj-nonames-foreign-beggars-kid-kanevil-2782012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/a847d47e-a0b3-4035-bc45-38361405834f.jpeg"
+      },
+      {
+        title: "Huess & Athar",
+        created: "2012-8-14",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1482012-special-guests-huess-athar",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-huess-athar-1382012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/56d3c0d9-6573-4329-a67a-0f9e12bea0a9.jpeg"
+      },
+      {
+        title: "Tim on his own",
+        created: "2012-7-30",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-3072012-tim-parker",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-3072012",
+        image: ""
+      },
+      {
+        title: "Laurent Fintoni & Danny Scrilla",
+        created: "2012-7-16",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1672012-guest-host-laurent-fintoni-danny-scrilla",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-guest-host-laurent-fintoni-danny-scrilla-1672012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/62386b0b-d605-403a-96c2-2e1c786e48c3.jpeg"
+      },
+      {
+        title: "K15 & JJ Mumbles",
+        created: "2012-7-2",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-272012-special-guests-k15-jj",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-k15-jj-272012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/b4d99a94-5002-47e5-8cba-85e8b284e041.jpg"
+      },
+      {
+        title: "MNDSGN, Ahnnu & Soops live from Dublab, LA",
+        created: "2012-6-18",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-la-special-live-from-dublab-feat-mndsgn-ahnnu-soops",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-la-special-live-from-dublab-1862012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/dc5ddc41-997c-4f6e-ac09-5a8470badfdc.jpg"
+      },
+      {
+        title: "The Range & Mark Carroll",
+        created: "2012-6-4",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-462012-special-guests-the-range-mark-carroll",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-the-range-mark-carroll-462012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/434b843c-fe5c-4708-a469-cc3f70cecb7f.jpg"
+      },
+      {
+        title: "ARP101 (Alix Perez) & Fracture",
+        created: "2012-5-21",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2152012-special-guests-arp101-fracture",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-arp101-fracture-2152012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/e71a755e-753f-4306-b805-9e26981949b7.jpg"
+      },
+      {
+        title: "Elliott Yorke, Koen, Nangdo & Claudio Lillo",
+        created: "2012-5-7",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-752012-special-guests-elliott-yorke-koennangdo-claudio-lillo",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-elliott-yorke-koennangdo-claudio-lillo-752012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/f0f77df3-1076-4bb1-b55d-6602fb930fdf.jpg"
+      },
+      {
+        title: "Kelpe, Wanda Group & Thunderloops",
+        created: "2012-4-23",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2342012-special-guests-kelpe-wanda-group-thunderloops",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-kelpe-thunderloops-wanda-group-2442012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/0773fb79-723a-407e-b24f-bf0337d5b35e.jpg"
+      },
+      {
+        title: "Ta-ku, Handbook & Souleance",
+        created: "2012-4-9",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-942012-special-guests-handbook-souleance-ta-ku",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-handbook-souleance-ta-ku-942012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/65c0492d-94fc-439e-8eb8-c7af3fb7ee70.jpg"
+      },
+      {
+        title: "Om Unit & Laurent Fintoni",
+        created: "2012-3-26",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2632012-special-guests-om-unit-laurent-fintoni",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-om-unit-laurent-fintoni-2632012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/a573e057-ed66-44dd-927f-70926635f4db.jpg"
+      },
+      {
+        title: "Kuhn",
+        created: "2012-3-12",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1232012-special-guest-kuhn",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-kuhn-1232012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/f43d0457-82ee-44c4-8ca1-b5b0c87ca95e.jpg"
+      },
+      {
+        title: "S.Maharba",
+        created: "2012-2-27",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2722012-special-guest-smaharba",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-smaharba-2722012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/1505607f-5016-4127-88ce-0526a29fa70b.jpg"
+      },
+      {
+        title: "Boss Kite & Grinel",
+        created: "2012-2-14",
+        play: "/youllsoonknow/nts-1422012-w-special-guests-boss-kite-grinel",
+        text: "",
+        download: "",
+        nts: "",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/4965a0bb-4848-4e4f-bf04-ddeaff0ebf9d.jpg"
+      },
+      {
+        title: "Manni Dee",
+        created: "2012-1-30",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-3012012-special-guest-manni-dee",
+        text: "",
+        download: "",
+        nts: "",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/34d41d74-6d0d-4a11-b213-1150e30bc589.jpg"
+      },
+      {
+        title: "Hourglass Sea + My Panda Shall Fly",
+        created: "2012-1-16",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1612012-special-guests-hourglass-sea-my-panda-shall-fly",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-smaharba-2722012",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/de8e9a63-2cb8-44c2-a9ad-0c7cf25d9f69.jpg"
+      },
+      {
+        title: "Satellite 100 (Jon Phonics & Jeeks)",
+        created: "2011-12-19",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-19122011-special-guests-satellite-100",
+        text: "",
+        download: "",
+        nts: "",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/23b2583b-ffe2-45e6-8fdf-27f3c4356c00.png"
+      },
+      {
+        title: "Chesslo Junior & Deft",
+        created: "2011-12-5",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-5122011-special-guests-chesslo-junior-deft",
+        text: "",
+        download: "",
+        nts: "",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/78bc9523-635b-4e57-822d-6fbd6dd172bb.jpg"
+      },
+      {
+        title: "Klic (Medlar)",
+        created: "2011-11-21",
+        play: "/youllsoonknow/nts-21112011-w-special-guest-klic",
+        text: "",
+        download: "",
+        nts: "",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/f4961ed0-4543-4a0d-9d81-e3fd48dd917f.jpg"
+      },
+      {
+        title: "Jimmy Asquith & JJ Mumbles",
+        created: "2011-11-7",
+        play: "/youllsoonknow/nts-7112011-w-jimmy-beige-jj",
+        text: "",
+        download: "",
+        nts: "",
+        image: ""
+      },
+      {
+        title: "Paul Pre",
+        created: "2011-10-10",
+        play: "/youllsoonknow/nts-10102011-w-special-guest-paul-pre",
+        text: "",
+        download: "",
+        nts: "",
+        image: ""
+      },
+      {
+        title: "Jimmy Asquith & JJ Mumbles",
+        created: "2011-9-26",
+        play: "/youllsoonknow/nts-26092011-w-jimmy-beige-jj",
+        text: "",
+        download: "",
+        nts: "",
+        image: ""
+      },
+      {
+        title: "Dem Hunger & Thunderloops",
+        created: "2011-9-13",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1392011-special-guests-dem-hunger-thunderloops",
+        text: "",
+        download: "",
+        nts: "",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/232eaec4-e6ec-40e5-b8d3-83f0ebd634a0.png"
+      },
+      {
+        title: "Claudio Lillo",
+        created: "2011-8-29",
+        play: "/youllsoonknow/nts-2982011-w-special-guest-claudio-lillo",
+        text: "",
+        download: "",
+        nts: "",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/ad002f95-7079-45a1-9481-e3eb9866802e.jpg"
+      },
+      {
+        title: "Pete Cannon",
+        created: "2011-8-15",
+        play: "/youllsoonknow/nts-1582011-w-special-guest-pete-cannon",
+        text: "",
+        download: "",
+        nts: "",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/8dc7d388-e12d-497c-bcde-fda7d58bb1d8.jpg"
+      },
+      {
+        title: "Guests P Villa, Timewharp & C.Powers",
+        created: "2011-8-1",
+        play: "/youllsoonknow/nts-182011-w-special-guests-guests-p-villa-timewharp-and-c-powers",
+        text: "",
+        download: "",
+        nts: "",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/93eba750-ff9e-4ae8-acfc-fc98252b1d59.jpg"
+      },
+      {
+        title: "Pedestrian",
+        created: "2011-7-4",
+        play: "/youllsoonknow/nts-472011-w-special-guest-pedestrian",
+        text: "",
+        download: "",
+        nts: "",
+        image: ""
+      },
+      {
+        title: "Naive Machine & Comma",
+        created: "2011-6-21",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2162011-special-guest-naive-machine",
+        text: "",
+        download: "",
+        nts: "",
+        image: ""
+      },
+      {
+        title: "Jeeks & JJ Mumbles",
+        created: "2011-6-7",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-762011-special-guests-jeeks-jj-mumbles",
+        text: "",
+        download: "",
+        nts: "",
+        image: ""
+      },
+      {
+        title: "Laurent Fintoni",
+        created: "2011-5-24",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2452011-special-guest-laurent-fintoni",
+        text: "",
+        download: "",
+        nts: "",
+        image: ""
+      },
+      {
+        title: "S.Maharba",
+        created: "2011-5-9",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-992011-special-guest-smaharba",
+        text: "",
+        download: "",
+        nts: "",
+        image: ""
+      },
+      {
+        title: "Tim on his own",
+        created: "2011-4-25",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2542011",
+        text: "",
+        download: "",
+        nts: "",
+        image: ""
       }
     ]
   }
