@@ -23,6 +23,14 @@
     <script src="assets/vendor.js"></script>
     <script src="assets/youllsoonknow.js"></script>
 
+    <script>
+      $(document).ready(function() {
+        $('img').duotone({
+          gradientMap: '#f0f0f0, #2a2e38'
+        });
+      });
+    </script>
+
     {{content-for "body-footer"}}
   </body>
 </html>

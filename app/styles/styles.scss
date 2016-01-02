@@ -8,7 +8,7 @@ $darkgreen: #399434;
 
 body {
     background-color: #F0F0F0;
-    color: #222;
+    color: #2a2e38;
     margin: 0 auto;
     padding: 0 0 80px;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -90,20 +90,20 @@ ul.buttons li a {
     font-weight: 500;
 }
 
-ul.buttons li:first-child a { background-color: #222; color: white; }
+ul.buttons li:first-child a { background-color: #2a2e38; color: white; }
 ul.buttons li:first-child:hover a { background-color: $green; }
 
 // Navigation
 header { padding: 1rem; margin-bottom: 1rem; font-size: 80%; background: #FCFCFC; } //border-bottom: 1px solid rgba(0,0,0,0.1);
-header h1 { font-size: 1em; font-weight: 400; color: #222; margin: 0; }
+header h1 { font-size: 1em; font-weight: 400; color: #2a2e38; margin: 0; }
 header nav ul { list-style: none; margin: 0 auto; padding: 0; display: inline-block; }
 header nav ul li { display: inline-block; margin-right: 1.5rem; padding-bottom: 0.5rem; }
 header nav ul li:last-child { margin-right: 0; }
 header a { border: none; color: gray; text-decoration: none; padding-bottom: 2px; }
-header nav a.active { color: #222; border-bottom: 2px solid #222; }
+header nav a.active { color: #2a2e38; border-bottom: 2px solid #2a2e38; }
 header a:hover { color: $green; }
-svg.monogram { width: 1.75em; fill: #222; }
-a.name { display: inline-block; margin-bottom: 1em; font-weight: 500; color: #222; font-size: 16px; }
+svg.monogram { width: 1.75em; fill: #2a2e38; }
+a.name { display: inline-block; margin-bottom: 1em; font-weight: 500; color: #2a2e38; font-size: 16px; }
 .listen-live {
     position: relative;
     color: $green;
@@ -144,25 +144,6 @@ a.name { display: inline-block; margin-bottom: 1em; font-weight: 500; color: #22
   }
 }
 
-// Footer
-footer {
-    color: #6F7275;
-    font-weight: 400;
-    padding: 1rem 1rem;
-    margin-top: 1rem;
-    font-size: 14px;
-    line-height: 1.4;
-    background-color: #F0F0F0;
-
-    margin-bottom: 60px;
-}
-
-footer a { color: gray; border-bottom-color: lightgray; }
-footer h2 { font-size: 1em; margin: 0; color: #333; }
-
-@media (min-width: 700px) {
-    footer .title { float: left; }
-}
 
 // Grid Layout
 .grid { padding: 1rem; margin: 0 auto; max-width: 30rem; }
@@ -174,13 +155,14 @@ footer h2 { font-size: 1em; margin: 0; color: #333; }
 .grid a:hover b.label { color: $green; }
 
 .featured-wrapper {
-    background: #222222;
-    color: #FFF !important;
+    background: #2a2e38;
+    color: #FFFFFF !important;
 }
 
 section.featured div.grid { padding: 0; max-width: none; }
 section.featured div.grid a img { width: 50%; margin-bottom: 0; float: left; margin-right: 1em; }
 section.featured div.grid a:after { content: ''; display: table; clear: both; }
+section.featured div.grid a b.label { color: #FFF; }
 
 // List Layout
 div.textspace + div.textspace { border-top: 1px solid rgba(0,0,0,0.1); }

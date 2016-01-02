@@ -488,6 +488,186 @@ export default Ember.Route.extend({
         download: "",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/160000-youll-soon-know-192kbps",
         image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/97d7ce2c-35dc-4c96-8fc5-4e5239679e35.jpg"
+      },
+      {
+        title: "Joe Kay, Esgar & Jo Def live from LA",
+        created: "2013-9-17",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1792013-live-from-la-with-esgar-jo-def-joe-kay",
+        text: "",
+        download: "",
+        nts: "",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/01795767-6b05-4aca-a2ea-4f8eaf49ffff.jpeg"
+      },
+      {
+        title: "Fracture",
+        created: "2013-9-3",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-392013-special-guest-fracture",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-fracture-3913",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/db8ac093-4a4e-4185-9f8b-bad81af21ed7.jpeg"
+      },
+      {
+        title: "Herse & Stanky",
+        created: "2013-8-12",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1282013-special-guests-herse-stanky",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-herse-stanky-12813",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/b5048b03-eb0e-4270-86e0-e2acf1af37e8.jpeg"
+      },
+      {
+        title: "Kromestar, Jason X & PBDY",
+        created: "2013-7-29",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2972013-special-guests-kromestar-jason-x-pbdy",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-kromestar-jason-x-pbdy-30713",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/f3144258-6267-4c35-a8e6-cb217351994b.jpeg"
+      },
+      {
+        title: "E/A/R/L",
+        created: "2013-7-15",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1572013-special-guest-earl",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-special-guest-earl-16713",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/5dc71816-2c7a-45c3-8bbc-baa3712e97b3.jpg"
+      },
+      {
+        title: "Great Dane & Cliff Dweller",
+        created: "2013-7-1",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-172013-special-guests-great-dane-cliff-dweller",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-great-dane-cliff-dweller-1713",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/dfd9a240-fcc5-461a-b00d-844231fd87a2.jpg"
+      },
+      {
+        title: "The Melt (All Members) & 00Genesis",
+        created: "2013-6-17",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-172013-special-guests-great-dane-cliff-dweller",
+        text: "Joined by The Melt (Djemba Djemba, Snorlax, Kloud, Moiety, Gossamer, Queen Leaf & Fuzz) and also 00Genesis.",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-radio-on-nts-1762013-special-guests-the-melt-all-members-00genesis",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/819c12d9-15e9-49c8-8df3-581537a995f2.jpg"
+      },
+      {
+        title: "Esgar, Jo Def & Kutmah",
+        created: "2013-6-3",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-362013-special-guests-esgar-jo-def-kutmah",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-esgar-jo-def-3613",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/7eedf914-bc9d-4ef6-ab10-7a06308d1665.jpeg"
+      },
+      {
+        title: "Circle Traps & Claudio",
+        created: "2013-5-20",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2052013-special-guests-circle-traps-claudio",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-circle-traps-claudio-20513",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/cfb2c4d3-96b9-4b4e-903c-3ce905eea3b1.png"
+      },
+      {
+        title: "Jon Phonics, Aphotik & Touchy Subject",
+        created: "2013-5-6",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-652013-special-guests-jon-phonics-aphotik-touchy-subject",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-jon-phonics-aphotik-touchy-subject-6513",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/68b423e9-6197-4a41-a741-04b68cbf1431.jpg"
+      },
+      {
+        title: "My Panda Shall Fly",
+        created: "2013-4-22",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2242013-special-guest-my-panda-shall-fly-live",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-my-panda-shall-fly-22413",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/327bf20d-a732-49a8-97d7-83e724cdd243.jpg"
+      },
+      {
+        title: "Joe Kay & Son of Kick",
+        created: "2013-4-8",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-842013-special-guests-joe-kay-soulection-son-of-kick",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-joe-kay-son-of-kick-8413",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/c9afc8dc-d283-4a3b-8ed4-eaae04ef50b1.jpeg"
+      },
+      {
+        title: "Tehbis",
+        created: "2013-3-25",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2532013-special-guest-tehbis",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-tehbis-25313",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/007c3d27-3e03-4901-b98d-f1ebc7fdde32.jpeg"
+      },
+      {
+        title: "Sven Swift",
+        created: "2013-3-11",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1132013-special-guest-sven-swift",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-sven-swift-11313",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/4107ebff-e551-40e9-9cff-8dc6b34e55cd.jpg"
+      },
+      {
+        title: "Wanda Group, Ssaliva & Thunderloops",
+        created: "2013-2-25",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2522013-special-guests-wanda-group-ssaliva-thunderloops",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-thuderloops-wanda-group-ssaliva-2522013",
+        image: ""
+      },
+      {
+        title: "Danny Scrilla & Squeaky Lobster",
+        created: "2013-2-11",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1122013-special-guests-danny-scrilla-squeaky-lobster",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-danny-scrilla-squeaky-lobster-11213",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/1cb6feaa-eff7-4556-8f21-e883671f1353.jpeg"
+      },
+      {
+        title: "Lotide & Fracture",
+        created: "2013-1-28",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-2812013-special-guests-lotide-fracture",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-lotide-fracture-28113",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/641c73e0-966f-46a7-8161-e42711f765d2.jpeg"
+      },
+      {
+        title: "Esgar",
+        created: "2013-1-14",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-1412013-special-guest-esgar",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-esgar-14113",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/ccd62384-b075-46f4-8218-ec028a7969c4.png"
+      },
+      {
+        title: "Falcons & Julian Fane",
+        created: "2012-12-17",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-17122012-special-guest-falcons-julian-fane",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-julian-fane-falcons-171212",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/8049a401-667b-4a8e-b084-5f40b3f39da8.jpeg"
+      },
+      {
+        title: "Deft, Charo, Chesslo Junior, Manni Dee & K15",
+        created: "2012-12-3",
+        play: "/youllsoonknow/youll-soon-know-radio-on-nts-3122012-special-guests-wotnot-music",
+        text: "",
+        download: "",
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-wotnot-music-31212",
+        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/91c49b7c-755a-4fb7-9496-7e042a366f10.jpeg"
       }
     ]
   }
