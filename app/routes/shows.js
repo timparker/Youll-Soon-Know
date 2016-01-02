@@ -490,7 +490,7 @@ export default Ember.Route.extend({
         image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/97d7ce2c-35dc-4c96-8fc5-4e5239679e35.jpg"
       },
       {
-        title: "Joe Kay, Esgar & Jo Def live from LA",
+        title: "Joe Kay, Esgar & Jo Def live from Soulection, LA",
         created: "2013-9-17",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1792013-live-from-la-with-esgar-jo-def-joe-kay",
         text: "",
