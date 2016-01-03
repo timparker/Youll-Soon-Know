@@ -224,6 +224,38 @@ ul.tablelist li a {
 
     .iframe {
         height: 60px;
+
+        &:after,
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: #FCFCFC;
+        }
+
+        &:before {
+            top: auto;
+            bottom: 0;
+        }
+
+        .left-edge,
+        .right-edge {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 1px;
+            background: #FCFCFC;
+        }
+
+        .right-edge {
+            left: auto;
+            right: 0;
+        }
     }
 
     iframe {
