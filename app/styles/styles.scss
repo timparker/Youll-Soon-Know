@@ -3,9 +3,9 @@ $darkgreen: #399434;
 
 * {
     box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    // text-rendering: optimizelegibility;
+    // -webkit-font-smoothing: antialiased;
+    // -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
 }
 
 body {
@@ -53,8 +53,8 @@ hr {
 img.fullimg {
     display: block;
     width: 100%;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
+    // -webkit-filter: grayscale(1);
+    // filter: grayscale(1);
 }
 
 // Type
@@ -99,7 +99,7 @@ ul.buttons li:first-child:hover a { background-color: $green; }
 header { padding: 1rem; margin-bottom: 1rem; font-size: 80%; background: #FCFCFC; } //border-bottom: 1px solid rgba(0,0,0,0.1);
 header h1 { font-size: 1em; font-weight: 400; color: #2a2e38; margin: 0; }
 header nav ul { list-style: none; margin: 0 auto; padding: 0; display: inline-block; }
-header nav ul li { display: inline-block; margin-right: 1.5rem; } //padding-bottom: 0.5rem;
+header nav ul li { display: inline-block; margin-right: 1.5rem; }
 header nav ul li:last-child { margin-right: 0; }
 header a { border: none; color: gray; text-decoration: none; padding-bottom: 2px; }
 header nav a.active { color: #2a2e38; border-bottom: 2px solid #2a2e38; }
@@ -117,7 +117,7 @@ a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: #2a
         background: $green;
         position: absolute;
         right: -14px;
-        top: 6px;
+        top: 5px;
         -webkit-border-radius: 4px;
         -moz-border-radius: 4px;
         border-radius: 4px;
@@ -296,3 +296,18 @@ ul.tablelist li a {
 @media (min-width: 500px) { body.library section a { width: 33.3333%; } }
 @media (min-width: 700px) { body.library section a { width: 25%; } }
 @media (min-width: 900px) { body.library section a { width: 20%; } }
+
+@media (max-width: 500px) {
+    header {
+        margin-bottom: 0;
+    }
+
+    header nav ul li {
+        padding-bottom: 0.5rem;
+    }
+
+    .textspace.top h2 {
+        padding-top: 1rem;
+        margin-top: 0;
+    }
+}
