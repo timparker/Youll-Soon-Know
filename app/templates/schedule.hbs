@@ -1,12 +1,31 @@
-<div class="writingwrapper">
-  <section class="text">
-      <article>
-          <div class="body">
-              {{#each latestSchedule as |schedule|}}
-                <p>{{schedule.title}} - {{moment-format schedule.date "Do MMMM YYYY"}} {{schedule.start}} - {{schedule.end}} GMT</p>
-                <!-- (Show in their timezone? fak how) -->
-              {{/each}}
-          </div>
-      </article>
-  </section>
+<div class="featured-wrapper">
+    <section class="text center">
+        <article>
+            <div class="body">
+                  <p>Tune in live at <a href="http://nts.live">nts.live</a> on your mobile or computer</p>
+            </div>
+        </article>
+    </section>
 </div>
+
+<div class="writingwrapper">
+    <section class="writinglist">
+      <div class="textspace">
+        <aside><h2>Schedule</h2></aside>
+        <div>
+          <ul class="tablelist">
+            {{#each latestSchedule as |schedule|}}
+              	<li class="schedule-list">
+                    <a>
+                        <b class="label">{{schedule.title}}</b>
+                        <em class="detail">{{moment-format schedule.date "Do MMM YYYY"}} {{schedule.start}} - {{schedule.end}} GMT</em>
+                    </a>
+                </li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+    </section>
+</div>
+
+<!-- (Show in their timezone? fak + monthly breaks -->

@@ -57,6 +57,10 @@ img.fullimg {
     // filter: grayscale(1);
 }
 
+.center {
+    text-align: center;
+}
+
 // Type
 a { color: gray; }
 a:hover { color: $green; }
@@ -64,7 +68,7 @@ p a { text-decoration: none; border-bottom: 1px solid #bbb; }
 p a:hover { border-bottom-color: $green; }
 
 b.label { display: block; font-weight: normal; color: #333; }
-em.detail { font-style: normal; font-size: 12px; color: #bbb; }
+em.detail { font-style: normal; font-size: 14px; color: #bbb; }
 
 small, time { font-weight: 400; color: gray; font-size: 0.8rem; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
@@ -159,6 +163,12 @@ a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: #2a
 .featured-wrapper {
     background: #2a2e38;
     color: #FFFFFF !important;
+}
+
+.schedule-title {
+    width: 20%;
+    font-weight: 600;
+    display: inline-block;
 }
 
 section.featured div.grid { padding: 0; max-width: none; }
