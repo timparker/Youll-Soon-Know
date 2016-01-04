@@ -1,1 +1,50 @@
+<<<<<<< HEAD
 {{outlet}}
+=======
+<div class="featured-wrapper">
+  <div class="writingwrapper">
+      <section class="featured">
+        <div class="textspace top">
+          <aside>
+            <h2>Latest Shows</h2>
+          </aside>
+          <div class="grid">
+
+          {{#each latestShows as |show|}}
+            <div>
+              <a href="#" {{action "play" show}}>
+                <img src="{{show.image}}" class="fullimg" id="fullimg">
+                <b class="label">{{show.title}}</b>
+                <em class="detail">{{moment-format show.created "Do MMMM YYYY"}}</em>
+              </a>
+            </div>
+          {{/each}}
+          </div>
+        </div>
+      </section>
+  </div>
+</div>
+
+<div class="writingwrapper">
+  <section class="writinglist">
+    {{#each-in byYears as |year shows|}}
+      <div class="textspace">
+        <aside><h2>{{year}} Archive</h2></aside>
+        <div>
+          <ul class="tablelist">
+            {{#each shows as |show|}}
+          	<li>
+              {{#link-to 'show'}}
+                <b class="label">{{show.title}}</b>
+                <em class="detail">{{moment-format show.created "Do MMM YYYY"}}</em>
+              {{/link-to}}
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+    {{/each-in}}
+  </section>
+</div>
+<!-- {{action "play" show}} -->
+>>>>>>> d9d9bc3be5997de6982ffa875893652a9bb2532e

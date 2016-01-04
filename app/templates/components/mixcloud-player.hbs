@@ -1,8 +1,10 @@
+<!-- Hide until play clicked -->
 <div class="iframe">
-  <iframe width="300" height="300" id="mixcloud-iframe" src="https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=c46e5ef3-0a95-429a-8f68-ff61595cfa9e&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fyoullsoonknow%2Fnts-16122015-w-special-raminski%2F" frameborder="0"></iframe>
+    <div class="left-edge"></div>
+    <div class="right-edge"></div>
+    <iframe width="100%" height="60" id="mixcloud-iframe" src="https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=c46e5ef3-0a95-429a-8f68-ff61595cfa9e&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fyoullsoonknow%2Fnts-16122015-w-special-raminski%2F&amp;hide_artwork=1&amp;hide_cover=1&amp;hide_tracklist=1&amp;light=1&amp;mini=1&amp;" frameborder="0"></iframe>
 </div>
-
-{{#if hasSong}}
+<!-- {{#if hasSong}}
 <div class="player">
   {{#if isBuffering}}
     Buffering...
@@ -11,7 +13,12 @@
   {{else}}
     <span {{action "play"}}>Play</span>
   {{/if}}
+<<<<<<< HEAD
   
   - {{show.title}} - {{moment-format show.created "Do MMMM YYYY"}}
+=======
+
+  - {{show.title}} - {{show.created}}
+>>>>>>> d9d9bc3be5997de6982ffa875893652a9bb2532e
 </div>
-{{/if}}
+{{/if}} -->
