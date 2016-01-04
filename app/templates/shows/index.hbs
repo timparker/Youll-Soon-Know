@@ -11,7 +11,7 @@
           {{#each latestShows as |show|}}
             <div>
               {{#link-to "shows.show" show.created}}
-                <img src="{{show.image}}" class="fullimg" id="fullimg">
+                <img src="/images/{{show.created}}.png" class="fullimg" id="fullimg">
                 <b class="label">{{show.title}}</b>
                 <em class="detail">{{moment-format show.created "Do MMMM YYYY"}}</em>
               {{/link-to}}

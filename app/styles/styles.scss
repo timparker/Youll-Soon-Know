@@ -1,5 +1,6 @@
 $green: #49C743;
 $darkgreen: #399434;
+$purple: #303954;
 
 * {
     box-sizing: border-box;
@@ -10,7 +11,7 @@ $darkgreen: #399434;
 
 body {
     background-color: #F0F0F0;
-    color: #2a2e38;
+    color: $purple;
     margin: 0 auto;
     padding: 0 0 80px;
     font-family: 'Karla', -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -96,20 +97,20 @@ ul.buttons li a {
     font-weight: 500;
 }
 
-ul.buttons li:first-child a { background-color: #2a2e38; color: white; }
+ul.buttons li:first-child a { background-color: $purple; color: white; }
 ul.buttons li:first-child:hover a { background-color: $green; }
 
 // Navigation
 header { padding: 1rem; margin-bottom: 1rem; font-size: 80%; background: #FCFCFC; } //border-bottom: 1px solid rgba(0,0,0,0.1);
-header h1 { font-size: 1em; font-weight: 400; color: #2a2e38; margin: 0; }
+header h1 { font-size: 1em; font-weight: 400; color: $purple; margin: 0; }
 header nav ul { list-style: none; margin: 0 auto; padding: 0; display: inline-block; }
 header nav ul li { display: inline-block; margin-right: 1.5rem; }
 header nav ul li:last-child { margin-right: 0; }
 header a { border: none; color: gray; text-decoration: none; padding-bottom: 2px; }
-header nav a.active { color: #2a2e38; border-bottom: 2px solid #2a2e38; }
+header nav a.active { color: $purple; border-bottom: 2px solid $purple; }
 header a:hover { color: $green; }
-svg.monogram { width: 1.75em; fill: #2a2e38; }
-a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: #2a2e38; font-size: 18px; }
+svg.monogram { width: 1.75em; fill: $purple; }
+a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: $purple; font-size: 18px; }
 .listen-live {
     position: relative;
     color: $green;
@@ -161,7 +162,7 @@ a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: #2a
 .grid a:hover b.label { color: $green; }
 
 .featured-wrapper {
-    background: #2a2e38;
+    background: $purple;
     color: #FFFFFF !important;
 }
 

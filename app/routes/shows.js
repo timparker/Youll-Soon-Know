@@ -9,8 +9,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-16122015-w-special-raminski",
         text: "",
         download: "http://bit.ly/1MjsNE2",
-        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-16th-december-2015",
-        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/db2985cd-84fc-4b33-be81-fd5a00b646cb.png"
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-16th-december-2015"
       },
       {
         title: "Fracture",
@@ -18,8 +17,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-2122015-w-special-guest-fracture",
         text: "",
         download: "http://bit.ly/1To627o",
-        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-fracture-2nd-december-2015",
-        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/aa5647ee-a187-4858-9c95-516cc2c56f1d.png"
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-fracture-2nd-december-2015"
       },
       {
         title: "Pixelord",
@@ -27,8 +25,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-18112015-w-special-guest-pixelord",
         text: "",
         download: "http://bit.ly/1HZK0Hf",
-        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-18th-november-2015",
-        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/286805a0-6c81-4de8-b44c-c99e56fecb3a.jpg"
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-18th-november-2015"
       },
       {
         title: "Mystery Cave",
