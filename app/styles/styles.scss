@@ -163,7 +163,7 @@ a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: $pu
 
 .featured-wrapper {
     background: $purple;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
 }
 
 .schedule-title {
@@ -176,6 +176,11 @@ section.featured div.grid { padding: 0; max-width: none; }
 section.featured div.grid a img { width: 50%; margin-bottom: 0; float: left; margin-right: 1em; }
 section.featured div.grid a:after { content: ''; display: table; clear: both; }
 section.featured div.grid a b.label { color: #FFF; }
+section.featured div.grid a:hover b.label { color: $green; }
+
+section.featured.center p {
+    padding-bottom: 1.25rem;
+}
 
 // List Layout
 div.textspace + div.textspace { border-top: 1px solid rgba(0,0,0,0.1); }
@@ -225,6 +230,7 @@ ul.tablelist li a {
 
     .iframe {
         height: 60px;
+        background: #FFF;
 
         &:after,
         &:before {
@@ -352,5 +358,9 @@ ul.tablelist li a {
     .textspace.top h2 {
         padding-top: 1rem;
         margin-top: 0;
+    }
+
+    section.featured.center p {
+        padding-bottom: 0;
     }
 }

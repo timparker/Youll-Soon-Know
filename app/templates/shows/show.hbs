@@ -3,6 +3,8 @@
         <article>
             <div class="body">
                   <img src="images/{{show.created}}.png" class="fullimg" id="fullimg" style="width: 300px; height: 300px; margin: 20px auto;">
+
+                  <span {{action "play"}}>play show</span>
             </div>
         </article>
     </section>
@@ -12,11 +14,14 @@
   <section class="text">
       <article>
           <div class="body">
-              <p>title: {{show.title}}</p>
-              <p>created: {{moment-format show.created "Do MMM"}}</p>
-              <p><span {{action "play"}}>play show</span><br>
-              <br>
-              {{#link-to "shows.index"}}All shows{{/link-to}}</p>
+              <p>{{show.title}}</p>
+              <p>Aired: {{moment-format show.created "Do MMMM YYYY"}}</p>
+              {{#if show.text}}
+                <p>{{show.text}}</p>
+              {{/if}}
+              <p>NTS Website: {{show.nts}}</p>
+              <p><a href="{{show.download}}">Download</a></p>
+              <p>{{#link-to "shows.index"}}All shows{{/link-to}}</p>
           </div>
       </article>
   </section>
