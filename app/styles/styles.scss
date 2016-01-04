@@ -344,7 +344,7 @@ ul.tablelist li a {
 
 @media (min-width: 500px) { body.library section a { width: 33.3333%; } }
 @media (min-width: 700px) { body.library section a { width: 25%; } }
-@media (min-width: 900px) { body.library section a { width: 20%; } }
+@media (min-width: 900px) { body.library section a { width: 20%; }, img { min-height: 321px; } }
 
 @media (max-width: 500px) {
     header {

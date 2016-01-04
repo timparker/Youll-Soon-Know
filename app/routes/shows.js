@@ -15,7 +15,7 @@ export default Ember.Route.extend({
         title: "Fracture",
         created: "2015-12-02",
         play: "/youllsoonknow/nts-2122015-w-special-guest-fracture",
-        text: "",
+        text: "Fracture joined us to celebrate the latest release on his label, Astrophonica, by Sully.",
         download: "http://bit.ly/1To627o",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-fracture-2nd-december-2015"
       },
@@ -33,8 +33,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-4112015-w-special-guest-mystery-cave",
         text: "",
         download: "http://bit.ly/1NSFhGF",
-        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-4th-november-2015",
-        image: "https://thumbnail.mixcloud.com/w/640/h/640/q/100/upload/images/extaudio/8350fadd-978c-4342-a282-24c6bace45af.jpg"
+        nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-4th-november-2015"
       },
       {
         title: "Kidkanevil & DJ Nonames",

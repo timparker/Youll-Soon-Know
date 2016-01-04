@@ -2,7 +2,7 @@
     <section class="featured center">
         <article>
             <div class="body">
-                  <img src="images/{{show.created}}.png" class="fullimg" id="fullimg" style="width: 300px; height: 300px; margin: 20px auto;">
+                  <img src="images/{{show.created}}.png" class="fullimg" id="fullimg" style="width: 321px; height: 321px; margin: 20px auto;">
 
                   <span {{action "play"}}>play show</span>
             </div>
@@ -19,8 +19,9 @@
               {{#if show.text}}
                 <p>{{show.text}}</p>
               {{/if}}
-              <p>NTS Website: {{show.nts}}</p>
               <p><a href="{{show.download}}">Download</a></p>
+              <br>
+              <p><a href="{{show.nts}}">View on NTS Website</a></p>
               <p>{{#link-to "shows.index"}}All shows{{/link-to}}</p>
           </div>
       </article>
