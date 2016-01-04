@@ -1,8 +1,23 @@
-title: {{show.title}}<br>
-created: {{moment-format show.created "Do MMM"}}<br>
-<br>
-<span {{action "play"}}>play show</span><br>
-<br>
-{{#link-to "shows.index"}}All shows{{/link-to}}
+<div class="featured-wrapper">
+    <section class="featured center">
+        <article>
+            <div class="body">
+                  <img src="images/{{show.created}}.png" class="fullimg" id="fullimg" style="width: 300px; height: 300px; margin: 20px auto;">
+            </div>
+        </article>
+    </section>
+</div>
 
-
+<div class="writingwrapper">
+  <section class="text">
+      <article>
+          <div class="body">
+              <p>title: {{show.title}}</p>
+              <p>created: {{moment-format show.created "Do MMM"}}</p>
+              <p><span {{action "play"}}>play show</span><br>
+              <br>
+              {{#link-to "shows.index"}}All shows{{/link-to}}</p>
+          </div>
+      </article>
+  </section>
+</div>
