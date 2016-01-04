@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  model: function (params) {
-    console.log(params);
+  // model: function (params) {
+    // console.log(params);
     // let shows = this.get("")
-  }
+  // }
 });

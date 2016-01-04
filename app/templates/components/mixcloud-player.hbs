@@ -12,6 +12,6 @@
     <span {{action "play"}}>Play</span>
   {{/if}}
   
-  - {{show.title}} - {{show.created}}
+  - {{show.title}} - {{moment-format show.created "Do MMMM YYYY"}}
 </div>
 {{/if}}

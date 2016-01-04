@@ -1,0 +1,40 @@
+<div class="writingwrapper">
+  <section class="featured">
+    <div class="textspace top">
+      <aside>
+        <h2>Latest Shows</h2>
+      </aside>
+      <div class="grid">
+
+      {{#each latestShows as |show|}}
+        <div>
+          {{#link-to "shows.show" show.slug}}
+            <img src="{{show.image}}" class="fullimg" id="fullimg">
+            <b class="label">{{show.title}}</b>
+            <em class="detail">{{moment-format show.created "Do MMMM YYYY"}}</em>
+          {{/link-to}}
+        </div>
+      {{/each}}
+      </div>
+    </div>
+  </section>
+  <section class="writinglist">
+    {{#each-in byYears as |year shows|}}
+      <div class="textspace">
+        <aside><h2>{{year}}</h2></aside>
+        <div>
+          <ul class="tablelist">
+            {{#each shows as |show|}}
+          	<li>
+              {{#link-to "shows.show" show.slug}}
+                <b class="label">{{show.title}}</b>
+                <em class="detail">{{moment-format show.created "MMMM YYYY"}}</em>
+              {{/link-to}}
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+    {{/each-in}}
+  </section>
+</div>

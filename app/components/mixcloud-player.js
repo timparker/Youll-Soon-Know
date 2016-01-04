@@ -29,10 +29,10 @@ export default Ember.Component.extend({
   }.on("didInsertElement"),
   
   changeSong: function () {
-    console.log(this.get("show"));
+    this.set("isPlaying", true);
+    
     if (this.get("hasSetup") && this.get("show")) {
       let widget = this.get("widget");
-      this.set("isPlaying", true);
       widget.load(this.get("show.play"), this.get("isPlaying"))
     }
   }.observes("hasSetup", "show", "show.url"),
