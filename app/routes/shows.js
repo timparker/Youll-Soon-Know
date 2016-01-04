@@ -5,7 +5,6 @@ export default Ember.Route.extend({
     return [
       {
         title: "Raminski",
-        slug: "raminski",
         created: "2015-12-16",
         play: "/youllsoonknow/nts-16122015-w-special-raminski",
         text: "",
@@ -15,7 +14,6 @@ export default Ember.Route.extend({
       },
       {
         title: "Fracture",
-        slug: "fracture",
         created: "2015-12-02",
         play: "/youllsoonknow/nts-2122015-w-special-guest-fracture",
         text: "",
@@ -34,7 +32,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Mystery Cave",
-        created: "2015-11-4",
+        created: "2015-11-04",
         play: "/youllsoonknow/nts-4112015-w-special-guest-mystery-cave",
         text: "",
         download: "http://bit.ly/1NSFhGF",
@@ -52,7 +50,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Iglooghost",
-        created: "2015-10-7",
+        created: "2015-10-07",
         play: "/youllsoonknow/nts-7102015-w-special-guest-iglooghost",
         text: "",
         download: "http://bit.ly/1R1c4tA",
@@ -61,7 +59,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Ivylab, Deft & SP:MC",
-        created: "2015-9-23",
+        created: "2015-09-23",
         play: "/youllsoonknow/nts-2392015-w-special-guests-ivylab-deft-spmc",
         text: "",
         download: "http://bit.ly/1R45rqW",
@@ -70,7 +68,7 @@ export default Ember.Route.extend({
       },
       {
         title: "ItsNate & JD Reid",
-        created: "2015-9-9",
+        created: "2015-09-09",
         play: "/youllsoonknow/nts-992015-w-special-guests-itsnate-jd-reid",
         text: "",
         download: "http://bit.ly/1XQ27Ez",
@@ -79,7 +77,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Tk Kayembe & Defcon",
-        created: "2015-9-2",
+        created: "2015-09-02",
         play: "/youllsoonknow/nts-292015-w-special-guests-tk-kayembe-defcon",
         text: "",
         download: "http://bit.ly/1JNJhmY",
@@ -88,7 +86,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Lewis James & My Panda Shall Fly",
-        created: "2015-8-12",
+        created: "2015-08-12",
         play: "/youllsoonknow/nts-1282015-w-special-guests-lewis-james-my-panda-shall-fly",
         text: "",
         download: "http://bit.ly/1f9PtNV",
@@ -97,7 +95,7 @@ export default Ember.Route.extend({
       },
       {
         title: "SP:MC",
-        created: "2015-7-29",
+        created: "2015-07-29",
         play: "/youllsoonknow/nts-2972015-w-special-guest-spmc",
         text: "",
         download: "http://bit.ly/1fLEb2Y",
@@ -106,7 +104,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Parris & Etch",
-        created: "2015-7-15",
+        created: "2015-07-15",
         play: "/youllsoonknow/nts-1572015-w-special-guests-parris-etch",
         text: "",
         download: "http://bit.ly/1McJXZc",
@@ -115,7 +113,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Stray",
-        created: "2015-7-1",
+        created: "2015-07-01",
         play: "/youllsoonknow/nts-162015-w-special-guest-stray",
         text: "",
         download: "http://bit.ly/1GRwQVS",
@@ -124,7 +122,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Live from Dalston Roofpark",
-        created: "2015-6-3",
+        created: "2015-06-03",
         play: "/youllsoonknow/nts-362015-live-from-dalston-roofpark",
         text: "",
         download: "http://bit.ly/1djwHTD",
@@ -133,7 +131,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Submerse",
-        created: "2015-5-20",
+        created: "2015-05-20",
         play: "/youllsoonknow/nts-2052015-w-special-guest-submerse",
         text: "",
         download: "http://bit.ly/1JE7QXy",
@@ -142,7 +140,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Beat Soup",
-        created: "2015-5-6",
+        created: "2015-05-06",
         play: "/youllsoonknow/nts-652015-w-special-guests-beat-soup-nutriot",
         text: "",
         download: "http://bit.ly/1zOrmhV",
@@ -151,7 +149,7 @@ export default Ember.Route.extend({
       },
       {
         title: "S.Maharba Special",
-        created: "2015-4-22",
+        created: "2015-04-22",
         play: "/youllsoonknow/nts-2242015-smaharba-special",
         text: "https://soundcloud.com/timparker/nts-2242015-smaharba-special",
         download: "http://bit.ly/1aVCjSK",
@@ -160,7 +158,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Deco & Origin live from LA",
-        created: "2015-4-8",
+        created: "2015-04-08",
         play: "/youllsoonknow/nts-842015-w-special-guests-deco-origin-live-from-la",
         text: "",
         download: "http://bit.ly/1am2Jgo",
@@ -169,7 +167,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Fine Grains",
-        created: "2015-3-25",
+        created: "2015-03-25",
         play: "/youllsoonknow/nts-2532015-w-fine-grains",
         text: "",
         download: "http://bit.ly/1BQgDgG",
@@ -178,7 +176,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Mount Bank & Wriggly Scott",
-        created: "2015-3-11",
+        created: "2015-03-11",
         play: "/youllsoonknow/nts-1132015-w-special-guests-mount-bank-wriggly-scott",
         text: "",
         download: "http://bit.ly/1Dex50P",
@@ -187,7 +185,7 @@ export default Ember.Route.extend({
       },
       {
         title: "The Purist & Grinel",
-        created: "2015-2-25",
+        created: "2015-02-25",
         play: "/youllsoonknow/nts-2522015-w-special-guests-the-purist-grinel",
         text: "",
         download: "http://bit.ly/1APwhf7",
@@ -196,7 +194,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Bambooman & Aurora Dee Raynes",
-        created: "2015-2-11",
+        created: "2015-02-11",
         play: "/youllsoonknow/nts-1122015-w-special-guests-bambooman-aurora-dee-raynes",
         text: "",
         download: "http://bit.ly/1Dmepuj",
@@ -205,7 +203,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Koenraad",
-        created: "2015-2-21",
+        created: "2015-02-21",
         play: "/youllsoonknow/nts-2822015-w-special-guest-koenraad",
         text: "",
         download: "http://bit.ly/1HDi6ju",
@@ -214,7 +212,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Tehbis & Touchy Subject",
-        created: "2015-1-7",
+        created: "2015-01-07",
         play: "/youllsoonknow/nts-712015-w-special-guests-tehbis-touchy-subject",
         text: "",
         download: "http://bit.ly/1Dknrpz",
@@ -223,7 +221,7 @@ export default Ember.Route.extend({
       },
       {
         title: "J Todd & Mr E",
-        created: "2015-1-1",
+        created: "2015-01-01",
         play: "/youllsoonknow/nts-112015-w-special-guests-j-todd-mr-e",
         text: "",
         download: "http://bit.ly/16fb2Jx",
@@ -259,7 +257,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Sinistarr",
-        created: "2014-10-1",
+        created: "2014-10-01",
         play: "/youllsoonknow/nts-1102014-w-special-guest-sinistarr",
         text: "",
         download: "http://bit.ly/1vnZsqK",
@@ -268,7 +266,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Fracture",
-        created: "2014-9-17",
+        created: "2014-09-17",
         play: "/youllsoonknow/nts-1792014-w-special-guest-fracture",
         text: "",
         download: "http://bit.ly/1uPmBMV",
@@ -277,7 +275,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Dane Chadwick, Calculon & Moiety",
-        created: "2014-9-3",
+        created: "2014-09-03",
         play: "/youllsoonknow/nts-392014-w-special-guests-dane-chadwick-calculon-moiety",
         text: "",
         download: "http://bit.ly/1Ey1p6C",
@@ -286,7 +284,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Trampoline Tax & DJ DJ Booth",
-        created: "2014-8-20",
+        created: "2014-08-20",
         play: "/youllsoonknow/nts-2082014-w-special-guests-trampoline-tax-dj-dj-booth",
         text: "",
         download: "http://bit.ly/1uPmWiJ",
@@ -295,7 +293,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Ivy Lab & Nalepa",
-        created: "2014-8-6",
+        created: "2014-08-06",
         play: "/youllsoonknow/nts-682014-w-special-guests-ivy-lab-nalepa",
         text: "",
         download: "http://bit.ly/1DkpjPb",
@@ -304,7 +302,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Fly High Society",
-        created: "2014-7-23",
+        created: "2014-07-23",
         play: "/youllsoonknow/nts-2372014-w-special-guests-fly-high-society",
         text: "Guests: Bolts / Sertone / Hlmnsra / Tehbis / Veils / Iglooghost / They Call Me Raptor",
         download: "http://bit.ly/1tP4pYD",
@@ -313,7 +311,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Live from Dalston Roofpark",
-        created: "2014-7-9",
+        created: "2014-07-09",
         play: "/youllsoonknow/nts-972014-live-from-dalston-roofpark",
         text: "",
         download: "http://bit.ly/1vnZuPp",
@@ -322,7 +320,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Live from Dalston Roofpark w/ They Call Me Raptor",
-        created: "2014-7-2",
+        created: "2014-07-02",
         play: "/youllsoonknow/nts-272014-live-from-dalston-roofpark-w-they-call-me-raptor-live",
         text: "",
         download: "",
@@ -331,7 +329,7 @@ export default Ember.Route.extend({
       },
       {
         title: "My Dry Wet Mess & Hannah Faith",
-        created: "2014-6-11",
+        created: "2014-06-11",
         play: "/youllsoonknow/nts-1162014-w-special-guests-my-dry-wet-mess-hannah-faith",
         text: "",
         download: "",
@@ -340,7 +338,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Kromestar",
-        created: "2014-5-28",
+        created: "2014-05-28",
         play: "/youllsoonknow/nts-2852014-w-special-guest-kromestar",
         text: "",
         download: "",
@@ -349,7 +347,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Kidkanevil & Jon Phonics",
-        created: "2014-5-14",
+        created: "2014-05-14",
         play: "/youllsoonknow/nts-1452014-w-special-guests-kidkanevil-jon-phonics",
         text: "",
         download: "",
@@ -358,7 +356,7 @@ export default Ember.Route.extend({
       },
       {
         title: "eLan & Mike Gao",
-        created: "2014-4-30",
+        created: "2014-04-30",
         play: "/youllsoonknow/nts-3042014-w-special-guests-elan-mike-gao",
         text: "",
         download: "",
@@ -367,7 +365,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Slugabed & Lockah",
-        created: "2014-4-16",
+        created: "2014-04-16",
         play: "/youllsoonknow/nts-1642014-w-special-guests-lockah-slugabed",
         text: "",
         download: "",
@@ -376,7 +374,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Chris Read",
-        created: "2014-4-2",
+        created: "2014-04-02",
         play: "/youllsoonknow/nts-242014-w-special-guest-chris-read",
         text: "",
         download: "",
@@ -385,7 +383,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Mark Aubert",
-        created: "2014-3-19",
+        created: "2014-03-19",
         play: "/youllsoonknow/nts-1932014-w-special-guest-mark-aubert",
         text: "",
         download: "",
@@ -394,7 +392,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Problem Child & DJ Nonames",
-        created: "2014-3-5",
+        created: "2014-03-05",
         play: "/youllsoonknow/nts-532014-w-special-guests-problem-child-nonames",
         text: "With Sumgii, Dabbla, Dubbledge, Illaman & Nonames.",
         download: "",
@@ -403,7 +401,7 @@ export default Ember.Route.extend({
       },
       {
         title: "The Range & They Call Me Raptor",
-        created: "2014-2-19",
+        created: "2014-02-19",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1922014-special-guests-the-range-they-call-me-raptor",
         text: "",
         download: "",
@@ -412,7 +410,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Dert & Chesslo Junior",
-        created: "2014-2-5",
+        created: "2014-02-05",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-522014-special-guests-dert-chesslo-junior",
         text: "",
         download: "",
@@ -421,7 +419,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Kromestar & Jason X",
-        created: "2014-1-22",
+        created: "2014-01-22",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2212014-special-guests-kromestar-jason-x",
         text: "",
         download: "",
@@ -430,7 +428,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Paul Pre & Dredi",
-        created: "2014-1-8",
+        created: "2014-01-08",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-812014-special-guests-paul-pre-dredi",
         text: "",
         download: "",
@@ -484,7 +482,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Huess & Athar",
-        created: "2013-10-1",
+        created: "2013-10-01",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-11013",
         text: "",
         download: "",
@@ -493,7 +491,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Joe Kay, Esgar & Jo Def live from Soulection, LA",
-        created: "2013-9-17",
+        created: "2013-09-17",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1792013-live-from-la-with-esgar-jo-def-joe-kay",
         text: "",
         download: "",
@@ -502,7 +500,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Fracture",
-        created: "2013-9-3",
+        created: "2013-09-03",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-392013-special-guest-fracture",
         text: "",
         download: "",
@@ -511,7 +509,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Herse & Stanky",
-        created: "2013-8-12",
+        created: "2013-08-12",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1282013-special-guests-herse-stanky",
         text: "",
         download: "",
@@ -520,7 +518,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Kromestar, Jason X & PBDY",
-        created: "2013-7-29",
+        created: "2013-07-29",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2972013-special-guests-kromestar-jason-x-pbdy",
         text: "",
         download: "",
@@ -529,7 +527,7 @@ export default Ember.Route.extend({
       },
       {
         title: "E/A/R/L",
-        created: "2013-7-15",
+        created: "2013-07-15",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1572013-special-guest-earl",
         text: "",
         download: "",
@@ -538,7 +536,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Great Dane & Cliff Dweller",
-        created: "2013-7-1",
+        created: "2013-07-01",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-172013-special-guests-great-dane-cliff-dweller",
         text: "",
         download: "",
@@ -547,7 +545,7 @@ export default Ember.Route.extend({
       },
       {
         title: "The Melt (All Members) & 00Genesis",
-        created: "2013-6-17",
+        created: "2013-06-17",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-172013-special-guests-great-dane-cliff-dweller",
         text: "Joined by The Melt (Djemba Djemba, Snorlax, Kloud, Moiety, Gossamer, Queen Leaf & Fuzz) and also 00Genesis.",
         download: "",
@@ -556,7 +554,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Esgar, Jo Def & Kutmah",
-        created: "2013-6-3",
+        created: "2013-06-03",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-362013-special-guests-esgar-jo-def-kutmah",
         text: "",
         download: "",
@@ -565,7 +563,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Circle Traps & Claudio",
-        created: "2013-5-20",
+        created: "2013-05-20",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2052013-special-guests-circle-traps-claudio",
         text: "",
         download: "",
@@ -574,7 +572,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Jon Phonics, Aphotik & Touchy Subject",
-        created: "2013-5-6",
+        created: "2013-05-06",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-652013-special-guests-jon-phonics-aphotik-touchy-subject",
         text: "",
         download: "",
@@ -583,7 +581,7 @@ export default Ember.Route.extend({
       },
       {
         title: "My Panda Shall Fly",
-        created: "2013-4-22",
+        created: "2013-04-22",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2242013-special-guest-my-panda-shall-fly-live",
         text: "",
         download: "",
@@ -592,7 +590,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Joe Kay & Son of Kick",
-        created: "2013-4-8",
+        created: "2013-04-08",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-842013-special-guests-joe-kay-soulection-son-of-kick",
         text: "",
         download: "",
@@ -601,7 +599,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Tehbis",
-        created: "2013-3-25",
+        created: "2013-03-25",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2532013-special-guest-tehbis",
         text: "",
         download: "",
@@ -610,7 +608,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Sven Swift",
-        created: "2013-3-11",
+        created: "2013-03-11",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1132013-special-guest-sven-swift",
         text: "",
         download: "",
@@ -619,7 +617,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Wanda Group, Ssaliva & Thunderloops",
-        created: "2013-2-25",
+        created: "2013-02-25",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2522013-special-guests-wanda-group-ssaliva-thunderloops",
         text: "",
         download: "",
@@ -628,7 +626,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Danny Scrilla & Squeaky Lobster",
-        created: "2013-2-11",
+        created: "2013-02-11",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1122013-special-guests-danny-scrilla-squeaky-lobster",
         text: "",
         download: "",
@@ -637,7 +635,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Lotide & Fracture",
-        created: "2013-1-28",
+        created: "2013-01-28",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2812013-special-guests-lotide-fracture",
         text: "",
         download: "",
@@ -646,7 +644,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Esgar",
-        created: "2013-1-14",
+        created: "2013-01-14",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1412013-special-guest-esgar",
         text: "",
         download: "",
@@ -664,7 +662,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Deft, Charo, Chesslo Junior, Manni Dee & K15",
-        created: "2012-12-3",
+        created: "2012-12-03",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-3122012-special-guests-wotnot-music",
         text: "",
         download: "",
@@ -682,7 +680,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Swede:art & Djemba Djemba",
-        created: "2012-11-5",
+        created: "2012-11-05",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-5112012-special-guests-swedeart-djemba-djemba",
         text: "",
         download: "",
@@ -700,7 +698,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Alphabets Heaven, Howse & Time Wharp",
-        created: "2012-10-8",
+        created: "2012-10-08",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-8102012-special-guests-alphabets-heaven-howse-time-wharp",
         text: "",
         download: "",
@@ -709,7 +707,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Fybe:One",
-        created: "2012-9-10",
+        created: "2012-09-10",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1092012-special-guest-fybeone",
         text: "",
         download: "",
@@ -718,7 +716,7 @@ export default Ember.Route.extend({
       },
       {
         title: "DJ Nonames (Foreign Beggars) & Kid Kanevil",
-        created: "2012-8-27",
+        created: "2012-08-27",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2782012-special-guests-dj-nonames-foreign-beggars-kid-kanevil",
         text: "",
         download: "",
@@ -727,7 +725,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Huess & Athar",
-        created: "2012-8-14",
+        created: "2012-08-14",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1482012-special-guests-huess-athar",
         text: "",
         download: "",
@@ -736,7 +734,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Tim on his own",
-        created: "2012-7-30",
+        created: "2012-07-30",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-3072012-tim-parker",
         text: "",
         download: "",
@@ -745,7 +743,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Laurent Fintoni & Danny Scrilla",
-        created: "2012-7-16",
+        created: "2012-07-16",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1672012-guest-host-laurent-fintoni-danny-scrilla",
         text: "",
         download: "",
@@ -754,7 +752,7 @@ export default Ember.Route.extend({
       },
       {
         title: "K15 & JJ Mumbles",
-        created: "2012-7-2",
+        created: "2012-07-02",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-272012-special-guests-k15-jj",
         text: "",
         download: "",
@@ -763,7 +761,7 @@ export default Ember.Route.extend({
       },
       {
         title: "MNDSGN, Ahnnu & Soops live from Dublab, LA",
-        created: "2012-6-18",
+        created: "2012-06-18",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-la-special-live-from-dublab-feat-mndsgn-ahnnu-soops",
         text: "",
         download: "",
@@ -772,7 +770,7 @@ export default Ember.Route.extend({
       },
       {
         title: "The Range & Mark Carroll",
-        created: "2012-6-4",
+        created: "2012-06-04",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-462012-special-guests-the-range-mark-carroll",
         text: "",
         download: "",
@@ -781,7 +779,7 @@ export default Ember.Route.extend({
       },
       {
         title: "ARP101 (Alix Perez) & Fracture",
-        created: "2012-5-21",
+        created: "2012-05-21",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2152012-special-guests-arp101-fracture",
         text: "",
         download: "",
@@ -790,7 +788,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Elliott Yorke, Koen, Nangdo & Claudio Lillo",
-        created: "2012-5-7",
+        created: "2012-05-07",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-752012-special-guests-elliott-yorke-koennangdo-claudio-lillo",
         text: "",
         download: "",
@@ -799,7 +797,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Kelpe, Wanda Group & Thunderloops",
-        created: "2012-4-23",
+        created: "2012-04-23",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2342012-special-guests-kelpe-wanda-group-thunderloops",
         text: "",
         download: "",
@@ -808,7 +806,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Ta-ku, Handbook & Souleance",
-        created: "2012-4-9",
+        created: "2012-04-09",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-942012-special-guests-handbook-souleance-ta-ku",
         text: "",
         download: "",
@@ -817,7 +815,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Om Unit & Laurent Fintoni",
-        created: "2012-3-26",
+        created: "2012-03-26",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2632012-special-guests-om-unit-laurent-fintoni",
         text: "",
         download: "",
@@ -826,7 +824,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Kuhn",
-        created: "2012-3-12",
+        created: "2012-03-12",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1232012-special-guest-kuhn",
         text: "",
         download: "",
@@ -835,7 +833,7 @@ export default Ember.Route.extend({
       },
       {
         title: "S.Maharba",
-        created: "2012-2-27",
+        created: "2012-02-27",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2722012-special-guest-smaharba",
         text: "",
         download: "",
@@ -844,7 +842,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Boss Kite & Grinel",
-        created: "2012-2-14",
+        created: "2012-02-14",
         play: "/youllsoonknow/nts-1422012-w-special-guests-boss-kite-grinel",
         text: "",
         download: "",
@@ -853,7 +851,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Manni Dee",
-        created: "2012-1-30",
+        created: "2012-01-30",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-3012012-special-guest-manni-dee",
         text: "",
         download: "",
@@ -862,7 +860,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Hourglass Sea + My Panda Shall Fly",
-        created: "2012-1-16",
+        created: "2012-01-16",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1612012-special-guests-hourglass-sea-my-panda-shall-fly",
         text: "",
         download: "",
@@ -880,7 +878,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Chesslo Junior & Deft",
-        created: "2011-12-5",
+        created: "2011-12-05",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-5122011-special-guests-chesslo-junior-deft",
         text: "",
         download: "",
@@ -898,7 +896,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Jimmy Asquith & JJ Mumbles",
-        created: "2011-11-7",
+        created: "2011-11-07",
         play: "/youllsoonknow/nts-7112011-w-jimmy-beige-jj",
         text: "",
         download: "",
@@ -916,7 +914,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Jimmy Asquith & JJ Mumbles",
-        created: "2011-9-26",
+        created: "2011-09-26",
         play: "/youllsoonknow/nts-26092011-w-jimmy-beige-jj",
         text: "",
         download: "",
@@ -925,7 +923,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Dem Hunger & Thunderloops",
-        created: "2011-9-13",
+        created: "2011-09-13",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-1392011-special-guests-dem-hunger-thunderloops",
         text: "",
         download: "",
@@ -934,7 +932,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Claudio Lillo",
-        created: "2011-8-29",
+        created: "2011-08-29",
         play: "/youllsoonknow/nts-2982011-w-special-guest-claudio-lillo",
         text: "",
         download: "",
@@ -943,7 +941,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Pete Cannon",
-        created: "2011-8-15",
+        created: "2011-08-15",
         play: "/youllsoonknow/nts-1582011-w-special-guest-pete-cannon",
         text: "",
         download: "",
@@ -952,7 +950,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Guests P Villa, Timewharp & C.Powers",
-        created: "2011-8-1",
+        created: "2011-08-01",
         play: "/youllsoonknow/nts-182011-w-special-guests-guests-p-villa-timewharp-and-c-powers",
         text: "",
         download: "",
@@ -961,7 +959,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Pedestrian",
-        created: "2011-7-4",
+        created: "2011-07-04",
         play: "/youllsoonknow/nts-472011-w-special-guest-pedestrian",
         text: "",
         download: "",
@@ -970,7 +968,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Naive Machine & Comma",
-        created: "2011-6-21",
+        created: "2011-06-21",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2162011-special-guest-naive-machine",
         text: "",
         download: "",
@@ -979,7 +977,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Jeeks & JJ Mumbles",
-        created: "2011-6-7",
+        created: "2011-06-07",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-762011-special-guests-jeeks-jj-mumbles",
         text: "",
         download: "",
@@ -988,7 +986,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Laurent Fintoni",
-        created: "2011-5-24",
+        created: "2011-05-24",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2452011-special-guest-laurent-fintoni",
         text: "",
         download: "",
@@ -997,7 +995,7 @@ export default Ember.Route.extend({
       },
       {
         title: "S.Maharba",
-        created: "2011-5-9",
+        created: "2011-05-09",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-992011-special-guest-smaharba",
         text: "",
         download: "",
@@ -1006,7 +1004,7 @@ export default Ember.Route.extend({
       },
       {
         title: "Tim on his own",
-        created: "2011-4-25",
+        created: "2011-04-25",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2542011",
         text: "",
         download: "",
