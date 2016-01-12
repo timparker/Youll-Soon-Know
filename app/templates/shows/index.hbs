@@ -11,7 +11,7 @@
           {{#each latestShows as |show|}}
             <div>
               {{#link-to "shows.show" show.created}}
-                <img src="/images/{{show.created}}.png" class="fullimg" id="fullimg">
+                <img src="/images/{{show.created}}.jpg" class="fullimg" id="fullimg">
                 <b class="label">{{show.title}}</b>
                 <em class="detail">{{moment-format show.created "Do MMMM YYYY"}}</em>
               {{/link-to}}
@@ -32,6 +32,7 @@
           <ul class="tablelist">
             {{#each shows as |show|}}
           	<li>
+              <span {{action "play"}}>play show</span>
               {{#link-to 'shows.show' show.created}}
                 <b class="label">{{show.title}}</b>
                 <em class="detail">{{moment-format show.created "Do MMM YYYY"}}</em>
