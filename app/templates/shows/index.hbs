@@ -32,7 +32,7 @@
           <ul class="tablelist">
             {{#each shows as |show|}}
           	<li>
-              <span {{action "play"}}>play show</span>
+              <!-- <span {{action "play"}}>play show</span> -->
               {{#link-to 'shows.show' show.created}}
                 <b class="label">{{show.title}}</b>
                 <em class="detail">{{moment-format show.created "Do MMM YYYY"}}</em>
