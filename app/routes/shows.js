@@ -3,6 +3,14 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   model: function () {
     return [
+        {
+          title: "ELWD",
+          created: "2016-1-13",
+          play: "/youllsoonknow/nts-1312016-w-special-guest-elwd",
+          text: "",
+          download: "http://bit.ly/1PuJPBi",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-elwd-13th-january-2016"
+        },
       {
         title: "Raminski",
         created: "2015-12-16",
