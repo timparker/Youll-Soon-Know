@@ -24,6 +24,15 @@ p {
     font-size: 110%;
 }
 
+.play-show {
+    color: $green;
+    cursor: pointer;
+
+    &:hover {
+        color: #FFF;
+    }
+}
+
 section {
     max-width: 55rem;
     margin: 0 auto;
