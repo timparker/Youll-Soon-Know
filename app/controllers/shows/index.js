@@ -7,17 +7,23 @@ export default Ember.Controller.extend({
   }.property("model"),
   
   byYears: function () {
+    // turn into a {} like
+    // [
+    //  { year: 2015, shows: [] }, 
+    //  { year: 2014, shows: [{}, {}, {}] },
+    // ]
     return this.get("model").reduce((prev, curr) => {
       let year = curr.created.split("-")[0];
+      let array = prev.find(k => k.year == year);
       
-      if (prev[year] === undefined) {
-        prev[year] = [curr];
+      if (array) {
+        array.shows.push(curr);
       } else {
-        prev[year].push(curr);
+        prev.push({ year: year, shows: [curr] });
       }
-      
+
       return prev;
-    }, {});
+    }, []);
   }.property("model")
   
 });
