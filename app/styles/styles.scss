@@ -24,6 +24,21 @@ p {
     font-size: 110%;
 }
 
+.play-show {
+    display: inline-block;
+    margin: 20px 0;
+    background: $green;
+    color: #FFF;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+
+    &:hover {
+        color: $purple;
+        background: #FFF;
+    }
+}
+
 section {
     max-width: 55rem;
     margin: 0 auto;
@@ -68,7 +83,7 @@ a:hover { color: $green; }
 p a { text-decoration: none; border-bottom: 1px solid #bbb; }
 p a:hover { border-bottom-color: $green; }
 
-b.label { display: block; font-weight: normal; color: #333; }
+b.label { display: block; font-weight: normal; color: $purple; }
 em.detail { font-style: normal; font-size: 14px; color: #bbb; }
 
 small, time { font-weight: 400; color: gray; font-size: 0.8rem; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -158,7 +173,7 @@ a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: $pu
 .grid a b.label, .grid a em.detail { display: block; font-size: 90%; line-height: 1.4; }
 .grid a img { margin-bottom: 1rem; }
 .grid div { margin-bottom: 1rem; }
-.grid div a p { color: #333; text-decoration: none !important; }
+.grid div a p { color: $purple; text-decoration: none !important; }
 .grid a:hover b.label { color: $green; }
 
 .featured-wrapper {
@@ -211,6 +226,20 @@ ul.tablelist li a {
     justify-content: space-between;
 }
 
+ul.tablelist li.schedule-list a:hover {
+    color: $purple;
+
+    b.label {
+        color: $purple;
+    }
+}
+
+.feature-link {
+    border: none;
+    text-decoration: none;
+    color: $green;
+}
+
 // Player
 .mixcloud-player {
     // position: fixed;
@@ -223,10 +252,15 @@ ul.tablelist li a {
     // transition: bottom 1s;
 
     position: fixed;
-    bottom: 0;
+    bottom: -60px;
     left: 0;
     right: 0;
     width: 100%;
+    transition: bottom 1s;
+
+    &.has-song {
+        bottom: 0;
+    }
 
     .iframe {
         height: 60px;

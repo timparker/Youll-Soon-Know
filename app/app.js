@@ -7,6 +7,16 @@ let App;
 
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
+Ember.Router.reopen({
+  notifyGoogleAnalytics: function() {
+    if (!ga) { return; }
+    return ga('send', 'pageview', {
+        'page': this.get('url'),
+        'title': this.get('url')
+      });
+  }.on('didTransition')
+});
+
 App = Ember.Application.extend({
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,
