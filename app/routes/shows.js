@@ -5,7 +5,7 @@ export default Ember.Route.extend({
     return [
         {
           title: "ELWD",
-          created: "2016-1-13",
+          created: "2016-01-13",
           play: "/youllsoonknow/nts-1312016-w-special-guest-elwd",
           text: "",
           download: "http://bit.ly/1PuJPBi",
