@@ -7,7 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('shows', { path: "/" }, function () {
-    this.route('show', { path: "/:created" });
+    this.route('show', { path: "/:permalink" });
   });
   this.route('about', { path: "/about" });
   this.route('schedule', { path: "/schedule" });

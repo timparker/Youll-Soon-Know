@@ -24,21 +24,6 @@ p {
     font-size: 110%;
 }
 
-.play-show {
-    display: inline-block;
-    margin: 20px 0;
-    background: $green;
-    color: #FFF;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 4px;
-
-    &:hover {
-        color: $purple;
-        background: #FFF;
-    }
-}
-
 section {
     max-width: 55rem;
     margin: 0 auto;
@@ -71,6 +56,12 @@ img.fullimg {
     width: 100%;
     // -webkit-filter: grayscale(1);
     // filter: grayscale(1);
+
+    &.perma-fullimg {
+        width: 321px;
+        height: 321px;
+        margin: 20px auto;
+    }
 }
 
 .center {
@@ -240,17 +231,23 @@ ul.tablelist li.schedule-list a:hover {
     color: $green;
 }
 
+.play-show {
+    display: inline-block;
+    margin: 20px 0;
+    background: $green;
+    color: #FFF;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+
+    &:hover {
+        color: $purple;
+        background: #FFF;
+    }
+}
+
 // Player
 .mixcloud-player {
-    // position: fixed;
-    // bottom: -20px;
-    // left: 20px;
-    // padding: 10px 20px;
-    // background: black;
-    // color: white;
-    // border-radius: 100px;
-    // transition: bottom 1s;
-
     position: fixed;
     bottom: -60px;
     left: 0;
@@ -300,19 +297,11 @@ ul.tablelist li.schedule-list a:hover {
     }
 
     iframe {
-        // visibility: hidden;
-        // position: absolute;
-        // top: -9999px;
-        // left: -9999px;
-
         margin: 0;
         padding: 0;
     }
-
-    // &.has-song {
-    //     bottom: 20px;
-    // }
 }
+
 
 // Media Queries
 @media (min-width: 500px) {
@@ -381,6 +370,13 @@ ul.tablelist li.schedule-list a:hover {
 @media (min-width: 900px) { body.library section a { width: 20%; }, img { min-height: 321px; } }
 
 @media (max-width: 500px) {
+    img.fullimg {
+        &.perma-fullimg {
+            width: 100%;
+            height: auto;
+        }
+    }
+
     header {
         margin-bottom: 0;
     }
