@@ -77,7 +77,7 @@ a:hover { color: $green; }
 p a { text-decoration: none; border-bottom: 1px solid #bbb; }
 p a:hover { border-bottom-color: $green; }
 
-b.label { display: block; font-weight: normal; color: #333; }
+b.label { display: block; font-weight: normal; color: $purple; }
 em.detail { font-style: normal; font-size: 14px; color: #bbb; }
 
 small, time { font-weight: 400; color: gray; font-size: 0.8rem; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -167,7 +167,7 @@ a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: $pu
 .grid a b.label, .grid a em.detail { display: block; font-size: 90%; line-height: 1.4; }
 .grid a img { margin-bottom: 1rem; }
 .grid div { margin-bottom: 1rem; }
-.grid div a p { color: #333; text-decoration: none !important; }
+.grid div a p { color: $purple; text-decoration: none !important; }
 .grid a:hover b.label { color: $green; }
 
 .featured-wrapper {
@@ -218,6 +218,20 @@ ul.tablelist li a {
     -ms-align-items: baseline;
     align-items: baseline;
     justify-content: space-between;
+}
+
+ul.tablelist li.schedule-list a:hover {
+    color: $purple;
+
+    b.label {
+        color: $purple;
+    }
+}
+
+.feature-link {
+    border: none;
+    text-decoration: none;
+    color: $green;
 }
 
 // Player

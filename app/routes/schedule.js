@@ -4,13 +4,13 @@ export default Ember.Route.extend({
   model: function () {
     return [
       {
-        title: "Guest Joe Shakespeare",
+        title: "Joe Shakespeare",
         date: "2016-1-27",
         start: "15:00",
         end: "17:00"
       },
       {
-        title: "Guest Thelem",
+        title: "Thelem",
         date: "2016-2-10",
         start: "15:00",
         end: "17:00"
@@ -22,13 +22,13 @@ export default Ember.Route.extend({
         end: "17:00"
       },
       {
-        title: "Guest The Range",
+        title: "The Range",
         date: "2016-3-9",
         start: "15:00",
         end: "17:00"
       },
       {
-        title: "Guest TBA",
+        title: "TBA",
         date: "2016-3-23",
         start: "15:00",
         end: "17:00"
