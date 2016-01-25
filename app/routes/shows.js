@@ -900,10 +900,10 @@ export default Ember.Route.extend({
         nts: ""
       },
       {
-        title: "Tim on his own",
+        title: "Jimmy Asquith & The Fat Controller",
         created: "2011-04-25",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-2542011",
-        text: "",
+        text: "One of the earliest shows we still have the archives of, not the first but close! Music from Tim & Streets of Beige.",
         download: "",
         nts: ""
       }
