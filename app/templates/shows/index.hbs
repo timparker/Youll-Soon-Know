@@ -25,12 +25,12 @@
 
 <div class="writingwrapper">
   <section class="writinglist">
-    {{#each-in byYears as |year shows|}}
+    {{#each byYears as |index|}}
       <div class="textspace">
-        <aside><h2>{{year}} Archive</h2></aside>
+        <aside><h2>{{index.year}} Archive</h2></aside>
         <div>
           <ul class="tablelist">
-            {{#each shows as |show|}}
+            {{#each index.shows as |show|}}
           	<li>
               <!-- <span {{action "play"}}>play show</span> -->
               {{#link-to 'shows.show' show.created}}
@@ -42,6 +42,6 @@
           </ul>
         </div>
       </div>
-    {{/each-in}}
+    {{/each}}
   </section>
 </div>
