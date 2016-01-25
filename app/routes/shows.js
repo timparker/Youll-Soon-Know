@@ -907,9 +907,9 @@ export default Ember.Route.extend({
         download: "",
         nts: ""
       }
-  ].map((show) => {
+    ].map((show) => {
       show.permalink = show.title.toLowerCase().replace(/[^0-9a-z\-]/g, '') + "-" + show.created;
       return show;
-  })
+    });
   }
 });
