@@ -370,11 +370,9 @@ ul.tablelist li.schedule-list a:hover {
 @media (min-width: 900px) { body.library section a { width: 20%; }, img { min-height: 321px; } }
 
 @media (max-width: 500px) {
-    img.fullimg {
-        &.perma-fullimg {
-            width: 100%;
-            height: auto;
-        }
+    img.fullimg.perma-fullimg {
+        width: 100%;
+        height: auto;
     }
 
     header {
