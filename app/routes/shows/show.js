@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model: function (params) {
-    return this.modelFor("shows").find((s) => params.slug === `${s.title}-${s.created}`);
+    return this.modelFor("shows").find((s) => s.permalink === params.permalink);
   },
 
   setupController: function (controller, model) {
