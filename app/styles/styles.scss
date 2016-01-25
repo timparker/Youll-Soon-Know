@@ -25,11 +25,17 @@ p {
 }
 
 .play-show {
-    color: $green;
+    display: inline-block;
+    margin: 20px 0;
+    background: $green;
+    color: #FFF;
     cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
 
     &:hover {
-        color: #FFF;
+        color: $purple;
+        background: #FFF;
     }
 }
 
