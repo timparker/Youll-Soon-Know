@@ -232,10 +232,15 @@ ul.tablelist li a {
     // transition: bottom 1s;
 
     position: fixed;
-    bottom: 0;
+    bottom: -60px;
     left: 0;
     right: 0;
     width: 100%;
+    transition: bottom 1s;
+
+    &.has-song {
+        bottom: 0;
+    }
 
     .iframe {
         height: 60px;
