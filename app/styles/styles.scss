@@ -392,3 +392,15 @@ ul.tablelist li.schedule-list a:hover {
         padding-bottom: 0;
     }
 }
+
+@media (max-width: 390px) {
+    ul.tablelist li em.detail {
+        text-align: right;
+        white-space: normal;
+    }
+
+    ul.tablelist li {
+        max-width: 100%;
+        overflow: hidden;
+    }
+}
