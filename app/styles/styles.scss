@@ -328,6 +328,8 @@ ul.tablelist li.schedule-list a:hover {
     section.featured .grid div a img { float: none; margin-right: 0; margin-bottom: 0.5em; width: 100%; }
 }
 
+
+
 @media (min-width: 600px) {
     body.library section a { font-size: 13px; }
 
@@ -338,9 +340,21 @@ ul.tablelist li.schedule-list a:hover {
         display: -webkit-flex;
         display: flex;
         -webkit-align-items: baseline;
-        -moz-align-items: baseline;
+        -moz-align-items: inherit;
         -ms-align-items: baseline;
         align-items: baseline;
+    }
+
+    @-moz-document url-prefix() {
+        div.textspace {
+            display: -moz-box;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        section.writinglist aside h2 {
+            line-height: 2.5rem;
+        }
     }
 
     div.textspace.top {
