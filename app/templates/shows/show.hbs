@@ -19,8 +19,10 @@
               {{#if show.text}}
                 <p>{{show.text}}</p>
               {{/if}}
-              <p><a href="{{show.download}}" target="_blank">Download</a></p>
-              <br>
+              {{#if show.download}}
+                <p><a href="{{show.download}}" target="_blank">Download</a></p>
+              {{/if}}
+                <br>
               <p><a href="{{show.nts}}" target="_blank">View on NTS Website</a></p>
               <p style="text-align: center; margin-top: 80px;">{{#link-to "shows.index"}}All shows{{/link-to}}</p>
           </div>
