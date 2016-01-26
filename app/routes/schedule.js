@@ -5,31 +5,31 @@ export default Ember.Route.extend({
     return [
       {
         title: "Joe Shakespeare",
-        date: "2016-1-27",
+        date: "2016-01-27",
         start: "15:00",
         end: "17:00"
       },
       {
         title: "Thelem",
-        date: "2016-2-10",
+        date: "2016-02-10",
         start: "15:00",
         end: "17:00"
       },
       {
         title: "Guest TBA",
-        date: "2016-2-24",
+        date: "2016-02-24",
         start: "15:00",
         end: "17:00"
       },
       {
         title: "The Range",
-        date: "2016-3-9",
+        date: "2016-03-09",
         start: "15:00",
         end: "17:00"
       },
       {
         title: "TBA",
-        date: "2016-3-23",
+        date: "2016-03-23",
         start: "15:00",
         end: "17:00"
       },
