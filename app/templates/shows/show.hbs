@@ -23,7 +23,9 @@
                 <p><a href="{{show.download}}" target="_blank">Download</a></p>
               {{/if}}
                 <br>
-              <p><a href="{{show.nts}}" target="_blank">View on NTS Website</a></p>
+              {{#if show.nts}}
+                <p><a href="{{show.nts}}" target="_blank">View on NTS Website</a></p>
+              {{/if}}
               <p style="text-align: center; margin-top: 80px;">{{#link-to "shows.index"}}All shows{{/link-to}}</p>
           </div>
       </article>
