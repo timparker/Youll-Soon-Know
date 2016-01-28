@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Joe Shakespeare",
+          created: "2016-01-27",
+          play: "/youllsoonknow/nts-2712016-w-special-guest-joe-shakespeare",
+          text: "Joined for this show by Joe Shakespeare of Knives & Ecology Tapes. Lots of exclusives in this one.",
+          download: "",
+          nts: ""
+        },
+        {
           title: "ELWD",
           created: "2016-01-13",
           play: "/youllsoonknow/nts-1312016-w-special-guest-elwd",
