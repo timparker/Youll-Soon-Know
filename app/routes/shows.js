@@ -9,7 +9,7 @@ export default Ember.Route.extend({
           play: "/youllsoonknow/nts-2712016-w-special-guest-joe-shakespeare",
           text: "Joined for this show by Joe Shakespeare of Knives & Ecology Tapes. Lots of exclusives in this one.",
           download: "https://drive.google.com/file/d/0B0IPzmV4gS38bHFUMHFDMEpXSFU/view?usp=sharing",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-joe-shakespeare-27th-january-2016"
         },
         {
           title: "ELWD",
