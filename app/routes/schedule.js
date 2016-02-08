@@ -6,8 +6,8 @@ export default Ember.Route.extend({
       {
         title: "Thelem",
         date: "2016-02-10",
-        start: "15:00",
-        end: "17:00"
+        start: "13:00",
+        end: "15:00"
       },
       {
         title: "Guest TBA",
