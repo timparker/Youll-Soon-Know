@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2016-02-10",
           play: "/youllsoonknow/nts-1022016-w-special-guest-thelem/",
           text: "",
-          download: "",
+          download: "https://drive.google.com/open?id=0B0IPzmV4gS38Uzk5QlFOYmpOenc",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-thelem-10th-february-2016"
         },
         {
@@ -56,7 +56,7 @@ export default Ember.Route.extend({
         created: "2015-11-04",
         play: "/youllsoonknow/nts-4112015-w-special-guest-mystery-cave",
         text: "",
-        download: "http://bit.ly/1NSFhGF",
+        download: "https://drive.google.com/open?id=0B0IPzmV4gS38RFUwM1BObXhobVU",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-4th-november-2015"
       },
       {
@@ -72,7 +72,7 @@ export default Ember.Route.extend({
         created: "2015-10-07",
         play: "/youllsoonknow/nts-7102015-w-special-guest-iglooghost",
         text: "",
-        download: "http://bit.ly/1R1c4tA",
+        download: "https://drive.google.com/open?id=0B0IPzmV4gS38VmZIcENXTzdtNWc",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-iglooghost-7th-october-2015"
       },
       {
@@ -88,7 +88,7 @@ export default Ember.Route.extend({
         created: "2015-09-09",
         play: "/youllsoonknow/nts-992015-w-special-guests-itsnate-jd-reid",
         text: "",
-        download: "http://bit.ly/1XQ27Ez",
+        download: "https://drive.google.com/open?id=0B0IPzmV4gS38SlRBUWJ0WVpKVWM",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-its-nate-jd-reid-9th-september-2015"
       },
       {
@@ -176,7 +176,7 @@ export default Ember.Route.extend({
         created: "2015-03-25",
         play: "/youllsoonknow/nts-2532015-w-fine-grains",
         text: "",
-        download: "http://bit.ly/1BQgDgG",
+        download: "https://drive.google.com/open?id=0B0IPzmV4gS38bzhQa3VNakxpbXM",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-fine-grains-records-25th-march-2015"
       },
       {
@@ -184,7 +184,7 @@ export default Ember.Route.extend({
         created: "2015-03-11",
         play: "/youllsoonknow/nts-1132015-w-special-guests-mount-bank-wriggly-scott",
         text: "",
-        download: "http://bit.ly/1Dex50P",
+        download: "https://drive.google.com/open?id=0B0IPzmV4gS38YUFqMUJrRkppUEk",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-11th-march-2015"
       },
       {
@@ -224,7 +224,7 @@ export default Ember.Route.extend({
         created: "2015-01-01",
         play: "/youllsoonknow/nts-112015-w-special-guests-j-todd-mr-e",
         text: "",
-        download: "http://bit.ly/16fb2Jx",
+        download: "https://drive.google.com/open?id=0B0IPzmV4gS38OHlPNUNCVElsQm8",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-31st-december-2014"
       },
       {
@@ -264,7 +264,7 @@ export default Ember.Route.extend({
         created: "2014-09-17",
         play: "/youllsoonknow/nts-1792014-w-special-guest-fracture",
         text: "",
-        download: "http://bit.ly/1uPmBMV",
+        download: "https://drive.google.com/open?id=0B0IPzmV4gS38dFF6aVdCS2ZJYjA",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-fracture-17th-september-2014"
       },
       {
