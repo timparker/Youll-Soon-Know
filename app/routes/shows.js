@@ -9,7 +9,7 @@ export default Ember.Route.extend({
           play: "/youllsoonknow/nts-1022016-w-special-guest-thelem/",
           text: "",
           download: "",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-thelem-10th-february-2016"
         },
         {
           title: "Joe Shakespeare",
