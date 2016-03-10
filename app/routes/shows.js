@@ -3,13 +3,21 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   model: function () {
     return [
+        {
+           title: "The Range",
+           created: "2016-03-09",
+           play: "/youllsoonknow/nts-932016-w-special-guest-the-range/",
+           text: "Joined by very special guest The Range to celebrate the launch of his new album. Also joined in the studio by Pete and Dave from Donky Pitch.",
+           download: "https://drive.google.com/file/d/0B0IPzmV4gS38NEhPY0VhSVlETXc/view?usp=sharing",
+           nts: ""
+         },
        {
           title: "Le Motel",
           created: "2016-02-24",
           play: "/youllsoonknow/nts-2422016-w-special-guest-le-motel/",
           text: "",
           download: "https://drive.google.com/file/d/0B0IPzmV4gS38VUtMbEcybXIwYjQ/view?usp=sharing",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-le-motel-24th-february-2016"
         },
         {
           title: "Thelem",
