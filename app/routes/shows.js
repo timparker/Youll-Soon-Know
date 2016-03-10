@@ -9,7 +9,7 @@ export default Ember.Route.extend({
            play: "/youllsoonknow/nts-932016-w-special-guest-the-range/",
            text: "Joined by very special guest The Range to celebrate the launch of his new album. Also joined in the studio by Pete and Dave from Donky Pitch.",
            download: "https://drive.google.com/file/d/0B0IPzmV4gS38NEhPY0VhSVlETXc/view?usp=sharing",
-           nts: ""
+           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-the-range-9th-march-2016"
          },
        {
           title: "Le Motel",
