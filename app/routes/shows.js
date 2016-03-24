@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+           title: "DJ MoCity",
+           created: "2016-03-23",
+           play: "/youllsoonknow/youllsoonknow/nts-2332016-w-special-guest-dj-mocity/",
+           text: "Joined by DJ MoCity from Dubai's 264cru.",
+           download: "",
+           nts: ""
+         },
+         {
            title: "The Range",
            created: "2016-03-09",
            play: "/youllsoonknow/nts-932016-w-special-guest-the-range/",
