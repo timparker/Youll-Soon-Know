@@ -6,7 +6,7 @@ export default Ember.Route.extend({
         {
            title: "DJ MoCity",
            created: "2016-03-23",
-           play: "/youllsoonknow/youllsoonknow/nts-2332016-w-special-guest-dj-mocity/",
+           play: "/youllsoonknow/nts-2332016-w-special-guest-dj-mocity/",
            text: "Joined by DJ MoCity from Dubai's 264cru.",
            download: "",
            nts: ""
