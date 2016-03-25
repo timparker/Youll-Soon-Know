@@ -8,8 +8,8 @@ export default Ember.Route.extend({
            created: "2016-03-23",
            play: "/youllsoonknow/nts-2332016-w-special-guest-dj-mocity/",
            text: "Joined by DJ MoCity from Dubai's 264cru.",
-           download: "",
-           nts: ""
+           download: "https://drive.google.com/file/d/0B0IPzmV4gS38cm9Ldk1lZ1lWU1k/view?usp=sharing",
+           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-23rd-march-2016"
          },
          {
            title: "The Range",
