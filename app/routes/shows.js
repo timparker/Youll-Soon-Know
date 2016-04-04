@@ -136,7 +136,7 @@ export default Ember.Route.extend({
         created: "2015-07-29",
         play: "/youllsoonknow/nts-2972015-w-special-guest-spmc",
         text: "",
-        download: "http://bit.ly/1fLEb2Y",
+        download: "https://drive.google.com/file/d/0B0IPzmV4gS38YUh0MmtuNm9KTWs/view?usp=sharing",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-29th-july-2015"
       },
       {
