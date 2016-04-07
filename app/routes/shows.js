@@ -128,7 +128,7 @@ export default Ember.Route.extend({
         created: "2015-09-02",
         play: "/youllsoonknow/nts-292015-w-special-guests-tk-kayembe-defcon",
         text: "",
-        download: "http://bit.ly/1JNJhmY",
+        download: "https://drive.google.com/file/d/0B0IPzmV4gS38R0I5RWNtU3B6LXM/view?usp=sharing",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tk-does-werk-defcon-2nd-august-2015"
       },
       {
@@ -272,7 +272,7 @@ export default Ember.Route.extend({
         created: "2014-11-12",
         play: "/youllsoonknow/nts-12112014-w-special-guest-jd-reid",
         text: "",
-        download: "http://bit.ly/1zp8xiM",
+        download: "https://drive.google.com/file/d/0B0IPzmV4gS38OG1OZ241OU9ERlE/view?usp=sharing",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-jd-reid-12th-november-2014"
       },
       {
