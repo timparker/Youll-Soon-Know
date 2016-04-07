@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+           title: "Deft & Ivylab",
+           created: "2016-04-06",
+           play: "/youllsoonknow/nts-642016-w-special-guests-deft-ivylab/",
+           text: "Deft with the guest mix on this weeks show to celebrate the launch of his new EP on 20/20. The second hour also features a back to back session with Ivylab!",
+           download: "https://drive.google.com/file/d/0B0IPzmV4gS38eERpZk8ySG9kZkU/view?usp=sharing",
+           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-6th-april-2016"
+         },
+        {
            title: "DJ MoCity",
            created: "2016-03-23",
            play: "/youllsoonknow/nts-2332016-w-special-guest-dj-mocity/",
