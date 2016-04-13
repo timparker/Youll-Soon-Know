@@ -21,6 +21,12 @@ export default Ember.Route.extend({
         start: "15:00",
         end: "17:00"
       },
+      {
+        title: "Richie Brains",
+        date: "2016-06-01",
+        start: "15:00",
+        end: "17:00"
+      },
     ]
   }
 });
