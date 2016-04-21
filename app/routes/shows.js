@@ -9,7 +9,7 @@ export default Ember.Route.extend({
            play: "/youllsoonknow/nts-2042016-w-special-guests-alphabets-heaven-they-call-me-raptor/",
            text: "5th Birthday show with They Call Me Raptor aka Trampoline Tax and a live set by Alphabets Heaven.",
            download: "https://drive.google.com/file/d/0B0IPzmV4gS38eU9NQjBuUk5fY3c/view?usp=sharing",
-           nts: ""
+           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-alphabets-heaven-they-call-me-a-raptor-20th-april-2016"
          },
         {
            title: "Deft & Ivylab",
