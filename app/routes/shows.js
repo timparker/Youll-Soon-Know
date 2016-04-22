@@ -104,7 +104,7 @@ export default Ember.Route.extend({
         created: "2015-10-21",
         play: "/youllsoonknow/nts-20102015-w-special-guests-kidkanevil-nonames",
         text: "",
-        download: "http://bit.ly/1MV6ZnH",
+        download: "https://drive.google.com/file/d/0B0IPzmV4gS38ZUREYTBzYnY5RFE/view?usp=sharing",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-21st-october-2015"
       },
       {
