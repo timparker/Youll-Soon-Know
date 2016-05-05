@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
          {
+           title: "Know V.A & Richie Brains",
+           created: "2016-05-04",
+           play: "youllsoonknow/nts-452016-w-special-guests-know-va-richie-brains/",
+           text: "Know V.A fly in from Amsterdam, as well as the illusive Richie Brains...",
+           download: "",
+           nts: ""
+         },
+         {
            title: "Alphabets Heaven & They Call Me Raptor",
            created: "2016-04-20",
            play: "/youllsoonknow/nts-2042016-w-special-guests-alphabets-heaven-they-call-me-raptor/",
