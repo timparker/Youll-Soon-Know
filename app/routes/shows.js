@@ -8,8 +8,8 @@ export default Ember.Route.extend({
            created: "2016-05-04",
            play: "youllsoonknow/nts-452016-w-special-guests-know-va-richie-brains/",
            text: "Know V.A fly in from Amsterdam, as well as the illusive Richie Brains...",
-           download: "",
-           nts: ""
+           download: "https://drive.google.com/file/d/0B0IPzmV4gS38aXFhR1JhQWxxejA/view?usp=sharing",
+           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-know-va-richie-brains-4th-may-2016"
          },
          {
            title: "Alphabets Heaven & They Call Me Raptor",
