@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2016-05-18",
           play: "youllsoonknow/nts-1852016-w-special-guest-moxie/",
           text: "After being on alternate weeks for years we decided to join forces and do a show together!",
-          download: "",
+          download: "https://drive.google.com/file/d/0B0IPzmV4gS38Rm9iUjlBdF9ONTA/view?usp=sharing",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-moxie-18th-may-2016"
         },
          {
