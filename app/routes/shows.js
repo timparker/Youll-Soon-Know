@@ -176,7 +176,7 @@ export default Ember.Route.extend({
         created: "2015-07-15",
         play: "/youllsoonknow/nts-1572015-w-special-guests-parris-etch",
         text: "",
-        download: "http://bit.ly/1McJXZc",
+        download: "https://drive.google.com/file/d/0B0IPzmV4gS38TUJIYlNQV0NPWTA/view?usp=sharing",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-etch-parris-15th-july-2015"
       },
       {
@@ -184,7 +184,7 @@ export default Ember.Route.extend({
         created: "2015-07-01",
         play: "/youllsoonknow/nts-162015-w-special-guest-stray",
         text: "",
-        download: "http://bit.ly/1GRwQVS",
+        download: "https://drive.google.com/file/d/0B0IPzmV4gS38MVFYRjB1dGJQNDA/view?usp=sharing",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-1st-june-2015"
       },
       {
