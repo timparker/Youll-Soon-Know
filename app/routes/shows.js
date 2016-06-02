@@ -9,7 +9,7 @@ export default Ember.Route.extend({
           play: "youllsoonknow/nts-162016-w-special-guest-fixate/",
           text: "",
           download: "",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-1st-june-2016"
         },
         {
           title: "Moxie",
