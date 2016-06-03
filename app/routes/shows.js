@@ -7,8 +7,8 @@ export default Ember.Route.extend({
           title: "Fixate",
           created: "2016-06-01",
           play: "youllsoonknow/nts-162016-w-special-guest-fixate/",
-          text: "",
-          download: "",
+          text: "Fixate dropped by to showcase his new EP and a heap of new and exclusive music.",
+          download: "https://drive.google.com/file/d/0B0IPzmV4gS38VTMzUzRlWWl3M2c/view?usp=sharing",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-1st-june-2016"
         },
         {
