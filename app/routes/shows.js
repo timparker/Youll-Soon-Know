@@ -9,7 +9,7 @@ export default Ember.Route.extend({
           play: "youllsoonknow/nts-1562016-w-special-guests-jon-phonics-ed-scissor/",
           text: "",
           download: "",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-ed-scissortongue-jon-phonics-15th-june-2016"
         },
         {
           title: "Fixate",
