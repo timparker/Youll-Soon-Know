@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Jon Phonics & Ed Scissor",
+          created: "2016-06-15",
+          play: "youllsoonknow/nts-1562016-w-special-guests-jon-phonics-ed-scissor/",
+          text: "",
+          download: "",
+          nts: ""
+        },
+        {
           title: "Fixate",
           created: "2016-06-01",
           play: "youllsoonknow/nts-162016-w-special-guest-fixate/",
