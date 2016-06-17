@@ -176,7 +176,7 @@ export default Ember.Route.extend({
         created: "2015-08-12",
         play: "/youllsoonknow/nts-1282015-w-special-guests-lewis-james-my-panda-shall-fly",
         text: "",
-        download: "http://bit.ly/1f9PtNV",
+        download: "https://drive.google.com/file/d/0B0IPzmV4gS38T3A2RmxWS0gya1E/view?usp=sharing",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-my-panda-shall-fly-lewis-james-12th-august-2015"
       },
       {
