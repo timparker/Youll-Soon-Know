@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model: function () {
-    return []
+    return [
         {
           title: "Sonnyjim & Yukka",
           created: "2016-06-29",
