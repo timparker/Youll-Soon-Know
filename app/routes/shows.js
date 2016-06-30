@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return []
         {
+          title: "Sonnyjim & Yukka",
+          created: "2016-06-29",
+          play: "youllsoonknow/nts-2962016-w-special-guests-sonnyjim-yukka/",
+          text: "",
+          download: "",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-29th-june-2016"
+        },
+        {
           title: "Jon Phonics & Ed Scissor",
           created: "2016-06-15",
           play: "youllsoonknow/nts-1562016-w-special-guests-jon-phonics-ed-scissor/",
