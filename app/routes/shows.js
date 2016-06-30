@@ -7,8 +7,6 @@ export default Ember.Route.extend({
           title: "Sonnyjim & Yukka",
           created: "2016-06-29",
           play: "youllsoonknow/nts-2962016-w-special-guests-sonnyjim-yukka/",
-          text: "",
-          download: "",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-29th-june-2016"
         },
         {
