@@ -488,7 +488,7 @@ export default Ember.Route.extend({
         created: "2014-01-08",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-812014-special-guests-paul-pre-dredi",
         text: "",
-        download: "",
+        download: "https://drive.google.com/file/d/0B0IPzmV4gS38ZWlTUzlpUmVBRlE/view?usp=sharing",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-8th-january-2014"
       },
       {
