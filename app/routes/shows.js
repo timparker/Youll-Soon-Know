@@ -7,8 +7,8 @@ export default Ember.Route.extend({
           title: "Sonnyjim & Yukka",
           created: "2016-06-29",
           play: "youllsoonknow/nts-2962016-w-special-guests-sonnyjim-yukka/",
-          text: "",
-          download: "",
+          text: "Joined for a live set by Yukka and some live bars from Sonnyjim.",
+          download: "https://drive.google.com/file/d/0B0IPzmV4gS38SkpiVnZFOUU0Nm8/view?usp=sharing",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-29th-june-2016"
         },
         {
@@ -232,7 +232,7 @@ export default Ember.Route.extend({
         created: "2015-05-06",
         play: "/youllsoonknow/nts-652015-w-special-guests-beat-soup-nutriot",
         text: "",
-        download: "http://bit.ly/1zOrmhV",
+        download: "https://drive.google.com/file/d/0B0IPzmV4gS38Z29LUEVkWUtkSHc/view?usp=sharing",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-6th-may-2015"
       },
       {
