@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Photay & Jakoby",
+          created: "2016-07-13",
+          play: "youllsoonknow/nts-1372016-w-special-guests-photay-jakoby/",
+          text: "Joined live in the studio by Photay (USA) and a guest mix from Jakoby.",
+          download: "",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-photay-13th-july-2016"
+        },
+        {
           title: "Sonnyjim & Yukka",
           created: "2016-06-29",
           play: "youllsoonknow/nts-2962016-w-special-guests-sonnyjim-yukka/",
