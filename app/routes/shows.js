@@ -4,11 +4,19 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Deft",
+          created: "2016-07-27",
+          play: "youllsoonknow/nts-2772016-w-special-guest-deft/",
+          text: "Joined in the second hour by Deft for a b2b session.",
+          download: "https://mega.nz/#!GRRw0TRD!DNEgmBY_j4ZAgxy_cxidRHwBd2ZXh0DUPZqewYjC1PA",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-deft-27th-july-2016"
+        },
+        {
           title: "Photay & Jakoby",
           created: "2016-07-13",
           play: "youllsoonknow/nts-1372016-w-special-guests-photay-jakoby/",
           text: "Joined live in the studio by Photay (USA) and a guest mix from Jakoby.",
-          download: "",
+          download: "https://mega.nz/#!2VIAzYDI!VRDT0hEzkKLnsl5uPektAOau0HZE0ORZXYAuhjIMlYw",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-photay-13th-july-2016"
         },
         {
