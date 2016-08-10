@@ -7,7 +7,7 @@ export default Ember.Route.extend({
           title: "Dolenz & Crem'e",
           created: "2016-08-10",
           play: "youllsoonknow/",
-          text: "Joined in the second hour by Deft for a b2b session.",
+          text: "",
           download: "",
           nts: ""
         },
