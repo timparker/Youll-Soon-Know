@@ -6,10 +6,10 @@ export default Ember.Route.extend({
         {
           title: "Dolenz & Crem'e",
           created: "2016-08-10",
-          play: "youllsoonknow/",
+          play: "youllsoonknow/nts-1082016-w-specials-dolenz-creme/",
           text: "",
-          download: "",
-          nts: ""
+          download: "https://mega.nz/#!uc5wWYAK!9Ckr9TLitH1evDELAvNlk8jTe31zYfkzTJH5CPWLkXs",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-10th-august-2016"
         },
         {
           title: "Deft",
