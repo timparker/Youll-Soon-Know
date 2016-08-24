@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Martelo",
+          created: "2016-08-24",
+          play: "youllsoonknow/here/",
+          text: "Combining shows with Martelo for a 4 hour b2b set!",
+          download: "",
+          nts: ""
+        },
+        {
           title: "Dolenz & Crem'e",
           created: "2016-08-10",
           play: "youllsoonknow/nts-1082016-w-specials-dolenz-creme/",
