@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2016-08-24",
           play: "youllsoonknow/nts-2482016-tim-b2b-martelo/",
           text: "Combining shows with Martelo for a 4 hour b2b set!",
-          download: "",
+          download: "https://mega.nz/#!3Z5xQQjJ!5HbYa0wYzWUiU6NH5pHgY8YUC5AyG4-8rX9eWSz8Iig",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-martelo-24th-august-2016"
         },
         {
