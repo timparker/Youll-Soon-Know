@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Martelo",
+          created: "2016-08-24",
+          play: "youllsoonknow/nts-2482016-tim-b2b-martelo/",
+          text: "Combining shows with Martelo for a 4 hour b2b set!",
+          download: "",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-martelo-24th-august-2016"
+        },
+        {
           title: "Dolenz & Crem'e",
           created: "2016-08-10",
           play: "youllsoonknow/nts-1082016-w-specials-dolenz-creme/",
