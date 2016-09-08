@@ -6,7 +6,7 @@ export default Ember.Route.extend({
         {
           title: "Al Nather & Itoa",
           created: "2016-09-07",
-          play: "youllsoonknow/nts-792016-w-special-guests-al-nather-itoa/",
+          play: "/youllsoonknow/nts-792016-w-special-guests-al-nather-itoa/",
           text: "",
           download: "https://mega.nz/#!2MJhXbRL!O71bm4VHUBHPk54G71VsuoFJT-bBic3Ymrh1q55uRxw",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-al-nather-itoa-7th-september-2016"
@@ -14,7 +14,7 @@ export default Ember.Route.extend({
         {
           title: "Martelo",
           created: "2016-08-24",
-          play: "youllsoonknow/nts-2482016-tim-b2b-martelo/",
+          play: "/youllsoonknow/nts-2482016-tim-b2b-martelo/",
           text: "Combining shows with Martelo for a 4 hour b2b set!",
           download: "https://mega.nz/#!3Z5xQQjJ!5HbYa0wYzWUiU6NH5pHgY8YUC5AyG4-8rX9eWSz8Iig",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-martelo-24th-august-2016"
@@ -22,7 +22,7 @@ export default Ember.Route.extend({
         {
           title: "Dolenz & Crem'e",
           created: "2016-08-10",
-          play: "youllsoonknow/nts-1082016-w-specials-dolenz-creme/",
+          play: "/youllsoonknow/nts-1082016-w-specials-dolenz-creme/",
           text: "",
           download: "https://mega.nz/#!uc5wWYAK!9Ckr9TLitH1evDELAvNlk8jTe31zYfkzTJH5CPWLkXs",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-10th-august-2016"
@@ -30,7 +30,7 @@ export default Ember.Route.extend({
         {
           title: "Deft",
           created: "2016-07-27",
-          play: "youllsoonknow/nts-2772016-w-special-guest-deft/",
+          play: "/youllsoonknow/nts-2772016-w-special-guest-deft/",
           text: "Joined in the second hour by Deft for a b2b session.",
           download: "https://mega.nz/#!GRRw0TRD!DNEgmBY_j4ZAgxy_cxidRHwBd2ZXh0DUPZqewYjC1PA",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-deft-27th-july-2016"
@@ -38,7 +38,7 @@ export default Ember.Route.extend({
         {
           title: "Photay & Jakoby",
           created: "2016-07-13",
-          play: "youllsoonknow/nts-1372016-w-special-guests-photay-jakoby/",
+          play: "/youllsoonknow/nts-1372016-w-special-guests-photay-jakoby/",
           text: "Joined live in the studio by Photay (USA) and a guest mix from Jakoby.",
           download: "https://mega.nz/#!2VIAzYDI!VRDT0hEzkKLnsl5uPektAOau0HZE0ORZXYAuhjIMlYw",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-photay-13th-july-2016"
@@ -46,7 +46,7 @@ export default Ember.Route.extend({
         {
           title: "Sonnyjim & Yukka",
           created: "2016-06-29",
-          play: "youllsoonknow/nts-2962016-w-special-guests-sonnyjim-yukka/",
+          play: "/youllsoonknow/nts-2962016-w-special-guests-sonnyjim-yukka/",
           text: "Joined for a live set by Yukka and some live bars from Sonnyjim.",
           download: "https://drive.google.com/file/d/0B0IPzmV4gS38SkpiVnZFOUU0Nm8/view?usp=sharing",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-29th-june-2016"
@@ -54,7 +54,7 @@ export default Ember.Route.extend({
         {
           title: "Jon Phonics & Ed Scissor",
           created: "2016-06-15",
-          play: "youllsoonknow/nts-1562016-w-special-guests-jon-phonics-ed-scissor/",
+          play: "/youllsoonknow/nts-1562016-w-special-guests-jon-phonics-ed-scissor/",
           text: "",
           download: "https://drive.google.com/file/d/0B0IPzmV4gS38RDRrRms1RHpPbTg/view?usp=sharing",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-ed-scissortongue-jon-phonics-15th-june-2016"
@@ -62,7 +62,7 @@ export default Ember.Route.extend({
         {
           title: "Fixate",
           created: "2016-06-01",
-          play: "youllsoonknow/nts-162016-w-special-guest-fixate/",
+          play: "/youllsoonknow/nts-162016-w-special-guest-fixate/",
           text: "Fixate dropped by to showcase his new EP and a heap of new and exclusive music.",
           download: "https://drive.google.com/file/d/0B0IPzmV4gS38VTMzUzRlWWl3M2c/view?usp=sharing",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-1st-june-2016"
@@ -70,7 +70,7 @@ export default Ember.Route.extend({
         {
           title: "Moxie",
           created: "2016-05-18",
-          play: "youllsoonknow/nts-1852016-w-special-guest-moxie/",
+          play: "/youllsoonknow/nts-1852016-w-special-guest-moxie/",
           text: "After being on alternate weeks for years we decided to join forces and do a show together!",
           download: "https://drive.google.com/file/d/0B0IPzmV4gS38Rm9iUjlBdF9ONTA/view?usp=sharing",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-moxie-18th-may-2016"
@@ -78,7 +78,7 @@ export default Ember.Route.extend({
          {
            title: "Know V.A & Richie Brains",
            created: "2016-05-04",
-           play: "youllsoonknow/nts-452016-w-special-guests-know-va-richie-brains/",
+           play: "/youllsoonknow/nts-452016-w-special-guests-know-va-richie-brains/",
            text: "Know V.A fly in from Amsterdam, as well as the illusive Richie Brains...",
            download: "https://drive.google.com/file/d/0B0IPzmV4gS38aXFhR1JhQWxxejA/view?usp=sharing",
            nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-know-va-richie-brains-4th-may-2016"
