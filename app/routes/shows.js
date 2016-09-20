@@ -4,12 +4,12 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
-          title: "Al Nather & Itoa",
-          created: "2016-09-07",
-          play: "/youllsoonknow/nts-792016-w-special-guests-al-nather-itoa/",
-          text: "",
-          download: "https://mega.nz/#!2MJhXbRL!O71bm4VHUBHPk54G71VsuoFJT-bBic3Ymrh1q55uRxw",
-          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-al-nather-itoa-7th-september-2016"
+          title: "Cosmopolyphonic Live from Tokyo",
+          created: "2016-09-21",
+          play: "/youllsoonknow/here/",
+          text: "Recorded live in Shibuya, Tokyo with Tidal, RGL, RLP and Fujimoto Tetsuro!",
+          download: "",
+          nts: ""
         },
         {
           title: "Martelo",
