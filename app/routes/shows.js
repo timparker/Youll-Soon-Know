@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2016-09-21",
           play: "/youllsoonknow/nts-2192016-w-cosmopolyphonic-live-from-tokyo/",
           text: "Recorded live in Shibuya, Tokyo with Tidal, RGL, RLP and Fujimoto Tetsuro!",
-          download: "",
+          download: "https://mega.nz/#!ydRTDbSY!CA8ulgfsVqZz7xPm7qCnvfoipqM9A_lf9Nyyp-THwJc",
           nts: ""
         },
         {
