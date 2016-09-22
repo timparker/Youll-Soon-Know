@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Cosmopolyphonic Live from Tokyo",
+          created: "2016-09-21",
+          play: "/youllsoonknow/nts-2192016-w-cosmopolyphonic-live-from-tokyo/",
+          text: "Recorded live in Shibuya, Tokyo with Tidal, RGL, RLP and Fujimoto Tetsuro!",
+          download: "",
+          nts: ""
+        },
+        {
           title: "Al Nather & Itoa",
           created: "2016-09-07",
           play: "/youllsoonknow/nts-792016-w-special-guests-al-nather-itoa/",
