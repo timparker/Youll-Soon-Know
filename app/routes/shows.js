@@ -12,6 +12,14 @@ export default Ember.Route.extend({
           nts: ""
         },
         {
+          title: "Al Nather & Itoa",
+          created: "2016-09-07",
+          play: "/youllsoonknow/nts-792016-w-special-guests-al-nather-itoa/",
+          text: "",
+          download: "https://mega.nz/#!2MJhXbRL!O71bm4VHUBHPk54G71VsuoFJT-bBic3Ymrh1q55uRxw",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-al-nather-itoa-7th-september-2016"
+        },
+        {
           title: "Martelo",
           created: "2016-08-24",
           play: "/youllsoonknow/nts-2482016-tim-b2b-martelo/",
