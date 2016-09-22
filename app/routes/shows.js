@@ -6,7 +6,7 @@ export default Ember.Route.extend({
         {
           title: "Cosmopolyphonic Live from Tokyo",
           created: "2016-09-21",
-          play: "/youllsoonknow/here/",
+          play: "/youllsoonknow/nts-2192016-w-cosmopolyphonic-live-from-tokyo/",
           text: "Recorded live in Shibuya, Tokyo with Tidal, RGL, RLP and Fujimoto Tetsuro!",
           download: "",
           nts: ""
