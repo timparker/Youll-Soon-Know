@@ -9,7 +9,7 @@ export default Ember.Route.extend({
           play: "/youllsoonknow/nts-5102016-w-special-guests-kidkanevil-they-call-me-raptor/",
           text: "",
           download: "https://mega.nz/#!iFoSiITS!TDTL8hAkxi9mfr0iFzqn2QBa3FOu936epsNkyKyj8hk",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-5th-october-2016"
         },
         {
           title: "Cosmopolyphonic Live from Tokyo",
