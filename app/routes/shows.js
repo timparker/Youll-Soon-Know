@@ -5,8 +5,8 @@ export default Ember.Route.extend({
     return [
         {
           title: "Kidkanevil & They Call Me Raptor",
-          created: "2016-10-05/nts-5102016-w-special-guests-kidkanevil-they-call-me-raptor/",
-          play: "/youllsoonknow/nts-2192016-w-cosmopolyphonic-live-from-tokyo/",
+          created: "2016-10-05",
+          play: "/youllsoonknow/nts-5102016-w-special-guests-kidkanevil-they-call-me-raptor/",
           text: "",
           download: "https://mega.nz/#!iFoSiITS!TDTL8hAkxi9mfr0iFzqn2QBa3FOu936epsNkyKyj8hk",
           nts: ""
