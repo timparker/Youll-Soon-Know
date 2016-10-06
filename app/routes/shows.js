@@ -4,12 +4,20 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Kidkanevil & They Call Me Raptor",
+          created: "2016-10-05/nts-5102016-w-special-guests-kidkanevil-they-call-me-raptor/",
+          play: "/youllsoonknow/nts-2192016-w-cosmopolyphonic-live-from-tokyo/",
+          text: "",
+          download: "https://mega.nz/#!iFoSiITS!TDTL8hAkxi9mfr0iFzqn2QBa3FOu936epsNkyKyj8hk",
+          nts: ""
+        },
+        {
           title: "Cosmopolyphonic Live from Tokyo",
           created: "2016-09-21",
           play: "/youllsoonknow/nts-2192016-w-cosmopolyphonic-live-from-tokyo/",
           text: "Recorded live in Shibuya, Tokyo with Tidal, RGL, RLP and Fujimoto Tetsuro!",
           download: "https://mega.nz/#!ydRTDbSY!CA8ulgfsVqZz7xPm7qCnvfoipqM9A_lf9Nyyp-THwJc",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-cosmopolyphonic-special-live-from-japan-21st-september-2016"
         },
         {
           title: "Al Nather & Itoa",
