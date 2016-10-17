@@ -10,7 +10,7 @@ export default Ember.Route.extend({
         end: "17:00"
       },
       {
-        title: "TBA [On NTS INT]",
+        title: "Letherette [Channel 2 for one week only]",
         date: "2016-11-02",
         start: "12:00",
         end: "14:00"
