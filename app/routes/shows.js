@@ -4,6 +4,13 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Combat",
+          created: "2016-10-19",
+          play: "/youllsoonknow/nts-19102016-w-special-guest-combat/",
+          text: "",
+          download: "https://mega.nz/#!eQJw3CjR!8K7D3mmJx5zybey8h6X0v33bX21Be4SqByj51e0-EDc",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-19th-october-2016"
+        },{
           title: "Kidkanevil & They Call Me Raptor",
           created: "2016-10-05",
           play: "/youllsoonknow/nts-5102016-w-special-guests-kidkanevil-they-call-me-raptor/",
