@@ -4,13 +4,22 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Letherette",
+          created: "2016-11-02",
+          play: "/youllsoonknow/nts-2112016-w-special-guests-letherette/",
+          text: "Over an hour of unreleased Letherette music, what a treat!",
+          download: "https://mega.nz/#!GEAAgIaL!A-dwwwfTO0o-Hu5aA8mBJu5pRjNKYctZ2mHvJV6EaMQ",
+          nts: ""
+        },
+        {
           title: "Combat",
           created: "2016-10-19",
           play: "/youllsoonknow/nts-19102016-w-special-guest-combat/",
           text: "",
           download: "https://mega.nz/#!eQJw3CjR!8K7D3mmJx5zybey8h6X0v33bX21Be4SqByj51e0-EDc",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-19th-october-2016"
-        },{
+        },
+        {
           title: "Kidkanevil & They Call Me Raptor",
           created: "2016-10-05",
           play: "/youllsoonknow/nts-5102016-w-special-guests-kidkanevil-they-call-me-raptor/",
