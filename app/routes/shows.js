@@ -4,12 +4,20 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Vincent Paolo",
+          created: "2016-11-16",
+          play: "/youllsoonknow/nts-16112016-w-special-guest-vincent-paolo/",
+          text: "Some feel good music after a rough week for planet earth..",
+          download: "https://mega.nz/#!eVRxTCaT!AjtsnWCvgliZglgi6qFkS4iquHWJODbs5sTnRq5p_XQ",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-16th-november-2016"
+        },
+        {
           title: "Letherette",
           created: "2016-11-02",
           play: "/youllsoonknow/nts-2112016-w-special-guests-letherette/",
           text: "Over an hour of unreleased Letherette music, what a treat!",
           download: "https://mega.nz/#!GEAAgIaL!A-dwwwfTO0o-Hu5aA8mBJu5pRjNKYctZ2mHvJV6EaMQ",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-letherette-2nd-november-2016"
         },
         {
           title: "Combat",
