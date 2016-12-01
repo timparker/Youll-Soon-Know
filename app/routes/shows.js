@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "06-NRG",
+          created: "2016-11-30",
+          play: "/youllsoonknow/nts-30112016-w-special-guest-06-nrg/",
+          text: "",
+          download: "https://mega.nz/#!7Z4T2AKJ!Z1-B2qVUTCx3A6PhvNu0zS0ckM-ACGnDAqdkTIAnh7Y",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-30th-november-2016"
+        },
+        {
           title: "Vincent Paolo",
           created: "2016-11-16",
           play: "/youllsoonknow/nts-16112016-w-special-guest-vincent-paolo/",
