@@ -216,7 +216,7 @@ export default Ember.Route.extend({
         created: "2015-11-18",
         play: "/youllsoonknow/nts-18112015-w-special-guest-pixelord",
         text: "",
-        download: "http://bit.ly/1HZK0Hf",
+        download: "https://mega.nz/#!LIJVyIKS!L77-lrwWiwtd5sWFeC-XIId1bg8-8hg6bqa_-PGzv30",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-18th-november-2015"
       },
       {
