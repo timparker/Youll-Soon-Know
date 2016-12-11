@@ -1,16 +1,19 @@
+$background: #F0F0F0;
 $green: #49C743;
 $darkgreen: #399434;
 $purple: #303954;
+$white: #FFFFFF;
+$black: #000000;
 
 * {
     box-sizing: border-box;
+    text-rendering: optimizelegibility;
     // -webkit-font-smoothing: antialiased;
     // -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizelegibility;
 }
 
 body {
-    background-color: #F0F0F0;
+    background-color: $background;
     color: $purple;
     margin: 0 auto;
     padding: 0 0 80px;
@@ -29,25 +32,32 @@ section {
     margin: 0 auto;
 }
 
-section.text, article {
+section.text,
+article {
     max-width: 40rem;
     padding: 1rem;
 }
 
-article { margin: 0 auto; }
+article {
+    margin: 0 auto;
 
-article hr { width: 40%; max-width: 16em; margin: 4em auto; }
-article ul, article ol {
-    line-height: 140%;
-    font-size: 110%;
+    hr {
+        width: 40%; max-width: 16em; margin: 4em auto;
+    }
+
+    ul, ol {
+        line-height: 140%;
+        font-size: 110%;
+    }
+
+    figure {
+        margin: 2em 0;
+    }
 }
-
-article figure { margin: 2em 0; }
-article figure figcaption, article cite { font-size: 75%; line-height: 1.3; color: gray; margin-top: 1em; }
 
 hr {
     border: none;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
     margin: 2rem 0;
 }
 
@@ -169,7 +179,7 @@ a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: $pu
 
 .featured-wrapper {
     background: $purple;
-    color: #FFFFFF;
+    color: $white;
 }
 
 .schedule-title {
@@ -181,7 +191,7 @@ a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: $pu
 section.featured div.grid { padding: 0; max-width: none; }
 section.featured div.grid a img { width: 50%; margin-bottom: 0; float: left; margin-right: 1em; }
 section.featured div.grid a:after { content: ''; display: table; clear: both; }
-section.featured div.grid a b.label { color: #FFF; }
+section.featured div.grid a b.label { color: $white; }
 section.featured div.grid a:hover b.label { color: $green; }
 
 section.featured.center p {
@@ -231,18 +241,64 @@ ul.tablelist li.schedule-list a:hover {
     color: $green;
 }
 
-.play-show {
+.play-show-old {
     display: inline-block;
     margin: 20px 0;
     background: $green;
-    color: #FFF;
+    color: $white;
     cursor: pointer;
     padding: 10px;
-    border-radius: 4px;
+
 
     &:hover {
         color: $purple;
-        background: #FFF;
+        background: $white;
+    }
+}
+
+.play-show-container {
+    display: inline-block;
+    line-height: 38px;
+    padding: 8px 12px;
+    margin: 24px 0 20px;
+    overflow: hidden;
+    cursor: pointer;
+    color: $white;
+    background: $green;
+    border-radius: 4px;
+
+    &:hover {
+        .play-show {
+            &:after {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.play-show {
+    float: left;
+    width: 38px;
+    height: 38px;
+    margin-right: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url(../images/play-buttons.png);
+    background-repeat: no-repeat;
+    background-size: 76px 76px;
+    background-position: 0 0;
+
+    &:after {
+        content: "";
+        display: block;
+        width: 38px;
+        height: 38px;
+        background-image: url(../images/play-buttons.png);
+        background-repeat: no-repeat;
+        background-size: 76px 76px;
+        background-position: 0 -38px;
+        opacity: 0;
+        transition: opacity .15s linear;
     }
 }
 
@@ -261,7 +317,7 @@ ul.tablelist li.schedule-list a:hover {
 
     .iframe {
         height: 60px;
-        background: #FFF;
+        background: $white;
 
         &:after,
         &:before {
