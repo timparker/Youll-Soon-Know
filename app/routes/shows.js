@@ -6,10 +6,10 @@ export default Ember.Route.extend({
         {
           title: "Dagger DX",
           created: "2016-12-14",
-          play: "/youllsoonknow/here/",
+          play: "/youllsoonknow/nts-14122016-w-special-guest-dagger-dx/",
           text: "",
           download: "",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-dagger-dx-14th-december-2016"
         },
         {
           title: "06-NRG",
