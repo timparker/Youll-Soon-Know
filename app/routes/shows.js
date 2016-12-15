@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2016-12-14",
           play: "/youllsoonknow/nts-14122016-w-special-guest-dagger-dx/",
           text: "",
-          download: "",
+          download: "https://mega.nz/#!jRRgTBRZ!1ZQ8GaSbZtREuRJckV2o4T0Gy-lFiPuDyvyqmtocmyQ",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-dagger-dx-14th-december-2016"
         },
         {
