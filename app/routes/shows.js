@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Dagger DX",
+          created: "2016-12-14",
+          play: "/youllsoonknow/here/",
+          text: "",
+          download: "",
+          nts: ""
+        },
+        {
           title: "06-NRG",
           created: "2016-11-30",
           play: "/youllsoonknow/nts-30112016-w-special-guest-06-nrg/",

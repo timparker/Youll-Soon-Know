@@ -23,7 +23,7 @@ export default Ember.Component.extend({
         widget.events.pause.on(() => this.onPause());
         widget.events.progress.on((ev) => this.onProgress(ev));
         widget.events.ended.on((ev) => this.onEnded());
-      })
+    });
 
     }.bind(this);
   }.on("didInsertElement"),
@@ -33,7 +33,7 @@ export default Ember.Component.extend({
 
     if (this.get("hasSetup") && this.get("show")) {
       let widget = this.get("widget");
-      widget.load(this.get("show.play"), this.get("isPlaying"))
+      widget.load(this.get("show.play"), this.get("isPlaying"));
     }
   }.observes("hasSetup", "show", "show.url"),
 

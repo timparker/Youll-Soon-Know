@@ -1,8 +1,8 @@
+$white: #FFFFFF;
 $background: #F0F0F0;
 $green: #49C743;
 $darkgreen: #399434;
-$purple: #303954;
-$white: #FFFFFF;
+$navy: #303954;
 $black: #000000;
 
 * {
@@ -14,7 +14,7 @@ $black: #000000;
 
 body {
     background-color: $background;
-    color: $purple;
+    color: $navy;
     margin: 0 auto;
     padding: 0 0 80px;
     font-family: 'Karla', -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -78,81 +78,151 @@ img.fullimg {
     text-align: center;
 }
 
+
 // Type
-a { color: gray; }
-a:hover { color: $green; }
-p a { text-decoration: none; border-bottom: 1px solid #bbb; }
-p a:hover { border-bottom-color: $green; }
-
-b.label { display: block; font-weight: normal; color: $purple; }
-em.detail { font-style: normal; font-size: 14px; color: #bbb; }
-
-small, time { font-weight: 400; color: gray; font-size: 0.8rem; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-h1, h2, h3, h4 { font-size: 1rem; font-weight: 600; }
-h2+p { margin-top: 0; }
-section.text>h1 { margin-top: 0; }
-article>h1 { font-size: 1.8rem; line-height: 115%; text-align: center; font-weight: 600; margin-bottom: 5rem; }
-
-blockquote { margin-left: 0; text-indent: -0.5em; font-size: 90%;}
-blockquote cite { color: gray; font-style: normal; display: block; text-indent: 0; }
-article blockquote { text-indent: 0; margin-left: 2em; color: #666;}
-
-ul.buttons { list-style: none; margin: 0; padding: 0; }
-ul.buttons li { display: inline-block; margin-right: 0.3em; }
-
-ul.buttons li a {
-    display: block;
-    text-decoration: none;
-    background-color: #ddd;
-    font-size: 70%;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 0 1em;
-    border-radius: 3px;
-    font-weight: 500;
-}
-
-ul.buttons li:first-child a { background-color: $purple; color: white; }
-ul.buttons li:first-child:hover a { background-color: $green; }
-
-// Navigation
-header { padding: 1rem; margin-bottom: 1rem; font-size: 80%; background: #FCFCFC; } //border-bottom: 1px solid rgba(0,0,0,0.1);
-header h1 { font-size: 1em; font-weight: 400; color: $purple; margin: 0; }
-header nav ul { list-style: none; margin: 0 auto; padding: 0; display: inline-block; }
-header nav ul li { display: inline-block; margin-right: 1.5rem; }
-header nav ul li:last-child { margin-right: 0; }
-header a { border: none; color: gray; text-decoration: none; padding-bottom: 2px; }
-header nav a.active { color: $purple; border-bottom: 2px solid $purple; }
-header a:hover { color: $green; }
-svg.monogram { width: 1.75em; fill: $purple; }
-a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: $purple; font-size: 18px; }
-.listen-live {
-    position: relative;
-    color: $green;
-
-    &:after {
-        content: "";
-        width: 8px;
-        height: 8px;
-        background: $green;
-        position: absolute;
-        right: -14px;
-        top: 5px;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        border-radius: 4px;
-        animation: blink 1s steps(5, start) infinite;
-        -webkit-animation: blink 1s steps(5, start) infinite;
-    }
+a {
+    color: gray;
 
     &:hover {
-        color: $darkgreen;
+        color: $green;
+    }
+}
 
-        &:after {
-            background: $darkgreen;
+p {
+    a {
+        text-decoration: none;
+        border-bottom: 1px solid #bbb;
+
+        &:hover {
+            border-bottom-color: $green;
         }
     }
+}
+
+b.label {
+    display: block;
+    font-weight: normal;
+    color: $navy;
+}
+
+em.detail {
+    font-style: normal;
+    font-size: 14px;
+    color: #bbb;
+}
+
+small, time {
+    font-weight: 400;
+    color: gray;
+    font-size: 0.8rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+h2 + p {
+    margin-top: 0;
+}
+
+section.text > h1 {
+    margin-top: 0;
+}
+
+article > h1 {
+    font-size: 1.8rem;
+    line-height: 115%;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
+
+// Navigation
+header {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 80%;
+    background: #FCFCFC;
+
+    a {
+        border: none;
+        color: gray;
+        text-decoration: none;
+        padding-bottom: 2px;
+
+        &:hover {
+            color: $green;
+        }
+
+        &.name {
+            display: inline-block;
+            margin-bottom: 1em;
+            font-weight: 700;
+            color: $navy;
+            font-size: 18px;
+        }
+
+        &.active {
+            color: $navy;
+            border-bottom: 2px solid $navy;
+        }
+
+        &.listen-live {
+            position: relative;
+            color: $green;
+
+            &:after {
+                content: "";
+                width: 8px;
+                height: 8px;
+                background: $green;
+                position: absolute;
+                right: -14px;
+                top: 5px;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+                animation: blink 1s steps(5, start) infinite;
+                -webkit-animation: blink 1s steps(5, start) infinite;
+            }
+
+            &:hover {
+                color: $darkgreen;
+
+                &:after {
+                    background: $darkgreen;
+                }
+            }
+        }
+    }
+
+    h1 {
+        font-size: 1em;
+        font-weight: 400;
+        color: $navy;
+        margin: 0;
+    }
+
+     nav {
+         ul {
+             list-style: none;
+             margin: 0 auto;
+             padding: 0;
+             display: inline-block;
+
+             li {
+                 display: inline-block;
+                 margin-right: 1.5rem;
+
+                 &:last-child {
+                     margin-right: 0;
+                 }
+             }
+         }
+     }
 }
 
 @keyframes blink {
@@ -169,16 +239,44 @@ a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: $pu
 
 
 // Grid Layout
-.grid { padding: 1rem; margin: 0 auto; max-width: 30rem; }
-.grid a { text-decoration: none; }
-.grid a b.label, .grid a em.detail { display: block; font-size: 90%; line-height: 1.4; }
-.grid a img { margin-bottom: 1rem; }
-.grid div { margin-bottom: 1rem; }
-.grid div a p { color: $purple; text-decoration: none !important; }
-.grid a:hover b.label { color: $green; }
+.grid {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 30rem;
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            b.label {
+                color: $green;
+            }
+        }
+
+        b.label,
+        em.detail {
+            display: block;
+            font-size: 90%;
+            line-height: 1.4;
+        }
+
+        img {
+            margin-bottom: 1rem;
+        }
+    }
+
+    div {
+        margin-bottom: 1rem;
+
+        a p {
+            color: $navy;
+            text-decoration: none !important;
+        }
+    }
+}
 
 .featured-wrapper {
-    background: $purple;
+    background: $navy;
     color: $white;
 }
 
@@ -188,15 +286,42 @@ a.name { display: inline-block; margin-bottom: 1em; font-weight: 700; color: $pu
     display: inline-block;
 }
 
-section.featured div.grid { padding: 0; max-width: none; }
-section.featured div.grid a img { width: 50%; margin-bottom: 0; float: left; margin-right: 1em; }
-section.featured div.grid a:after { content: ''; display: table; clear: both; }
-section.featured div.grid a b.label { color: $white; }
-section.featured div.grid a:hover b.label { color: $green; }
+section.featured {
+    div.grid {
+        padding: 0;
+        max-width: none;
 
-section.featured.center p {
-    padding-bottom: 1.25rem;
+        a {
+            &:after {
+                content: '';
+                display: table;
+                clear: both;
+            }
+
+            &:hover {
+                b.label {
+                    color: $green;
+                }
+            }
+
+            img {
+                width: 50%;
+                margin-bottom: 0;
+                float: left;
+                margin-right: 1em;
+            }
+
+            b.label {
+                color: $white;
+            }
+        }
+    }
+
+    &.center p {
+        padding-bottom: 1.25rem;
+    }
 }
+
 
 // List Layout
 div.textspace + div.textspace { border-top: 1px solid rgba(0,0,0,0.1); }
@@ -228,10 +353,10 @@ ul.tablelist li a {
 }
 
 ul.tablelist li.schedule-list a:hover {
-    color: $purple;
+    color: $navy;
 
     b.label {
-        color: $purple;
+        color: $navy;
     }
 }
 
@@ -239,21 +364,6 @@ ul.tablelist li.schedule-list a:hover {
     border: none;
     text-decoration: none;
     color: $green;
-}
-
-.play-show-old {
-    display: inline-block;
-    margin: 20px 0;
-    background: $green;
-    color: $white;
-    cursor: pointer;
-    padding: 10px;
-
-
-    &:hover {
-        color: $purple;
-        background: $white;
-    }
 }
 
 .play-show-container {
@@ -301,6 +411,7 @@ ul.tablelist li.schedule-list a:hover {
         transition: opacity .15s linear;
     }
 }
+
 
 // Player
 .mixcloud-player {
