@@ -165,11 +165,6 @@ header {
             font-size: 18px;
         }
 
-        &.active {
-            color: $navy;
-            border-bottom: 2px solid $navy;
-        }
-
         &.listen-live {
             position: relative;
             color: $green;
@@ -219,6 +214,13 @@ header {
 
                  &:last-child {
                      margin-right: 0;
+                 }
+
+                 a {
+                     &.active {
+                         color: $navy;
+                         border-bottom: 2px solid $navy;
+                     }
                  }
              }
          }
