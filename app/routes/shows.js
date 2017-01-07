@@ -6,9 +6,9 @@ export default Ember.Route.extend({
         {
           title: "Morriarchi",
           created: "2017-01-11",
-          play: "/youllsoonknow//",
+          play: "/youllsoonknow/nts-11012017-w-special-guest-morriarchi/",
           text: "First show of the year joined for an all origianl set by Morriarchi.",
-          download: "",
+          download: "https://mega.nz/#!OdJV2a4Y!Bc-9ScaFZeXzHO0UDt1qd3xU5gfBC5TFsv1CLDHLjTM",
           nts: ""
         },
         {
