@@ -4,12 +4,20 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Morriarchi",
+          created: "2017-01-11",
+          play: "/youllsoonknow/nts-11012017-w-special-guest-morriarchi/",
+          text: "First show of the year joined for an all origianl set by Morriarchi.",
+          download: "https://mega.nz/#!OdJV2a4Y!Bc-9ScaFZeXzHO0UDt1qd3xU5gfBC5TFsv1CLDHLjTM",
+          nts: ""
+        },
+        {
           title: "Etch",
           created: "2016-12-28",
           play: "/youllsoonknow/nts-28122016-w-special-guest-etch/",
           text: "Etch joined us for a b2b Holiday Special.",
           download: "https://mega.nz/#!eAJEQCCY!VJkGIBjrwJu1S04JxmnSANuFaNpBKPXuraF_sIQOZGE",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-etch-28th-december-2016"
         },
         {
           title: "Dagger DX",
