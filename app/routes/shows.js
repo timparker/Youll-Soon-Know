@@ -6,7 +6,7 @@ export default Ember.Route.extend({
         {
           title: "Photay & Sinistarr",
           created: "2017-01-25",
-          play: "/youllsoonknow/here/",
+          play: "/youllsoonknow/nts-25012017-w-special-guests-photay-sinistarr/",
           text: "",
           download: "",
           nts: ""
