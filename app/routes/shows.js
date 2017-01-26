@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2017-01-25",
           play: "/youllsoonknow/nts-25012017-w-special-guests-photay-sinistarr/",
           text: "",
-          download: "",
+          download: "https://mega.nz/#!jAQTlLpY!g-eeWeuTn1bJJkuXaf37JRjRAbZNAfzKVU1VjBZtG-w",
           nts: ""
         },
         {
