@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2017-02-08",
           play: "/youllsoonknow/",
           text: "",
-          download: "",
+          download: "https://mega.nz/#!iEgxRLSY!8g1bL88xrzQyW3Ke1peZq-dz6sHs5c974qJEskwZ3qg",
           nts: ""
         },
         {
