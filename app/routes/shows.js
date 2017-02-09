@@ -9,7 +9,7 @@ export default Ember.Route.extend({
           play: "/youllsoonknow/nts-08022017-w-special-guests-jaisu-gypsy-mamba/",
           text: "",
           download: "https://mega.nz/#!iEgxRLSY!8g1bL88xrzQyW3Ke1peZq-dz6sHs5c974qJEskwZ3qg",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-jaisu-gypsy-mamba-8th-february-2017"
         },
         {
           title: "Photay & Sinistarr",
