@@ -4,12 +4,20 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Jaisu & Gypsy Mamba",
+          created: "2017-02-08",
+          play: "/youllsoonknow/nts-08022017-w-special-guests-jaisu-gypsy-mamba/",
+          text: "",
+          download: "https://mega.nz/#!iEgxRLSY!8g1bL88xrzQyW3Ke1peZq-dz6sHs5c974qJEskwZ3qg",
+          nts: ""
+        },
+        {
           title: "Photay & Sinistarr",
           created: "2017-01-25",
           play: "/youllsoonknow/nts-25012017-w-special-guests-photay-sinistarr/",
           text: "",
           download: "https://mega.nz/#!jAQTlLpY!g-eeWeuTn1bJJkuXaf37JRjRAbZNAfzKVU1VjBZtG-w",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-photay-sinistarr-25th-january-2017"
         },
         {
           title: "Morriarchi",
@@ -17,7 +25,7 @@ export default Ember.Route.extend({
           play: "/youllsoonknow/nts-11012017-w-special-guest-morriarchi/",
           text: "First show of the year joined for an all origianl set by Morriarchi.",
           download: "https://mega.nz/#!OdJV2a4Y!Bc-9ScaFZeXzHO0UDt1qd3xU5gfBC5TFsv1CLDHLjTM",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-morriarchi-11th-january-2017"
         },
         {
           title: "Etch",
