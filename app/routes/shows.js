@@ -6,7 +6,7 @@ export default Ember.Route.extend({
         {
           title: "Jaisu & Gypsy Mamba",
           created: "2017-02-08",
-          play: "/youllsoonknow/",
+          play: "/youllsoonknow/nts-08022017-w-special-guests-jaisu-gypsy-mamba/",
           text: "",
           download: "https://mega.nz/#!iEgxRLSY!8g1bL88xrzQyW3Ke1peZq-dz6sHs5c974qJEskwZ3qg",
           nts: ""
