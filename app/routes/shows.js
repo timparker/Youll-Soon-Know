@@ -9,7 +9,7 @@ export default Ember.Route.extend({
           play: "/youllsoonknow/nts-22022017-w-special-guests-slugabed-jake-jenkins/",
           text: "",
           download: "https://mega.nz/#!mUBGlZzA!BEF9eUzolX12dkbJk6SSU1FgWqtYZcKujw8Tl5Tors0",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-jake-jenkins-22nd-february-2017"
         },
         {
           title: "Jaisu & Gypsy Mamba",
