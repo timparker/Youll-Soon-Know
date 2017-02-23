@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Slugabed & Jake Jenkins",
+          created: "2017-02-22",
+          play: "/youllsoonknow/nts-22022017-w-special-guests-slugabed-jake-jenkins/",
+          text: "",
+          download: "https://mega.nz/#!mUBGlZzA!BEF9eUzolX12dkbJk6SSU1FgWqtYZcKujw8Tl5Tors0",
+          nts: ""
+        },
+        {
           title: "Jaisu & Gypsy Mamba",
           created: "2017-02-08",
           play: "/youllsoonknow/nts-08022017-w-special-guests-jaisu-gypsy-mamba/",
