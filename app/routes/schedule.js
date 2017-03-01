@@ -22,10 +22,10 @@ export default Ember.Route.extend({
         end: "17:00"
       },
       {
-        title: "Kromestar & Elias Zaidan",
-        date: "2017-04-19",
-        start: "15:00",
-        end: "17:00"
+        title: "Kromestar & Elias Zaidan [CH2]",
+        date: "2017-04-20",
+        start: "14:00",
+        end: "16:00"
       },
     ]
   }
