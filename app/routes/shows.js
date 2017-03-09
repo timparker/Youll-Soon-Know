@@ -9,7 +9,7 @@ export default Ember.Route.extend({
           play: "/youllsoonknow/nts-8032017-w-special-guest-gurney-champion/",
           text: "",
           download: "https://mega.nz/#!rEAjXJwJ!-oahxAc8LwlpzkNytLxbrhHDXVGeLTABq_ysQOsB6xE",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-8th-march-2017"
         },
         {
           title: "Slugabed & Jake Jenkins",
