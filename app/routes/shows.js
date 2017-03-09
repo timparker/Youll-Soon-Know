@@ -6,7 +6,7 @@ export default Ember.Route.extend({
         {
           title: "Gurney-Champion",
           created: "2017-03-08",
-          play: "/youllsoonknow/youllsoonknow/nts-8032017-w-special-guest-gurney-champion/",
+          play: "/youllsoonknow/nts-8032017-w-special-guest-gurney-champion/",
           text: "",
           download: "https://mega.nz/#!rEAjXJwJ!-oahxAc8LwlpzkNytLxbrhHDXVGeLTABq_ysQOsB6xE",
           nts: ""
