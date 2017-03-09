@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Gurney-Champion",
+          created: "2017-03-08",
+          play: "/youllsoonknow/youllsoonknow/nts-8032017-w-special-guest-gurney-champion/",
+          text: "",
+          download: "https://mega.nz/#!rEAjXJwJ!-oahxAc8LwlpzkNytLxbrhHDXVGeLTABq_ysQOsB6xE",
+          nts: ""
+        },
+        {
           title: "Slugabed & Jake Jenkins",
           created: "2017-02-22",
           play: "/youllsoonknow/nts-22022017-w-special-guests-slugabed-jake-jenkins/",
