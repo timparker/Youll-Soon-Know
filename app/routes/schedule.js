@@ -45,6 +45,12 @@ export default Ember.Route.extend({
         start: "15:00",
         end: "17:00"
       },
+      {
+        title: "TBA",
+        date: "2017-06-14",
+        start: "15:00",
+        end: "17:00"
+      },
     ]
   }
 });
