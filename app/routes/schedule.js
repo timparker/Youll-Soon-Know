@@ -22,7 +22,7 @@ export default Ember.Route.extend({
         end: "16:00"
       },
       {
-        title: "BSN Posse",
+        title: "BSN Posse & Russ Ryan",
         date: "2017-05-03",
         start: "15:00",
         end: "17:00"
