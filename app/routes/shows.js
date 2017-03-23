@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Fracture & SP:MC",
+          created: "2017-03-22",
+          play: "/youllsoonknow/nts-22032017-w-special-guests-fracture-spmc/",
+          text: "",
+          download: "https://mega.nz/#!yEZznR4Z!45PgxoSFe2SDTgRvbmV9RofY3ijtHImJhyDWjVRFCtg",
+          nts: ""
+        },
+        {
           title: "Gurney-Champion",
           created: "2017-03-08",
           play: "/youllsoonknow/nts-8032017-w-special-guest-gurney-champion/",
