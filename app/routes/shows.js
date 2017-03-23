@@ -9,7 +9,7 @@ export default Ember.Route.extend({
           play: "/youllsoonknow/nts-22032017-w-special-guests-fracture-spmc/",
           text: "",
           download: "https://mega.nz/#!yEZznR4Z!45PgxoSFe2SDTgRvbmV9RofY3ijtHImJhyDWjVRFCtg",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-fracture-spmc-22nd-march-2017"
         },
         {
           title: "Gurney-Champion",
