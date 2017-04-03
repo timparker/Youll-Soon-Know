@@ -416,7 +416,7 @@ export default Ember.Route.extend({
         created: "2015-03-11",
         play: "/youllsoonknow/nts-1132015-w-special-guests-mount-bank-wriggly-scott",
         text: "",
-        download: "https://drive.google.com/open?id=0B0IPzmV4gS38YUFqMUJrRkppUEk",
+        download: "https://mega.nz/#!qERlCYQB!S9MpmbGdlA6NXvcaWob5CtAdhmlz3h4Is9GpDBaY0eo",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-11th-march-2015"
       },
       {
