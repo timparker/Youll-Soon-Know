@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Huxley Anne",
+          created: "2017-04-05",
+          play: "/youllsoonknow/nts-05042017-w-special-guest-huxley-anne/",
+          text: "",
+          download: "https://mega.nz/#!HYYmHTwC!cAVrpLHQpzca_18LWlpHwaV8P6WKk2k8Il4eJWafyeI",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-5th-april-2017"
+        },
+        {
           title: "Fracture & SP:MC",
           created: "2017-03-22",
           play: "/youllsoonknow/nts-22032017-w-special-guests-fracture-spmc/",
