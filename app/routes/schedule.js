@@ -4,12 +4,6 @@ export default Ember.Route.extend({
   model: function () {
     return [
       {
-        title: "Kromestar & Elias Zaidan [CH2]",
-        date: "2017-04-20",
-        start: "14:00",
-        end: "16:00"
-      },
-      {
         title: "BSN Posse & Russ Ryan",
         date: "2017-05-03",
         start: "15:00",

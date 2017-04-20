@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Kromestar & Captain",
+          created: "2017-04-20",
+          play: "/youllsoonknow/nts-20042017-w-special-guests-kromestar-captain/",
+          text: "",
+          download: "https://mega.nz/#!fBRAHDyK!plN_E7KAr9dp63LUI-ugOQ3UMeVTLT1XXlL4fakhoRI",
+          nts: ""
+        },
+        {
           title: "Huxley Anne",
           created: "2017-04-05",
           play: "/youllsoonknow/nts-05042017-w-special-guest-huxley-anne/",
