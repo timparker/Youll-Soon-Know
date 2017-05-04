@@ -4,12 +4,20 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "BSN Posse & Russ Ryan",
+          created: "2017-05-03",
+          play: "/youllsoonknow/nts-03052017-w-special-guests-bsn-posse-russ-ryan/",
+          text: "",
+          download: "https://mega.nz/#!qQBxmZIY!m69X_j3QTklW8ghVNUGpAxfr9qjqx7hqht40w73ImYA",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-3rd-may-2017"
+        },
+        {
           title: "Kromestar & Captain",
           created: "2017-04-20",
           play: "/youllsoonknow/nts-20042017-w-special-guests-kromestar-captain/",
           text: "",
           download: "https://mega.nz/#!fBRAHDyK!plN_E7KAr9dp63LUI-ugOQ3UMeVTLT1XXlL4fakhoRI",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-20th-april-2017"
         },
         {
           title: "Huxley Anne",
