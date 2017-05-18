@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Lordel & Vorace",
+          created: "2017-05-17",
+          play: "/nts-17052017-w-special-guests-lordel-vorace/",
+          text: "",
+          download: "https://mega.nz/#!LRJTHR5T!1tYDVpxscI3OBRZMaWdS65TQc1nf4o8hx1SSYwRKgqk",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-17th-may"
+        },
+        {
           title: "BSN Posse & Russ Ryan",
           created: "2017-05-03",
           play: "/youllsoonknow/nts-03052017-w-special-guests-bsn-posse-russ-ryan/",
