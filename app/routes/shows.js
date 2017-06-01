@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Oceantied",
+          created: "2017-05-31",
+          play: "/nts-31052017-w-special-guest-oceantied/",
+          text: "",
+          download: "https://mega.nz/#!HIgEEbQR!8fOnPY_OY5CDHQ8RR1mY0UxcXYvbqrdXwAKwiMgzdJg",
+          nts: ""
+        },
+        {
           title: "Lordel & Vorace",
           created: "2017-05-17",
           play: "/nts-17052017-w-special-guests-lordel-vorace/",
