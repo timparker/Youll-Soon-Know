@@ -33,6 +33,6 @@ export default Ember.Route.extend({
         start: "15:00",
         end: "17:00"
       },
-    ]
+    ];
   }
 });

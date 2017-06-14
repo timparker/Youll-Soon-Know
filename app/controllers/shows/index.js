@@ -14,7 +14,7 @@ export default Ember.Controller.extend({
     // ]
     return this.get("model").reduce((prev, curr) => {
       let year = curr.created.split("-")[0];
-      let array = prev.find(k => k.year == year);
+      let array = prev.find(k => k.year === year);
 
       if (array) {
         array.shows.push(curr);
