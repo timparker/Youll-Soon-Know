@@ -6,7 +6,7 @@ export default Ember.Route.extend({
         {
           title: "Oceantied",
           created: "2017-05-31",
-          play: "/nts-31052017-w-special-guest-oceantied/",
+          play: "/youllsoonknow/nts-31052017-w-special-guest-oceantied/",
           text: "",
           download: "https://mega.nz/#!HIgEEbQR!8fOnPY_OY5CDHQ8RR1mY0UxcXYvbqrdXwAKwiMgzdJg",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-31th-may-2017"
@@ -14,7 +14,7 @@ export default Ember.Route.extend({
         {
           title: "Lordel & Vorace",
           created: "2017-05-17",
-          play: "/nts-17052017-w-special-guests-lordel-vorace/",
+          play: "/youllsoonknow/nts-17052017-w-special-guests-lordel-vorace/",
           text: "",
           download: "https://mega.nz/#!LRJTHR5T!1tYDVpxscI3OBRZMaWdS65TQc1nf4o8hx1SSYwRKgqk",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-17th-may"
