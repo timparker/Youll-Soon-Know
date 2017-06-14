@@ -9,7 +9,7 @@ export default Ember.Route.extend({
           play: "/nts-31052017-w-special-guest-oceantied/",
           text: "",
           download: "https://mega.nz/#!HIgEEbQR!8fOnPY_OY5CDHQ8RR1mY0UxcXYvbqrdXwAKwiMgzdJg",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-31th-may-2017"
         },
         {
           title: "Lordel & Vorace",
