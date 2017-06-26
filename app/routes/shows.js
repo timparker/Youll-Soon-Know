@@ -440,7 +440,7 @@ export default Ember.Route.extend({
         created: "2015-04-22",
         play: "/youllsoonknow/nts-2242015-smaharba-special",
         text: "https://soundcloud.com/timparker/nts-2242015-smaharba-special",
-        download: "http://bit.ly/1aVCjSK",
+        download: "https://mega.nz/#!yIp0GCbI!wXFZwwjK-N3wTYt2o7k1q3kt_8IpDzr05fEe18GwBys",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-6th-may-2015"
       },
       {
