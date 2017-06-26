@@ -28,13 +28,13 @@ export default Ember.Route.extend({
         end: "17:00"
       },
       {
-        title: "TBA",
+        title: "Japan Special from Tokyo",
         date: "2017-09-20",
         start: "15:00",
         end: "17:00"
       },
       {
-        title: "TBA",
+        title: "Om Unit",
         date: "2017-10-18",
         start: "15:00",
         end: "17:00"
