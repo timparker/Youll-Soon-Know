@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Kidkanevil",
+          created: "2017-06-14",
+          play: "/NTSRadio/youll-soon-know-28th-june-2017/",
+          text: "",
+          download: "",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-28th-june-2017"
+        },
+        {
           title: "The Northaze & Dolenz",
           created: "2017-06-14",
           play: "/NTSRadio/youll-soon-know-w-look-northaze-14th-june-2017/",
