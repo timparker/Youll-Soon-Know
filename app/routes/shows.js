@@ -9,7 +9,7 @@ export default Ember.Route.extend({
           play: "/NTSRadio/youll-soon-know-12th-july-2017/",
           text: "",
           download: "",
-          nts: ""
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/you-will-soon-know-12th-july-2017"
         },
         {
           title: "Kidkanevil",
