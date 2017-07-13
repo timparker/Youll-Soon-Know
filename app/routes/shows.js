@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Schmeichel & Streets of Beige",
+          created: "2017-07-12",
+          play: "/NTSRadio/youll-soon-know-12th-july-2017/",
+          text: "",
+          download: "",
+          nts: ""
+        },
+        {
           title: "Kidkanevil",
           created: "2017-06-28",
           play: "/NTSRadio/youll-soon-know-28th-june-2017/",

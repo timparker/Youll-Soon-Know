@@ -4,12 +4,6 @@ export default Ember.Route.extend({
   model: function () {
     return [
       {
-        title: "Schmeichel",
-        date: "2017-07-12",
-        start: "15:00",
-        end: "17:00"
-      },
-      {
         title: "Maja Milich & Don Leisure (Darkhouse Fam)",
         date: "2017-07-26",
         start: "15:00",
