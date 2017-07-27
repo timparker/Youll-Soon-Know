@@ -472,7 +472,7 @@ export default Ember.Route.extend({
         created: "2015-04-08",
         play: "/youllsoonknow/nts-842015-w-special-guests-deco-origin-live-from-la",
         text: "",
-        download: "http://bit.ly/1am2Jgo",
+        download: "https://mega.nz/#!6QgV1TwS!G3MaVESsa-awDBZXZdkh2xPtXAX9TQp6Vi1dmj7hoRA",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-deco-origin-live-from-la-8th-april-2015"
       },
       {
@@ -480,7 +480,7 @@ export default Ember.Route.extend({
         created: "2015-03-25",
         play: "/youllsoonknow/nts-2532015-w-fine-grains",
         text: "",
-        download: "https://drive.google.com/open?id=0B0IPzmV4gS38bzhQa3VNakxpbXM",
+        download: "https://mega.nz/#!mUJwlaLQ!1rfisd3ISqaUvG-DjX-910ISB5s6FyvWfMjJcD6Eujo",
         nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-fine-grains-records-25th-march-2015"
       },
       {
