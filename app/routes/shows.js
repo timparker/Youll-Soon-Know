@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Don Leisure & Maja Milich",
+          created: "2017-07-26",
+          play: "/NTSRadio/youll-soon-know-26th-july-2017/",
+          text: "Don Leisure of Darkhouse Fam and Halal Cool J joins us live in the studio, and Maja Milich comes through with a guest mix.",
+          download: "",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/you-will-soon-know-26th-july-2017"
+        },
+        {
           title: "Schmeichel & Streets of Beige",
           created: "2017-07-12",
           play: "/NTSRadio/youll-soon-know-12th-july-2017/",
