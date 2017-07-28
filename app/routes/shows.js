@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2017-07-26",
           play: "/NTSRadio/youll-soon-know-26th-july-2017/",
           text: "Don Leisure of Darkhouse Fam and Halal Cool J joins us live in the studio, and Maja Milich comes through with a guest mix.",
-          download: "",
+          download: "https://mega.nz/#!7AhBRaAD!nYsWjxLVQBrek5r8aXb8pvGg8wu8YJZ0vEs_zhukvEQ",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/you-will-soon-know-26th-july-2017"
         },
         {
