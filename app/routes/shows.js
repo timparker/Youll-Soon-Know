@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Tim Solo Show",
+          created: "2017-08-23",
+          play: "/NTSRadio/youll-soon-know-23rd-august-2017/",
+          text: "Been a while since I did a whole show on my own.. so here it is.",
+          download: "",
+          nts: "http://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-23-08-17"
+        },
+        {
           title: "Don Leisure & Maja Milich",
           created: "2017-07-26",
           play: "/NTSRadio/youll-soon-know-26th-july-2017/",
