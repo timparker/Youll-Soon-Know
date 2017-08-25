@@ -4,7 +4,8 @@ export default Ember.Route.extend({
   model: function () {
     return [
       {
-        title: "Japan Special from Tokyo",
+        title: "Tokyo Special w/ Submerse & Fitz Ambro$e  
+",
         date: "2017-09-20",
         start: "15:00",
         end: "17:00"
