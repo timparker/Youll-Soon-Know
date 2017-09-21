@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Tokyo Special w/ Submerse, Fitz Ambro$e & Tidal",
+          created: "2017-09-20",
+          play: "/NTSRadio/youll-soon-know-20th-september-2017/",
+          text: "Live from Tokyo!",
+          download: "https://run2098.mediahub.io/nts-20-9-17.mp3",
+          nts: "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-20th-september-2017"
+        },
+        {
           title: "Tim Solo Show",
           created: "2017-08-23",
           play: "/NTSRadio/youll-soon-know-23rd-august-2017/",
