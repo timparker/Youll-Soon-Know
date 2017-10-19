@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Om Unit & Great Dane",
+          created: "2017-10-18",
+          play: "/NTSRadio/youll-soon-know-18th-october-2017/",
+          text: "World exclusives from Om Unit & Great Dane!",
+          download: "",
+          nts: "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-18th-october-2017"
+        },
+        {
           title: "Tokyo Special w/ Submerse, Fitz Ambro$e & Tidal",
           created: "2017-09-20",
           play: "/NTSRadio/youll-soon-know-20th-september-2017/",
