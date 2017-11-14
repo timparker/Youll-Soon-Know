@@ -256,7 +256,7 @@ export default Ember.Route.extend({
           created: "2016-06-29",
           play: "/youllsoonknow/nts-2962016-w-special-guests-sonnyjim-yukka/",
           text: "Joined for a live set by Yukka and some live bars from Sonnyjim.",
-          download: "https://drive.google.com/file/d/0B0IPzmV4gS38SkpiVnZFOUU0Nm8/view?usp=sharing",
+          download: "https://run2098.mediahub.io/nts-29-6-16.mp3",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-29th-june-2016"
         },
         {
@@ -264,7 +264,7 @@ export default Ember.Route.extend({
           created: "2016-06-15",
           play: "/youllsoonknow/nts-1562016-w-special-guests-jon-phonics-ed-scissor/",
           text: "",
-          download: "https://drive.google.com/file/d/0B0IPzmV4gS38RDRrRms1RHpPbTg/view?usp=sharing",
+          download: "https://run2098.mediahub.io/nts-15-6-16.mp3",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-ed-scissortongue-jon-phonics-15th-june-2016"
         },
         {
@@ -272,7 +272,7 @@ export default Ember.Route.extend({
           created: "2016-06-01",
           play: "/youllsoonknow/nts-162016-w-special-guest-fixate/",
           text: "Fixate dropped by to showcase his new EP and a heap of new and exclusive music.",
-          download: "https://drive.google.com/file/d/0B0IPzmV4gS38VTMzUzRlWWl3M2c/view?usp=sharing",
+          download: "https://run2098.mediahub.io/nts-1-6-16.mp3",
           nts: "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-1st-june-2016"
         },
         {
