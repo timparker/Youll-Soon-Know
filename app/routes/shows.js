@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Ivy Lab & Wylie Cable",
+          created: "2017-11-15",
+          play: "/NTSRadio/youll-soon-know-w-tim-parker-ivy-lab-dome-doom-15th-november-2017/",
+          text: "",
+          download: "",
+          nts: "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-14th-november-2017"
+        },
+        {
           title: "Om Unit & Great Dane",
           created: "2017-10-18",
           play: "/NTSRadio/youll-soon-know-18th-october-2017/",
