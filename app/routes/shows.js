@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2017-11-15",
           play: "/NTSRadio/youll-soon-know-w-tim-parker-ivy-lab-dome-doom-15th-november-2017/",
           text: "",
-          download: "",
+          download: "https://run2098.mediahub.io/nts-15-11-17.mp3",
           nts: "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-14th-november-2017"
         },
         {
