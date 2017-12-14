@@ -4,6 +4,14 @@ export default Ember.Route.extend({
   model: function () {
     return [
         {
+          title: "Repeat Pattern & Stupid Kozo",
+          created: "2017-12-13",
+          play: "/NTSRadio/youll-soon-know-13th-december-2017/",
+          text: "",
+          download: "",
+          nts: "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-13th-december-2017"
+        },
+        {
           title: "Ivy Lab & Wylie Cable",
           created: "2017-11-15",
           play: "/NTSRadio/youll-soon-know-w-tim-parker-ivy-lab-dome-doom-15th-november-2017/",
