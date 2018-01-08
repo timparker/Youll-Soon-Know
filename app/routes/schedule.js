@@ -4,13 +4,13 @@ export default Ember.Route.extend({
   model: function () {
     return [
       {
-        title: "RLP (Tokyo)",
+        title: "RLP (Japan)",
         date: "2018-01-10",
         start: "15:00",
         end: "17:00"
       },
       {
-        title: "TBA",
+        title: ".čunfa (Slovenia)",
         date: "2018-02-07",
         start: "15:00",
         end: "17:00"
