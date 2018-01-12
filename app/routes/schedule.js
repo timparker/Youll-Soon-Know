@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   model: function () {
     return [
       {
-        title: ".čunfa (Slovenia)",
+        title: "oJ. (oriJanus) & .čunfa",
         date: "2018-02-07",
         start: "15:00",
         end: "17:00"
