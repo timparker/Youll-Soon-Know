@@ -9,7 +9,7 @@ export default Ember.Route.extend({
         play: "/NTSRadio/youll-soon-know-7th-february-2018/",
         text:
           "We also had The Northaze pass by for the last 20 minutes to spit some bars!",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-7-2-18.mp3",
         nts:
           "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-7th-february-2018"
       },
