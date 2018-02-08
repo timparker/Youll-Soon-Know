@@ -1,14 +1,8 @@
-import Ember from 'ember';
+import Ember from "ember";
 
 export default Ember.Route.extend({
-  model: function () {
+  model: function() {
     return [
-      {
-        title: "oJ. (oriJanus) & .čunfa",
-        date: "2018-02-07",
-        start: "15:00",
-        end: "17:00"
-      },
       {
         title: "Dolor",
         date: "2018-03-07",
