@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
+        title: "Dolor & Proc Fiskal",
+        created: "2018-03-07",
+        play: "/NTSRadio/youll-soon-know-7th-march-2018/",
+        text: "",
+        download: "",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-7th-march-2018"
+      },
+      {
         title: "OJ. (Orijanus) & Cunfa",
         created: "2018-02-07",
         play: "/NTSRadio/youll-soon-know-7th-february-2018/",
