@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
+        title: "Onra & Morriarchi",
+        created: "2018-04-04",
+        play: "/NTSRadio/youll-soon-know-4th-april-20188/",
+        text: "",
+        download: "",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-4th-april-2018"
+      },
+      {
         title: "Dolor & Proc Fiskal",
         created: "2018-03-07",
         play: "/NTSRadio/youll-soon-know-7th-march-2018/",
