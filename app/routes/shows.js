@@ -6,7 +6,7 @@ export default Ember.Route.extend({
       {
         title: "Onra & Morriarchi",
         created: "2018-04-04",
-        play: "/NTSRadio/youll-soon-know-4th-april-20188/",
+        play: "/NTSRadio/youll-soon-know-4th-april-2018/",
         text: "",
         download: "",
         nts:
