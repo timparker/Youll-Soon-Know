@@ -1062,7 +1062,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/youll-soon-know-radio-on-nts-1792013-live-from-la-with-esgar-jo-def-joe-kay",
         text: "",
-        download: "https://run2098.mediahub.io/nts-30-5-18.mp3",
+        download: "https://run2098.mediahub.io/nts-17-9-13.mp3",
         nts: ""
       },
       {
