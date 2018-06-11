@@ -113,7 +113,7 @@ export default Ember.Route.extend({
         text:
           "Don Leisure of Darkhouse Fam and Halal Cool J joins us live in the studio, and Maja Milich comes through with a guest mix.",
         download:
-          "https://mega.nz/#!7AhBRaAD!nYsWjxLVQBrek5r8aXb8pvGg8wu8YJZ0vEs_zhukvEQ",
+          "https://run2098.mediahub.io/nts-26-7-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/you-will-soon-know-26th-july-2017"
       },
@@ -123,7 +123,7 @@ export default Ember.Route.extend({
         play: "/NTSRadio/youll-soon-know-12th-july-2017/",
         text: "",
         download:
-          "https://mega.nz/#!DJ5mSBiB!4vZY4et9I8V79sF-5lgSWgch3lN-6Sa5ijevF_KWGOE",
+          "https://run2098.mediahub.io/nts-12-7-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/you-will-soon-know-12th-july-2017"
       },
@@ -133,7 +133,7 @@ export default Ember.Route.extend({
         play: "/NTSRadio/youll-soon-know-28th-june-2017/",
         text: "",
         download:
-          "https://mega.nz/#!edgHlbjb!4AJP9mmazzmwz-lO-jWO9xi68rNbmXk89Mk08Q-0WkQ",
+          "https://run2098.mediahub.io/nts-28-6-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-28th-june-2017"
       },
@@ -692,7 +692,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-2242015-smaharba-special",
         text: "https://soundcloud.com/timparker/nts-2242015-smaharba-special",
         download:
-          "https://mega.nz/#!yIp0GCbI!wXFZwwjK-N3wTYt2o7k1q3kt_8IpDzr05fEe18GwBys",
+          "https://run2098.mediahub.io/nts-22-4-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-6th-may-2015"
       },
@@ -703,7 +703,7 @@ export default Ember.Route.extend({
           "/youllsoonknow/nts-842015-w-special-guests-deco-origin-live-from-la",
         text: "",
         download:
-          "https://mega.nz/#!6QgV1TwS!G3MaVESsa-awDBZXZdkh2xPtXAX9TQp6Vi1dmj7hoRA",
+          "https://run2098.mediahub.io/nts-8-4-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-deco-origin-live-from-la-8th-april-2015"
       },
@@ -713,7 +713,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-2532015-w-fine-grains",
         text: "",
         download:
-          "https://mega.nz/#!mUJwlaLQ!1rfisd3ISqaUvG-DjX-910ISB5s6FyvWfMjJcD6Eujo",
+          "https://run2098.mediahub.io/nts-25-3-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-fine-grains-records-25th-march-2015"
       },
