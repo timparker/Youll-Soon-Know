@@ -102,7 +102,7 @@ export default Ember.Route.extend({
         text:
           "Been a while since I did a whole show on my own.. so here it is.",
         download:
-          "https://mega.nz/#!XN4ymCCC!XEm8ZR3O_o_Rs3akCNLwW7ZLBzU3Y6BEwUGJUmHXC_I",
+          "https://run2098.mediahub.io/nts-23-8-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-23-08-17"
       },
