@@ -101,8 +101,7 @@ export default Ember.Route.extend({
         play: "/NTSRadio/youll-soon-know-23rd-august-2017/",
         text:
           "Been a while since I did a whole show on my own.. so here it is.",
-        download:
-          "https://run2098.mediahub.io/nts-23-8-17.mp3",
+        download: "https://run2098.mediahub.io/nts-23-8-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-23-08-17"
       },
@@ -112,8 +111,7 @@ export default Ember.Route.extend({
         play: "/NTSRadio/youll-soon-know-26th-july-2017/",
         text:
           "Don Leisure of Darkhouse Fam and Halal Cool J joins us live in the studio, and Maja Milich comes through with a guest mix.",
-        download:
-          "https://run2098.mediahub.io/nts-26-7-17.mp3",
+        download: "https://run2098.mediahub.io/nts-26-7-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/you-will-soon-know-26th-july-2017"
       },
@@ -122,8 +120,7 @@ export default Ember.Route.extend({
         created: "2017-07-12",
         play: "/NTSRadio/youll-soon-know-12th-july-2017/",
         text: "",
-        download:
-          "https://run2098.mediahub.io/nts-12-7-17.mp3",
+        download: "https://run2098.mediahub.io/nts-12-7-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/you-will-soon-know-12th-july-2017"
       },
@@ -132,8 +129,7 @@ export default Ember.Route.extend({
         created: "2017-06-28",
         play: "/NTSRadio/youll-soon-know-28th-june-2017/",
         text: "",
-        download:
-          "https://run2098.mediahub.io/nts-28-6-17.mp3",
+        download: "https://run2098.mediahub.io/nts-28-6-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-28th-june-2017"
       },
@@ -142,8 +138,7 @@ export default Ember.Route.extend({
         created: "2017-06-14",
         play: "/NTSRadio/youll-soon-know-w-look-northaze-14th-june-2017/",
         text: "",
-        download:
-          "https://mega.nz/#!7MY2VQ5Z!Rb8XgDfUdkpXeJteNOLNa3_KpukNITe4ob12j3yY4kM",
+        download: "https://run2098.mediahub.io/nts-14-6-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/you-will-soon-know-14th-june-2017"
       },
@@ -152,8 +147,7 @@ export default Ember.Route.extend({
         created: "2017-05-31",
         play: "/youllsoonknow/nts-31052017-w-special-guest-oceantied/",
         text: "",
-        download:
-          "https://mega.nz/#!HIgEEbQR!8fOnPY_OY5CDHQ8RR1mY0UxcXYvbqrdXwAKwiMgzdJg",
+        download: "https://run2098.mediahub.io/nts-31-5-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-31th-may-2017"
       },
@@ -162,8 +156,7 @@ export default Ember.Route.extend({
         created: "2017-05-17",
         play: "/youllsoonknow/nts-17052017-w-special-guests-lordel-vorace/",
         text: "",
-        download:
-          "https://mega.nz/#!LRJTHR5T!1tYDVpxscI3OBRZMaWdS65TQc1nf4o8hx1SSYwRKgqk",
+        download: "https://run2098.mediahub.io/nts-17-5-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-17th-may"
       },
@@ -173,8 +166,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-03052017-w-special-guests-bsn-posse-russ-ryan/",
         text: "",
-        download:
-          "https://mega.nz/#!qQBxmZIY!m69X_j3QTklW8ghVNUGpAxfr9qjqx7hqht40w73ImYA",
+        download: "https://run2098.mediahub.io/nts-3-5-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-3rd-may-2017"
       },
@@ -183,8 +175,7 @@ export default Ember.Route.extend({
         created: "2017-04-20",
         play: "/youllsoonknow/nts-20042017-w-special-guests-kromestar-captain/",
         text: "",
-        download:
-          "https://mega.nz/#!fBRAHDyK!plN_E7KAr9dp63LUI-ugOQ3UMeVTLT1XXlL4fakhoRI",
+        download: "https://run2098.mediahub.io/nts-20-4-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-20th-april-2017"
       },
@@ -193,8 +184,7 @@ export default Ember.Route.extend({
         created: "2017-04-05",
         play: "/youllsoonknow/nts-05042017-w-special-guest-huxley-anne/",
         text: "",
-        download:
-          "https://mega.nz/#!HYYmHTwC!cAVrpLHQpzca_18LWlpHwaV8P6WKk2k8Il4eJWafyeI",
+        download: "https://run2098.mediahub.io/nts-4-5-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-5th-april-2017"
       },
@@ -203,8 +193,7 @@ export default Ember.Route.extend({
         created: "2017-03-22",
         play: "/youllsoonknow/nts-22032017-w-special-guests-fracture-spmc/",
         text: "",
-        download:
-          "https://mega.nz/#!yEZznR4Z!45PgxoSFe2SDTgRvbmV9RofY3ijtHImJhyDWjVRFCtg",
+        download: "https://run2098.mediahub.io/nts-22-3-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-fracture-spmc-22nd-march-2017"
       },
@@ -213,8 +202,7 @@ export default Ember.Route.extend({
         created: "2017-03-08",
         play: "/youllsoonknow/nts-8032017-w-special-guest-gurney-champion/",
         text: "",
-        download:
-          "https://mega.nz/#!rEAjXJwJ!-oahxAc8LwlpzkNytLxbrhHDXVGeLTABq_ysQOsB6xE",
+        download: "https://run2098.mediahub.io/nts-3-8-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-8th-march-2017"
       },
@@ -224,8 +212,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-22022017-w-special-guests-slugabed-jake-jenkins/",
         text: "",
-        download:
-          "https://mega.nz/#!mUBGlZzA!BEF9eUzolX12dkbJk6SSU1FgWqtYZcKujw8Tl5Tors0",
+        download: "https://run2098.mediahub.io/nts-22-2-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-jake-jenkins-22nd-february-2017"
       },
@@ -234,8 +221,7 @@ export default Ember.Route.extend({
         created: "2017-02-08",
         play: "/youllsoonknow/nts-08022017-w-special-guests-jaisu-gypsy-mamba/",
         text: "",
-        download:
-          "https://mega.nz/#!iEgxRLSY!8g1bL88xrzQyW3Ke1peZq-dz6sHs5c974qJEskwZ3qg",
+        download: "https://run2098.mediahub.io/nts-8-2-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-jaisu-gypsy-mamba-8th-february-2017"
       },
@@ -255,8 +241,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-11012017-w-special-guest-morriarchi/",
         text:
           "First show of the year joined for an all origianl set by Morriarchi.",
-        download:
-          "https://mega.nz/#!OdJV2a4Y!Bc-9ScaFZeXzHO0UDt1qd3xU5gfBC5TFsv1CLDHLjTM",
+        download: "https://run2098.mediahub.io/nts-11-1-17.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-morriarchi-11th-january-2017"
       },
@@ -265,8 +250,7 @@ export default Ember.Route.extend({
         created: "2016-12-28",
         play: "/youllsoonknow/nts-28122016-w-special-guest-etch/",
         text: "Etch joined us for a b2b Holiday Special.",
-        download:
-          "https://mega.nz/#!eAJEQCCY!VJkGIBjrwJu1S04JxmnSANuFaNpBKPXuraF_sIQOZGE",
+        download: "https://run2098.mediahub.io/nts-28-12-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-etch-28th-december-2016"
       },
@@ -275,8 +259,7 @@ export default Ember.Route.extend({
         created: "2016-12-14",
         play: "/youllsoonknow/nts-14122016-w-special-guest-dagger-dx/",
         text: "",
-        download:
-          "https://mega.nz/#!jRRgTBRZ!1ZQ8GaSbZtREuRJckV2o4T0Gy-lFiPuDyvyqmtocmyQ",
+        download: "https://run2098.mediahub.io/nts-14-12-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-dagger-dx-14th-december-2016"
       },
@@ -285,8 +268,7 @@ export default Ember.Route.extend({
         created: "2016-11-30",
         play: "/youllsoonknow/nts-30112016-w-special-guest-06-nrg/",
         text: "",
-        download:
-          "https://mega.nz/#!7Z4T2AKJ!Z1-B2qVUTCx3A6PhvNu0zS0ckM-ACGnDAqdkTIAnh7Y",
+        download: "https://run2098.mediahub.io/nts-30-11-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-30th-november-2016"
       },
@@ -295,8 +277,7 @@ export default Ember.Route.extend({
         created: "2016-11-16",
         play: "/youllsoonknow/nts-16112016-w-special-guest-vincent-paolo/",
         text: "Some feel good music after a rough week for planet earth..",
-        download:
-          "https://mega.nz/#!eVRxTCaT!AjtsnWCvgliZglgi6qFkS4iquHWJODbs5sTnRq5p_XQ",
+        download: "https://run2098.mediahub.io/nts-16-11-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-16th-november-2016"
       },
@@ -305,8 +286,7 @@ export default Ember.Route.extend({
         created: "2016-11-02",
         play: "/youllsoonknow/nts-2112016-w-special-guests-letherette/",
         text: "Over an hour of unreleased Letherette music, what a treat!",
-        download:
-          "https://mega.nz/#!GEAAgIaL!A-dwwwfTO0o-Hu5aA8mBJu5pRjNKYctZ2mHvJV6EaMQ",
+        download: "https://run2098.mediahub.io/nts-2-11-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-letherette-2nd-november-2016"
       },
@@ -315,8 +295,7 @@ export default Ember.Route.extend({
         created: "2016-10-19",
         play: "/youllsoonknow/nts-19102016-w-special-guest-combat/",
         text: "",
-        download:
-          "https://mega.nz/#!eQJw3CjR!8K7D3mmJx5zybey8h6X0v33bX21Be4SqByj51e0-EDc",
+        download: "https://run2098.mediahub.io/nts-19-10-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-19th-october-2016"
       },
@@ -326,8 +305,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-5102016-w-special-guests-kidkanevil-they-call-me-raptor/",
         text: "",
-        download:
-          "https://mega.nz/#!iFoSiITS!TDTL8hAkxi9mfr0iFzqn2QBa3FOu936epsNkyKyj8hk",
+        download: "https://run2098.mediahub.io/nts-5-10-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-5th-october-2016"
       },
@@ -337,8 +315,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-2192016-w-cosmopolyphonic-live-from-tokyo/",
         text:
           "Recorded live in Shibuya, Tokyo with Tidal, RGL, RLP and Fujimoto Tetsuro!",
-        download:
-          "https://mega.nz/#!ydRTDbSY!CA8ulgfsVqZz7xPm7qCnvfoipqM9A_lf9Nyyp-THwJc",
+        download: "https://run2098.mediahub.io/nts-21-9-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-cosmopolyphonic-special-live-from-japan-21st-september-2016"
       },
@@ -347,8 +324,7 @@ export default Ember.Route.extend({
         created: "2016-09-07",
         play: "/youllsoonknow/nts-792016-w-special-guests-al-nather-itoa/",
         text: "",
-        download:
-          "https://mega.nz/#!2MJhXbRL!O71bm4VHUBHPk54G71VsuoFJT-bBic3Ymrh1q55uRxw",
+        download: "https://run2098.mediahub.io/nts-7-9-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-al-nather-itoa-7th-september-2016"
       },
@@ -357,8 +333,7 @@ export default Ember.Route.extend({
         created: "2016-08-24",
         play: "/youllsoonknow/nts-2482016-tim-b2b-martelo/",
         text: "Combining shows with Martelo for a 4 hour b2b set!",
-        download:
-          "https://mega.nz/#!3Z5xQQjJ!5HbYa0wYzWUiU6NH5pHgY8YUC5AyG4-8rX9eWSz8Iig",
+        download: "https://run2098.mediahub.io/nts-24-8-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-martelo-24th-august-2016"
       },
@@ -367,8 +342,7 @@ export default Ember.Route.extend({
         created: "2016-08-10",
         play: "/youllsoonknow/nts-1082016-w-specials-dolenz-creme/",
         text: "",
-        download:
-          "https://mega.nz/#!uc5wWYAK!9Ckr9TLitH1evDELAvNlk8jTe31zYfkzTJH5CPWLkXs",
+        download: "https://run2098.mediahub.io/nts-10-8-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-10th-august-2016"
       },
@@ -377,8 +351,7 @@ export default Ember.Route.extend({
         created: "2016-07-27",
         play: "/youllsoonknow/nts-2772016-w-special-guest-deft/",
         text: "Joined in the second hour by Deft for a b2b session.",
-        download:
-          "https://mega.nz/#!GRRw0TRD!DNEgmBY_j4ZAgxy_cxidRHwBd2ZXh0DUPZqewYjC1PA",
+        download: "https://run2098.mediahub.io/nts-27-7-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-deft-27th-july-2016"
       },
@@ -388,8 +361,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-1372016-w-special-guests-photay-jakoby/",
         text:
           "Joined live in the studio by Photay (USA) and a guest mix from Jakoby.",
-        download:
-          "https://mega.nz/#!2VIAzYDI!VRDT0hEzkKLnsl5uPektAOau0HZE0ORZXYAuhjIMlYw",
+        download: "https://run2098.mediahub.io/nts-13-7-16.m4a",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-photay-13th-july-2016"
       },
@@ -554,8 +526,7 @@ export default Ember.Route.extend({
         created: "2015-11-18",
         play: "/youllsoonknow/nts-18112015-w-special-guest-pixelord",
         text: "",
-        download:
-          "https://mega.nz/#!LIJVyIKS!L77-lrwWiwtd5sWFeC-XIId1bg8-8hg6bqa_-PGzv30",
+        download: "https://run2098.mediahub.io/nts-18-11-165.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-18th-november-2015"
       },
@@ -691,8 +662,7 @@ export default Ember.Route.extend({
         created: "2015-04-22",
         play: "/youllsoonknow/nts-2242015-smaharba-special",
         text: "https://soundcloud.com/timparker/nts-2242015-smaharba-special",
-        download:
-          "https://run2098.mediahub.io/nts-22-4-15.mp3",
+        download: "https://run2098.mediahub.io/nts-22-4-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-6th-may-2015"
       },
@@ -702,8 +672,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-842015-w-special-guests-deco-origin-live-from-la",
         text: "",
-        download:
-          "https://run2098.mediahub.io/nts-8-4-15.mp3",
+        download: "https://run2098.mediahub.io/nts-8-4-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-deco-origin-live-from-la-8th-april-2015"
       },
@@ -712,8 +681,7 @@ export default Ember.Route.extend({
         created: "2015-03-25",
         play: "/youllsoonknow/nts-2532015-w-fine-grains",
         text: "",
-        download:
-          "https://run2098.mediahub.io/nts-25-3-15.mp3",
+        download: "https://run2098.mediahub.io/nts-25-3-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-fine-grains-records-25th-march-2015"
       },
@@ -723,8 +691,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-1132015-w-special-guests-mount-bank-wriggly-scott",
         text: "",
-        download:
-          "https://mega.nz/#!qERlCYQB!S9MpmbGdlA6NXvcaWob5CtAdhmlz3h4Is9GpDBaY0eo",
+        download: "https://run2098.mediahub.io/nts-11-3-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-11th-march-2015"
       },
