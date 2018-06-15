@@ -401,8 +401,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-1852016-w-special-guest-moxie/",
         text:
           "After being on alternate weeks for years we decided to join forces and do a show together!",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38Rm9iUjlBdF9ONTA/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-18-5-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-moxie-18th-may-2016"
       },
@@ -413,8 +412,7 @@ export default Ember.Route.extend({
           "/youllsoonknow/nts-452016-w-special-guests-know-va-richie-brains/",
         text:
           "Know V.A fly in from Amsterdam, as well as the illusive Richie Brains...",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38aXFhR1JhQWxxejA/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-4-5-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-know-va-richie-brains-4th-may-2016"
       },
@@ -425,8 +423,7 @@ export default Ember.Route.extend({
           "/youllsoonknow/nts-2042016-w-special-guests-alphabets-heaven-they-call-me-raptor/",
         text:
           "5th Birthday show with They Call Me Raptor aka Trampoline Tax and a live set by Alphabets Heaven.",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38eU9NQjBuUk5fY3c/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-20-4-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-alphabets-heaven-they-call-me-a-raptor-20th-april-2016"
       },
@@ -436,8 +433,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-642016-w-special-guests-deft-ivylab/",
         text:
           "Deft with the guest mix on this weeks show to celebrate the launch of his new EP on 20/20. The second hour also features a back to back session with Ivylab!",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38eERpZk8ySG9kZkU/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-4-6-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-6th-april-2016"
       },
@@ -446,8 +442,7 @@ export default Ember.Route.extend({
         created: "2016-03-23",
         play: "/youllsoonknow/nts-2332016-w-special-guest-dj-mocity/",
         text: "Joined by DJ MoCity from Dubai's 264cru.",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38cm9Ldk1lZ1lWU1k/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-23-3-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-23rd-march-2016"
       },
@@ -457,8 +452,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-932016-w-special-guest-the-range/",
         text:
           "Joined by very special guest The Range to celebrate the launch of his new album. Also joined in the studio by Pete and Dave from Donky Pitch.",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38NEhPY0VhSVlETXc/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-9-3-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-the-range-9th-march-2016"
       },
@@ -477,8 +471,7 @@ export default Ember.Route.extend({
         created: "2016-02-10",
         play: "/youllsoonknow/nts-1022016-w-special-guest-thelem/",
         text: "",
-        download:
-          "https://drive.google.com/open?id=0B0IPzmV4gS38Uzk5QlFOYmpOenc",
+        download: "https://run2098.mediahub.io/nts-10-2-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-thelem-10th-february-2016"
       },
@@ -488,8 +481,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-2712016-w-special-guest-joe-shakespeare",
         text:
           "Joined for this show by Joe Shakespeare of Knives & Ecology Tapes. Lots of exclusives in this one.",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38bHFUMHFDMEpXSFU/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-27-1-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-joe-shakespeare-27th-january-2016"
       },
@@ -498,7 +490,7 @@ export default Ember.Route.extend({
         created: "2016-01-13",
         play: "/youllsoonknow/nts-1312016-w-special-guest-elwd",
         text: "",
-        download: "http://bit.ly/1PuJPBi",
+        download: "https://run2098.mediahub.io/nts-13-1-16.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-elwd-13th-january-2016"
       },
@@ -507,7 +499,7 @@ export default Ember.Route.extend({
         created: "2015-12-16",
         play: "/youllsoonknow/nts-16122015-w-special-raminski",
         text: "",
-        download: "http://bit.ly/1MjsNE2",
+        download: "https://run2098.mediahub.io/nts-16-12-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-16th-december-2015"
       },
@@ -517,7 +509,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-2122015-w-special-guest-fracture",
         text:
           "Fracture joined us to celebrate the latest release on his label, Astrophonica, by Sully.",
-        download: "http://bit.ly/1To627o",
+        download: "https://run2098.mediahub.io/nts-2-12-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-fracture-2nd-december-2015"
       },
@@ -535,8 +527,7 @@ export default Ember.Route.extend({
         created: "2015-11-04",
         play: "/youllsoonknow/nts-4112015-w-special-guest-mystery-cave",
         text: "",
-        download:
-          "https://drive.google.com/open?id=0B0IPzmV4gS38RFUwM1BObXhobVU",
+        download: "https://run2098.mediahub.io/nts-4-11-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-4th-november-2015"
       },
@@ -545,8 +536,7 @@ export default Ember.Route.extend({
         created: "2015-10-21",
         play: "/youllsoonknow/nts-20102015-w-special-guests-kidkanevil-nonames",
         text: "",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38ZUREYTBzYnY5RFE/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-21-10-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-21st-october-2015"
       },
@@ -555,8 +545,7 @@ export default Ember.Route.extend({
         created: "2015-10-07",
         play: "/youllsoonknow/nts-7102015-w-special-guest-iglooghost",
         text: "",
-        download:
-          "https://drive.google.com/open?id=0B0IPzmV4gS38VmZIcENXTzdtNWc",
+        download: "https://run2098.mediahub.io/nts-7-10-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-iglooghost-7th-october-2015"
       },
@@ -565,7 +554,7 @@ export default Ember.Route.extend({
         created: "2015-09-23",
         play: "/youllsoonknow/nts-2392015-w-special-guests-ivylab-deft-spmc",
         text: "",
-        download: "http://bit.ly/1R45rqW",
+        download: "https://run2098.mediahub.io/nts-23-9-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-23rd-september-2015"
       },
@@ -574,8 +563,7 @@ export default Ember.Route.extend({
         created: "2015-09-09",
         play: "/youllsoonknow/nts-992015-w-special-guests-itsnate-jd-reid",
         text: "",
-        download:
-          "https://drive.google.com/open?id=0B0IPzmV4gS38SlRBUWJ0WVpKVWM",
+        download: "https://run2098.mediahub.io/nts-9-9-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-its-nate-jd-reid-9th-september-2015"
       },
@@ -584,8 +572,7 @@ export default Ember.Route.extend({
         created: "2015-09-02",
         play: "/youllsoonknow/nts-292015-w-special-guests-tk-kayembe-defcon",
         text: "",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38R0I5RWNtU3B6LXM/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-2-9-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tk-does-werk-defcon-2nd-august-2015"
       },
@@ -595,8 +582,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-1282015-w-special-guests-lewis-james-my-panda-shall-fly",
         text: "",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38T3A2RmxWS0gya1E/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-12-8-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-my-panda-shall-fly-lewis-james-12th-august-2015"
       },
@@ -605,8 +591,7 @@ export default Ember.Route.extend({
         created: "2015-07-29",
         play: "/youllsoonknow/nts-2972015-w-special-guest-spmc",
         text: "",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38YUh0MmtuNm9KTWs/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-29-7-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-29th-july-2015"
       },
@@ -615,8 +600,7 @@ export default Ember.Route.extend({
         created: "2015-07-15",
         play: "/youllsoonknow/nts-1572015-w-special-guests-parris-etch",
         text: "",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38TUJIYlNQV0NPWTA/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-15-7-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-etch-parris-15th-july-2015"
       },
@@ -625,8 +609,7 @@ export default Ember.Route.extend({
         created: "2015-07-01",
         play: "/youllsoonknow/nts-162015-w-special-guest-stray",
         text: "",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38MVFYRjB1dGJQNDA/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-1-6-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-1st-june-2015"
       },
@@ -635,7 +618,7 @@ export default Ember.Route.extend({
         created: "2015-06-03",
         play: "/youllsoonknow/nts-362015-live-from-dalston-roofpark",
         text: "",
-        download: "http://bit.ly/1djwHTD",
+        download: "https://run2098.mediahub.io/nts-3-6-15.mp3",
         nts: ""
       },
       {
@@ -643,7 +626,7 @@ export default Ember.Route.extend({
         created: "2015-05-20",
         play: "/youllsoonknow/nts-2052015-w-special-guest-submerse",
         text: "",
-        download: "http://bit.ly/1JE7QXy",
+        download: "https://run2098.mediahub.io/nts-20-5-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-20th-may-2015"
       },
@@ -652,8 +635,7 @@ export default Ember.Route.extend({
         created: "2015-05-06",
         play: "/youllsoonknow/nts-652015-w-special-guests-beat-soup-nutriot",
         text: "",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38Z29LUEVkWUtkSHc/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-6-5-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-6th-may-2015"
       },
@@ -700,7 +682,7 @@ export default Ember.Route.extend({
         created: "2015-02-25",
         play: "/youllsoonknow/nts-2522015-w-special-guests-the-purist-grinel",
         text: "",
-        download: "http://bit.ly/1APwhf7",
+        download: "https://run2098.mediahub.io/nts-25-2-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-25th-february-2015"
       },
@@ -710,7 +692,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-1122015-w-special-guests-bambooman-aurora-dee-raynes",
         text: "",
-        download: "http://bit.ly/1Dmepuj",
+        download: "https://run2098.mediahub.io/nts-11-2-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-11th-february-2015"
       },
@@ -719,7 +701,7 @@ export default Ember.Route.extend({
         created: "2015-02-21",
         play: "/youllsoonknow/nts-2822015-w-special-guest-koenraad",
         text: "",
-        download: "http://bit.ly/1HDi6ju",
+        download: "https://run2098.mediahub.io/nts-28-2-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-28th-january-2015"
       },
@@ -729,7 +711,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-712015-w-special-guests-tehbis-touchy-subject",
         text: "",
-        download: "http://bit.ly/1Dknrpz",
+        download: "https://run2098.mediahub.io/nts-7-1-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-tehbis-touchy-subject-7th-january-2014"
       },
@@ -738,8 +720,7 @@ export default Ember.Route.extend({
         created: "2015-01-01",
         play: "/youllsoonknow/nts-112015-w-special-guests-j-todd-mr-e",
         text: "",
-        download:
-          "https://drive.google.com/open?id=0B0IPzmV4gS38OHlPNUNCVElsQm8",
+        download: "https://run2098.mediahub.io/nts-1-1-15.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-31st-december-2014"
       },
@@ -748,7 +729,7 @@ export default Ember.Route.extend({
         created: "2014-12-10",
         play: "/youllsoonknow/nts-10122014-w-special-guests-ivy-lab-spmc",
         text: "",
-        download: "http://bit.ly/1z15htv",
+        download: "https://run2098.mediahub.io/nts-10-12-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-ivy-lab-spmc-10th-december-2014"
       },
@@ -757,8 +738,7 @@ export default Ember.Route.extend({
         created: "2014-11-12",
         play: "/youllsoonknow/nts-12112014-w-special-guest-jd-reid",
         text: "",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38OG1OZ241OU9ERlE/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-12-11-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guest-jd-reid-12th-november-2014"
       },
@@ -767,7 +747,7 @@ export default Ember.Route.extend({
         created: "2014-10-15",
         play: "/youllsoonknow/nts-15102014-w-special-guest-boxcutter",
         text: "",
-        download: "http://bit.ly/18EMFG6",
+        download: "https://run2098.mediahub.io/nts-15-10-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-boxcutter-15th-october-2014"
       },
@@ -776,7 +756,7 @@ export default Ember.Route.extend({
         created: "2014-10-01",
         play: "/youllsoonknow/nts-1102014-w-special-guest-sinistarr",
         text: "",
-        download: "http://bit.ly/1vnZsqK",
+        download: "https://run2098.mediahub.io/nts-1-10-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-1st-october-2014"
       },
@@ -785,8 +765,7 @@ export default Ember.Route.extend({
         created: "2014-09-17",
         play: "/youllsoonknow/nts-1792014-w-special-guest-fracture",
         text: "",
-        download:
-          "https://drive.google.com/open?id=0B0IPzmV4gS38dFF6aVdCS2ZJYjA",
+        download: "https://run2098.mediahub.io/nts-17-9-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-fracture-17th-september-2014"
       },
@@ -796,7 +775,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-392014-w-special-guests-dane-chadwick-calculon-moiety",
         text: "",
-        download: "http://bit.ly/1Ey1p6C",
+        download: "https://run2098.mediahub.io/nts-3-9-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-3rd-september-2014"
       },
@@ -806,7 +785,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-2082014-w-special-guests-trampoline-tax-dj-dj-booth",
         text: "",
-        download: "http://bit.ly/1uPmWiJ",
+        download: "https://run2098.mediahub.io/nts-20-8-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-trampoline-tax-dj-dj-booth-20th-august-2014"
       },
@@ -815,7 +794,7 @@ export default Ember.Route.extend({
         created: "2014-08-06",
         play: "/youllsoonknow/nts-682014-w-special-guests-ivy-lab-nalepa",
         text: "",
-        download: "http://bit.ly/1DkpjPb",
+        download: "https://run2098.mediahub.io/nts-6-8-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-ivy-lab-nalepa-6th-august-2014"
       },
@@ -825,7 +804,7 @@ export default Ember.Route.extend({
         play: "/youllsoonknow/nts-2372014-w-special-guests-fly-high-society",
         text:
           "Guests: Bolts / Sertone / Hlmnsra / Tehbis / Veils / Iglooghost / They Call Me Raptor",
-        download: "http://bit.ly/1tP4pYD",
+        download: "https://run2098.mediahub.io/nts-23-7-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-sertone-iglooghost-bolts-hlmnsra-and-veils-23rd-july-2014"
       },
@@ -834,7 +813,7 @@ export default Ember.Route.extend({
         created: "2014-07-09",
         play: "/youllsoonknow/nts-972014-live-from-dalston-roofpark",
         text: "",
-        download: "http://bit.ly/1vnZuPp",
+        download: "https://run2098.mediahub.io/nts-9-7-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-live-from-dalston-roofpark-9th-july-2014"
       },
@@ -854,7 +833,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-1162014-w-special-guests-my-dry-wet-mess-hannah-faith",
         text: "",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-11-6-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-featuring-my-dry-wet-mess-hannah-faith-11th-june-2014"
       },
@@ -863,7 +842,7 @@ export default Ember.Route.extend({
         created: "2014-05-28",
         play: "/youllsoonknow/nts-2852014-w-special-guest-kromestar",
         text: "",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-28-5-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-28th-may-2014"
       },
@@ -873,7 +852,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-1452014-w-special-guests-kidkanevil-jon-phonics",
         text: "",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-14-5-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-featuring-kidkanevil-jon-phonics-14th-may-2014"
       },
@@ -882,7 +861,7 @@ export default Ember.Route.extend({
         created: "2014-04-30",
         play: "/youllsoonknow/nts-3042014-w-special-guests-elan-mike-gao",
         text: "",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-30-4-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-30th-april-2014"
       },
@@ -891,7 +870,7 @@ export default Ember.Route.extend({
         created: "2014-04-16",
         play: "/youllsoonknow/nts-1642014-w-special-guests-lockah-slugabed",
         text: "",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-16-4-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youllsoonknow16042014"
       },
@@ -900,7 +879,7 @@ export default Ember.Route.extend({
         created: "2014-04-02",
         play: "/youllsoonknow/nts-242014-w-special-guest-chris-read",
         text: "",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-2-4-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/timparker020414"
       },
@@ -909,7 +888,7 @@ export default Ember.Route.extend({
         created: "2014-03-19",
         play: "/youllsoonknow/nts-1932014-w-special-guest-mark-aubert",
         text: "",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-19-3-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youllsoonknow190314"
       },
@@ -919,7 +898,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/nts-532014-w-special-guests-problem-child-nonames",
         text: "With Sumgii, Dabbla, Dubbledge, Illaman & Nonames.",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-5-3-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youllsoonknow050314"
       },
@@ -929,7 +908,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/youll-soon-know-radio-on-nts-1922014-special-guests-the-range-they-call-me-raptor",
         text: "",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-20-2-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youllsoonknow190214"
       },
@@ -939,7 +918,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/youll-soon-know-radio-on-nts-522014-special-guests-dert-chesslo-junior",
         text: "",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-5-2-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youllsoonknow05022014"
       },
@@ -949,7 +928,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/youll-soon-know-radio-on-nts-2212014-special-guests-kromestar-jason-x",
         text: "",
-        download: "",
+        download: "https://run2098.mediahub.io/nts-22-1-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youllsoonknow220114"
       },
@@ -959,8 +938,7 @@ export default Ember.Route.extend({
         play:
           "/youllsoonknow/youll-soon-know-radio-on-nts-812014-special-guests-paul-pre-dredi",
         text: "",
-        download:
-          "https://drive.google.com/file/d/0B0IPzmV4gS38ZWlTUzlpUmVBRlE/view?usp=sharing",
+        download: "https://run2098.mediahub.io/nts-8-1-14.mp3",
         nts:
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-8th-january-2014"
       },
