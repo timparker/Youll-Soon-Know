@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
-        title: "TBA",
+        title: "Crssspace",
         date: "2018-07-25",
         start: "15:00",
         end: "17:00"
