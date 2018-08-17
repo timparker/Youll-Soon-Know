@@ -10,7 +10,7 @@ export default Ember.Route.extend({
         end: "16:00"
       },
       {
-        title: "Tokyo Special",
+        title: "Tokyo Special w/ Submerse, Budamunk, Fonkis & RGL",
         date: "2018-09-20",
         start: "14:00",
         end: "16:00"
