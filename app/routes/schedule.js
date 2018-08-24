@@ -4,12 +4,6 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
-        title: "Cunfa, Russ Ryan & Stephen Valentini",
-        date: "2018-08-23",
-        start: "14:00",
-        end: "16:00"
-      },
-      {
         title: "Tokyo Special w/ Submerse, Budamunk, Fonkis & RGL",
         date: "2018-09-20",
         start: "14:00",
