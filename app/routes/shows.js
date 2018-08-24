@@ -5,7 +5,7 @@ export default Ember.Route.extend({
     return [
       {
         title: "Cunfa, Russ Ryan & Stephen V",
-        created: "2018-07-25",
+        created: "2018-08-23",
         play: "/NTSRadio/youll-soon-know-23rd-august-2018/",
         text: "",
         download: "",
