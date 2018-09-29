@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
+        title: "Tokyo Special w/Submerse, Budamunk, Fonkis & RGL",
+        created: "2018-09-20",
+        play: "/NTSRadio/youll-soon-know-20th-september-2018/",
+        text: "",
+        download: "https://archives.youllsoonknow.us/nts-20-9-18.mp3",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/youll-know-soon-20th-september-2018"
+      },
+      {
         title: "Cunfa, Russ Ryan & Stephen V",
         created: "2018-08-23",
         play: "/NTSRadio/youll-soon-know-23rd-august-2018/",
