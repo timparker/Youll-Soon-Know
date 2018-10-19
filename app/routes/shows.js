@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
+        title: "Ivy Lab & Deft",
+        created: "2018-10-18",
+        play: "/NTSRadio/youll-soon-know-18th-october-2018/",
+        text: "",
+        download: "",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-and-ivy-lab-18th-october-2018"
+      },
+      {
         title: "Tokyo Special w/Submerse, Budamunk, Fonkis & RGL",
         created: "2018-09-20",
         play: "/NTSRadio/youll-soon-know-20th-september-2018/",
