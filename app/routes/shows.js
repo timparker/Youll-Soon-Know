@@ -6,11 +6,11 @@ export default Ember.Route.extend({
       {
         title: "Solo Show",
         created: "2018-11-15",
-        play: "/NTSRadio/youll-soon-know-18th-october-2018/",
+        play: "/NTSRadio/youll-soon-know-15th-november-2018/",
         text: "",
         download: "",
         nts:
-          ""
+          "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-15th-november-2018"
       },
       {
         title: "Ivy Lab & Deft",
