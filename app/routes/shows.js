@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
-        title: "Solo Show",
+        title: "Tim Solo Show",
         created: "2018-11-15",
         play: "/NTSRadio/youll-soon-know-15th-november-2018/",
         text: "",
@@ -1326,7 +1326,7 @@ export default Ember.Route.extend({
           "http://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-special-guests-huess-athar-1382012"
       },
       {
-        title: "Tim on his own",
+        title: "Tim Solo Show",
         created: "2012-07-30",
         play: "/youllsoonknow/youll-soon-know-radio-on-nts-3072012-tim-parker",
         text: "",
