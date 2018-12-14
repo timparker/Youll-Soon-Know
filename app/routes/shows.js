@@ -10,7 +10,7 @@ export default Ember.Route.extend({
           text: "",
           download: "",
           nts:
-            "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-15th-november-2018"
+            "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-13th-december-2018"
         },
         {
         title: "Tim Solo Show",
