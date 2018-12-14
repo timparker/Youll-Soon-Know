@@ -6,7 +6,7 @@ export default Ember.Route.extend({
         {
           title: "Ally Mobbs",
           created: "2018-12-13",
-          play: "NTSRadio/youll-soon-know-13th-december-2018/",
+          play: "/NTSRadio/youll-soon-know-13th-december-2018/",
           text: "",
           download: "",
           nts:
