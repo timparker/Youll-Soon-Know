@@ -3,7 +3,16 @@ import Ember from "ember";
 export default Ember.Route.extend({
   model: function() {
     return [
-      {
+        {
+          title: "Ally Mobbs",
+          created: "2018-12-13",
+          play: "NTSRadio/youll-soon-know-13th-december-2018/",
+          text: "",
+          download: "",
+          nts:
+            "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-15th-november-2018"
+        },
+        {
         title: "Tim Solo Show",
         created: "2018-11-15",
         play: "/NTSRadio/youll-soon-know-15th-november-2018/",
