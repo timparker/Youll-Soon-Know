@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2018-12-13",
           play: "/NTSRadio/youll-soon-know-13th-december-2018/",
           text: "",
-          download: "",
+          download: "https://archives.youllsoonknow.us/nts-13-12-18.mp3",
           nts:
             "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-13th-december-2018"
         },
