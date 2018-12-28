@@ -10,7 +10,7 @@ export default Ember.Route.extend({
         end: "16:00"
     },
     {
-      title: "TBA",
+      title: "Josip Klobučar",
       date: "2019-02-07",
       start: "14:00",
       end: "16:00"
