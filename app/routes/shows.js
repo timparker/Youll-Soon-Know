@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
         {
+          title: "Augustine Kofie & Josip Klobučar",
+          created: "2019-02-07",
+          play: "/NTSRadio/youll-soon-know-7th-february-2019/",
+          text: "",
+          download: "",
+          nts:
+            "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-7th-february-20199"
+        },
+        {
           title: "Dolenz",
           created: "2019-01-10",
           play: "/NTSRadio/youll-soon-know-10th-january-2019/",
