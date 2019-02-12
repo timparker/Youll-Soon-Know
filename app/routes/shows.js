@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2019-02-07",
           play: "/NTSRadio/youll-soon-know-7th-february-2019/",
           text: "",
-          download: "",
+          download: "https://archives.youllsoonknow.us/nts-07-02-19.mp3",
           nts:
             "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-7th-february-20199"
         },
@@ -17,7 +17,7 @@ export default Ember.Route.extend({
           created: "2019-01-10",
           play: "/NTSRadio/youll-soon-know-10th-january-2019/",
           text: "",
-          download: "https://archives.youllsoonknow.us/nts-01-10-19.mp3",
+          download: "https://archives.youllsoonknow.us/nts-10-01-19.mp3",
           nts:
             "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-10th-january-2019"
         },
