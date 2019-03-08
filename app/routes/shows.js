@@ -4,13 +4,22 @@ export default Ember.Route.extend({
   model: function() {
     return [
         {
+          title: "Dayle",
+          created: "2019-03-07",
+          play: "/NTSRadio/youll-soon-know-7th-march-2019/",
+          text: "",
+          download: "",
+          nts:
+            "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-w-tim-parker-7th-march-2019"
+        },
+        {
           title: "Augustine Kofie & Josip Klobučar",
           created: "2019-02-07",
           play: "/NTSRadio/youll-soon-know-7th-february-2019/",
           text: "",
           download: "https://archives.youllsoonknow.us/nts-07-02-19.mp3",
           nts:
-            "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-7th-february-20199"
+            "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-7th-february-2019"
         },
         {
           title: "Dolenz",
