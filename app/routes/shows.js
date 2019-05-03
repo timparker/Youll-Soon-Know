@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
         {
+          title: "House Shoes",
+          created: "2019-05-02",
+          play: "/NTSRadio/youll-soon-know-2nd-may-2019/",
+          text: "",
+          download: "https://archives.youllsoonknow.us/nts-02-05-19.mp3",
+          nts:
+            "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-2nd-may-2019"
+        },
+        {
           title: "Deft",
           created: "2019-04-04",
           play: "/NTSRadio/youll-soon-know-4th-april-2019/",
