@@ -8,8 +8,8 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "ember build",
-    "start": "ember server",
+    "build": "ember build --environment production",
+    "start": "ember serve",
     "test": "ember test"
   },
   "repository": "",

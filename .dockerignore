@@ -1,0 +1,12 @@
+.git
+.sass-cache
+.DS_Store
+
+*.log
+
+bower_components
+connect.lock
+coverage
+dist
+node_modules
+tmp

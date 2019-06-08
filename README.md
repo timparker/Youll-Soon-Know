@@ -1,28 +1,23 @@
-# Youllsoonknow
-
-Words
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+http://www.youllsoonknow.us/
 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+* [Node.js v6 + NPM](http://nodejs.org/)
+* GNU Make >= v4 - `brew install make`
 
 ## Installation
 
 * `git clone <repository-url>` this repository
 * `cd youllsoonknow`
+* `npm install -g bower`
+* `npm install -g ember-cli@2.9.1`
 * `npm install`
 * `bower install`
 
-## Running / Development
+## Development
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
@@ -36,14 +31,15 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember test`
 * `ember test --server`
 
-### Building
+### Building & Deploying
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+* `gmake dist`
+* Commit all changes & push to GitHub
+* The website will automatically update - it is set to pull from GitHub
 
-### Deploying
+### Preview website
 
-Specify what it takes to deploy your app.
+* `gmake preview` - preview generated website, as it will appear live
 
 ## Further Reading / Useful Links
 
