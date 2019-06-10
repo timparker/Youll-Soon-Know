@@ -5,8 +5,10 @@
 *.log
 
 bower_components
+Caddyfile
 connect.lock
 coverage
 dist
+Dockerfile
 node_modules
 tmp

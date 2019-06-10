@@ -1,0 +1,7 @@
+localhost {
+  gzip
+
+  rewrite {
+    to {path} {path}/ /
+  }
+}
