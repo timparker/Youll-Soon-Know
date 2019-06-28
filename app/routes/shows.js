@@ -8,7 +8,7 @@ export default Ember.Route.extend({
           created: "2019-06-27",
           play: "/NTSRadio/youll-soon-know-27th-june-2019/",
           text: "With Dominic J Marshall of DJM Trio & Cinematic Orchestra band member.",
-          download: "",
+          download: "https://archives.youllsoonknow.us/nts-27-06-19.mp3",
           nts:
             "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-27th-june-2019"
         },
