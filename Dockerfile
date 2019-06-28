@@ -2,9 +2,6 @@ FROM node:6.11.0
 
 RUN npm install -g bower && bower --version
 
-COPY app /app/app
-COPY config /app/config
-COPY public /app/public
 COPY .bowerrc /app/.bowerrc
 COPY .ember-cli /app/.ember-cli
 COPY .jshintrc /app/.jshintrc

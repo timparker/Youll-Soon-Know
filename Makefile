@@ -45,15 +45,11 @@ help:
 
 .PHONY: build
 build: $(DOCKER) ## b  | Build Docker image
-	@$(DOCKER) inspect $(DOCKER_IMAGE) 1>/dev/null || $(MAKE) build!
-.PHONY: b
-b: build
-
-.PHONY: build!
-build!:
 	@$(DOCKER) build \
 	  --tag $(DOCKER_IMAGE) \
 	  $(CURDIR)
+.PHONY: b
+b: build
 
 .PHONY: clean
 clean:
@@ -63,6 +59,9 @@ clean:
 dist: clean build ## d  | Generate website
 	@$(DOCKER) run \
 	  --volume $(CURDIR)/dist:/app/dist \
+	  --volume $(CURDIR)/app:/app/app \
+	  --volume $(CURDIR)/config:/app/config \
+	  --volume $(CURDIR)/public:/app/public \
 	  --user root \
 	  $(DOCKER_IMAGE) \
 	  yarn run build
