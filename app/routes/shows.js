@@ -3,79 +3,89 @@ import Ember from "ember";
 export default Ember.Route.extend({
   model: function() {
     return [
-        {
-          title: "Dominic J Marshall",
-          created: "2019-06-27",
-          play: "/NTSRadio/youll-soon-know-27th-june-2019/",
-          text: "With Dominic J Marshall of DJM Trio & Cinematic Orchestra band member.",
-          download: "https://archives.youllsoonknow.us/nts-27-06-19.mp3",
-          nts:
-            "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-27th-june-2019"
-        },
-        {
-          title: "Slugabed",
-          created: "2019-05-30",
-          play: "/NTSRadio/youll-soon-know-30th-may-2019/",
-          text: "",
-          download: "https://archives.youllsoonknow.us/nts-30-05-19.mp3",
-          nts:
-            "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-30th-may-2019"
-        },
-        {
-          title: "House Shoes",
-          created: "2019-05-02",
-          play: "/NTSRadio/youll-soon-know-2nd-may-2019/",
-          text: "",
-          download: "https://archives.youllsoonknow.us/nts-02-05-19.mp3",
-          nts:
-            "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-2nd-may-2019"
-        },
-        {
-          title: "Deft",
-          created: "2019-04-04",
-          play: "/NTSRadio/youll-soon-know-4th-april-2019/",
-          text: "",
-          download: "https://archives.youllsoonknow.us/nts-04-04-19.mp3",
-          nts:
-            "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-4th-april-2019"
-        },
-        {
-          title: "Dayle",
-          created: "2019-03-07",
-          play: "/NTSRadio/youll-soon-know-7th-march-2019/",
-          text: "",
-          download: "https://archives.youllsoonknow.us/nts-07-03-19.mp3",
-          nts:
-            "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-w-tim-parker-7th-march-2019"
-        },
-        {
-          title: "Augustine Kofie & Josip Klobučar",
-          created: "2019-02-07",
-          play: "/NTSRadio/youll-soon-know-7th-february-2019/",
-          text: "",
-          download: "https://archives.youllsoonknow.us/nts-07-02-19.mp3",
-          nts:
-            "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-7th-february-2019"
-        },
-        {
-          title: "Dolenz",
-          created: "2019-01-10",
-          play: "/NTSRadio/youll-soon-know-10th-january-2019/",
-          text: "",
-          download: "https://archives.youllsoonknow.us/nts-10-01-19.mp3",
-          nts:
-            "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-10th-january-2019"
-        },
-        {
-          title: "Ally Mobbs",
-          created: "2018-12-13",
-          play: "/NTSRadio/youll-soon-know-13th-december-2018/",
-          text: "",
-          download: "https://archives.youllsoonknow.us/nts-13-12-18.mp3",
-          nts:
-            "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-13th-december-2018"
-        },
-        {
+      {
+        title: "Morriarchi & Lewps Hekla",
+        created: "2019-07-25",
+        play: "/NTSRadio/youll-soon-know-25th-july-2019/",
+        text: "",
+        download: "",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-25th-july-2019"
+      },
+      {
+        title: "Dominic J Marshall",
+        created: "2019-06-27",
+        play: "/NTSRadio/youll-soon-know-27th-june-2019/",
+        text:
+          "With Dominic J Marshall of DJM Trio & Cinematic Orchestra band member.",
+        download: "https://archives.youllsoonknow.us/nts-27-06-19.mp3",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-27th-june-2019"
+      },
+      {
+        title: "Slugabed",
+        created: "2019-05-30",
+        play: "/NTSRadio/youll-soon-know-30th-may-2019/",
+        text: "",
+        download: "https://archives.youllsoonknow.us/nts-30-05-19.mp3",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-30th-may-2019"
+      },
+      {
+        title: "House Shoes",
+        created: "2019-05-02",
+        play: "/NTSRadio/youll-soon-know-2nd-may-2019/",
+        text: "",
+        download: "https://archives.youllsoonknow.us/nts-02-05-19.mp3",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-2nd-may-2019"
+      },
+      {
+        title: "Deft",
+        created: "2019-04-04",
+        play: "/NTSRadio/youll-soon-know-4th-april-2019/",
+        text: "",
+        download: "https://archives.youllsoonknow.us/nts-04-04-19.mp3",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-4th-april-2019"
+      },
+      {
+        title: "Dayle",
+        created: "2019-03-07",
+        play: "/NTSRadio/youll-soon-know-7th-march-2019/",
+        text: "",
+        download: "https://archives.youllsoonknow.us/nts-07-03-19.mp3",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-w-tim-parker-7th-march-2019"
+      },
+      {
+        title: "Augustine Kofie & Josip Klobučar",
+        created: "2019-02-07",
+        play: "/NTSRadio/youll-soon-know-7th-february-2019/",
+        text: "",
+        download: "https://archives.youllsoonknow.us/nts-07-02-19.mp3",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-7th-february-2019"
+      },
+      {
+        title: "Dolenz",
+        created: "2019-01-10",
+        play: "/NTSRadio/youll-soon-know-10th-january-2019/",
+        text: "",
+        download: "https://archives.youllsoonknow.us/nts-10-01-19.mp3",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-w-tim-parker-10th-january-2019"
+      },
+      {
+        title: "Ally Mobbs",
+        created: "2018-12-13",
+        play: "/NTSRadio/youll-soon-know-13th-december-2018/",
+        text: "",
+        download: "https://archives.youllsoonknow.us/nts-13-12-18.mp3",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-13th-december-2018"
+      },
+      {
         title: "Tim Solo Show",
         created: "2018-11-15",
         play: "/NTSRadio/youll-soon-know-15th-november-2018/",
