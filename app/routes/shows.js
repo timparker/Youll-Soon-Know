@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
+        title: "Sumgii",
+        created: "2019-10-17",
+        play: "/NTSRadio/youll-soon-know-w-sumgii-17th-october-2019/",
+        text: "",
+        download: "",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/youll-soon-know-17th-october-2019"
+      },
+      {
         title: "Submerse, Fitz Ambro$e & Repeat Pattern",
         created: "2019-09-19",
         play: "/NTSRadio/youll-soon-know-19th-september-2019/",
