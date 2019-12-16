@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
+        title: "Tim Solo Show",
+        created: "2019-12-12",
+        play: "/NTSRadio/youll-soon-know-12th-december-2019/",
+        text: "",
+        download: "",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-w-tim-parker-12th-december-2019"
+      },
+      {
         title: "NAbstract & Verbz",
         created: "2019-11-14",
         play: "/NTSRadio/youll-soon-know-14th-november-2019/",
