@@ -21,14 +21,20 @@
               {{#if show.text}}
                 <p>{{show.text}}</p>
               {{/if}}
-              {{#if show.download}}
-                <p><a href="{{show.download}}" target="_blank">Download</a></p>
-              {{/if}}
-                <br>
-              {{#if show.nts}}
-                <p><a href="{{show.nts}}" target="_blank">Listen on the NTS Website</a></p>
-              {{/if}}
-              <p style="text-align: center; margin-top: 80px;">{{#link-to "shows.index"}}All shows{{/link-to}}</p>
+
+              <p class="listen-via">Listen Via:
+                {{#if show.nts}}
+                  <a href="{{show.nts}}" target="_blank">NTS Website</a>
+                {{/if}}
+                {{#if show.soundcloud}}
+                  <a href="{{show.soundcloud}}" target="_blank">Soundcloud</a>
+                {{/if}}
+                {{#if show.download}}
+                  <a href="{{show.download}}" target="_blank">Download</a>
+                {{/if}}
+              </p>
+
+              <p style="text-align: center; margin-top: 80px;">{{#link-to "shows.index"}}Back to all shows{{/link-to}}</p>
           </div>
       </article>
   </section>
