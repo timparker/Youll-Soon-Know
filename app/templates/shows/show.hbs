@@ -23,15 +23,7 @@
               {{/if}}
 
               <p class="listen-via">Listen via:
-                {{#if show.nts}}
-                  <a href="{{show.nts}}" target="_blank">NTS Website</a>
-                {{/if}}
-                {{#if show.soundcloud}}
-                  <a href="{{show.soundcloud}}" target="_blank">Soundcloud</a>
-                {{/if}}
-                {{#if show.download}}
-                  <a href="{{show.download}}" target="_blank">Download</a>
-                {{/if}}
+                {{#if show.nts}}<a href="{{show.nts}}" target="_blank">NTS Website</a>{{/if}}{{#if show.soundcloud}}, <a href="{{show.soundcloud}}" target="_blank">Soundcloud</a>{{/if}}{{#if show.download}}, <a href="{{show.download}}" target="_blank">Download</a>{{/if}}
               </p>
 
               <p style="text-align: center; margin-top: 80px;">{{#link-to "shows.index"}}Back to all shows{{/link-to}}</p>
