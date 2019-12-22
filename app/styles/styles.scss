@@ -457,6 +457,18 @@ ul.tablelist li.schedule-list a:hover {
   margin-right: 10px;
 }
 
+.listen-via a:not(:last-child):after {
+  margin-right: 10px;
+}
+
+.listen-via a:after {
+  content: ", ";
+}
+
+.listen-via a:last-child:after {
+  content: "";
+}
+
 // Player
 .mixcloud-player {
   position: fixed;
