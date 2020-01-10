@@ -4,6 +4,16 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
+        title: "The Northaze",
+        created: "2020-01-09",
+        play: "/NTSRadio/youll-soon-know-9th-january-2020/",
+        text: "",
+        download: "",
+        soundcloud: "https://soundcloud.com/nts_live/youll-soon-know-090120",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-w-tim-parker-9th-january-2020"
+      },
+      {
         title: "Tim Solo Show",
         created: "2019-12-12",
         play: "/NTSRadio/youll-soon-know-12th-december-2019/",
