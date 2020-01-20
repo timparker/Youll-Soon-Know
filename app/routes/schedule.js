@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
-        title: "The Purist",
+        title: "Sonnyjim",
         date: "2020-02-06",
         start: "14:00",
         end: "16:00"
