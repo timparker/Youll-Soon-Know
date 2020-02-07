@@ -9,7 +9,7 @@ export default Ember.Route.extend({
         play:
           "/NTSRadio/youll-soon-know-w-tim-parker-iamnobodi-sonnyjim-6th-february-2020/",
         text: "",
-        download: "",
+        download: "https://archives.youllsoonknow.us/nts-06-02-20.mp3",
         soundcloud: "",
         nts:
           "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-w-tim-parker-6th-february-2020"
