@@ -4,6 +4,17 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
+        title: "IAMNOBODI & Sonnyjim",
+        created: "2020-02-06",
+        play:
+          "/NTSRadio/youll-soon-know-w-tim-parker-iamnobodi-sonnyjim-6th-february-2020/",
+        text: "",
+        download: "",
+        soundcloud: "",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-w-tim-parker-6th-february-2020"
+      },
+      {
         title: "The Northaze",
         created: "2020-01-09",
         play: "/NTSRadio/youll-soon-know-9th-january-2020/",
