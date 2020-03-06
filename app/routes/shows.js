@@ -4,6 +4,16 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
+        title: "Deft",
+        created: "2020-03-05",
+        play: "/NTSRadio/youll-soon-know-w-tim-parker-deft-5th-march-2020/",
+        text: "",
+        download: "",
+        soundcloud: "",
+        nts:
+          "https://www.nts.live/shows/youll-soon-know/episodes/hyou-ll-soon-know-w-tim-parker-5th-march-2020"
+      },
+      {
         title: "IAMNOBODI & Sonnyjim",
         created: "2020-02-06",
         play:
