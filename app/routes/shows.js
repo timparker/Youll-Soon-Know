@@ -10,7 +10,7 @@ export default Ember.Route.extend({
         text: "",
         download: "https://archives.youllsoonknow.us/nts-02-04-20.mp3",
         soundcloud: "",
-        nts:""
+        nts:"https://www.nts.live/shows/youll-soon-know/episodes/tim-parker-2nd-april-2020"
       },
       {
         title: "Deft",
