@@ -6,7 +6,7 @@ export default Ember.Route.extend({
       {
         title: "Antoje",
         created: "2020-04-02",
-        play: "/NTSRadio/url/",
+        play: "/NTSRadio/youll-soon-know-2nd-april-2020/",
         text: "",
         download: "https://archives.youllsoonknow.us/nts-02-04-20.mp3",
         soundcloud: "",
