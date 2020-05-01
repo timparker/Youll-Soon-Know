@@ -3,13 +3,22 @@ import Ember from "ember";
 export default Ember.Route.extend({
   model: function() {
     return [
-      {
+        {
+          title: "Client_03",
+          created: "2020-04-30",
+          play: "/NTSRadio/youll-soon-know-30th-april-2020/",
+          text: "",
+          download: "https://archives.youllsoonknow.us/nts-30-4-20.mp3",
+          soundcloud: "https://soundcloud.com/nts-latest/youll-soon-know-w-tim-parker-client_03-300420",
+          nts:"https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-w-tim-parker-w-client-03-30th-april-2020"
+        },
+        {
         title: "Antoje",
         created: "2020-04-02",
         play: "/NTSRadio/youll-soon-know-2nd-april-2020/",
         text: "",
         download: "https://archives.youllsoonknow.us/nts-02-04-20.mp3",
-        soundcloud: "",
+        soundcloud: "https://soundcloud.com/nts-latest/youll-soon-know-020420",
         nts:"https://www.nts.live/shows/youll-soon-know/episodes/tim-parker-2nd-april-2020"
       },
       {
