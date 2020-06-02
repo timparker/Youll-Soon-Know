@@ -70,7 +70,7 @@ d: dist
 
 .PHONY: preview
 preview: $(CADDY) ## p  | Preview generated website - as it will appear live
-	@caddy -root=dist
+	$(CADDY) file-server -root=dist
 .PHONY: p
 p: preview
 
