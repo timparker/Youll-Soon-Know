@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
         {
+          title: "Grooveman Spot",
+          created: "2020-07-23",
+          play: "/NTSRadio/youll-soon-know-w-tim-parker-grooveman-spot-22nd-july-2020/",
+          text: "",
+          download: "https://archives.youllsoonknow.us/nts-23-7-20.mp3",
+          soundcloud: "",
+          nts:"https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-23rd-july-2020"
+        },
+        {
           title: "Dolenz",
           created: "2020-06-25",
           play: "/NTSRadio/youll-soon-know-w-tim-parker-dolenz-25th-june-2020/",

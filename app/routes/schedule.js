@@ -4,13 +4,7 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
-        title: "Grooveman Spot",
-        date: "2020-07-23",
-        start: "14:00",
-        end: "16:00"
-      },
-      {
-        title: "Guest TBA",
+        title: "Harris Cole & Skor72",
         date: "2020-08-20",
         start: "14:00",
         end: "16:00"
