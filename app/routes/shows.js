@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
         {
+          title: "Harris Cole & Skor72",
+          created: "2020-08-20",
+          play: "/NTSRadio/youll-soon-know-w-tim-parker-harris-cole-skor72-20th-of-august-2020/",
+          text: "",
+          download: "https://archives.youllsoonknow.us/nts-20-8-20.mp3",
+          soundcloud: "",
+          nts:"https://www.nts.live/shows/youll-soon-know/episodes/yo-ll-soon-know-20th-august-2020"
+        },
+        {
           title: "Grooveman Spot",
           created: "2020-07-23",
           play: "/NTSRadio/youll-soon-know-w-tim-parker-grooveman-spot-22nd-july-2020/",
