@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
         {
+          title: "MentPlus & DJ Scratch Nice",
+          created: "2020-09-17",
+          play: "/NTSRadio/NTSRadio/youll-soon-know-17th-september-2020/",
+          text: "",
+          download: "https://archives.youllsoonknow.us/nts-17-9-20.mp3",
+          soundcloud: "",
+          nts:"https://www.nts.live/shows/youll-soon-know/episodes/yo-ll-soon-know-17th-september-2020"
+        },
+        {
           title: "Harris Cole & Skor72",
           created: "2020-08-20",
           play: "/NTSRadio/youll-soon-know-w-tim-parker-harris-cole-skor72-20th-of-august-2020/",
