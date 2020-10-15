@@ -6,7 +6,7 @@ export default Ember.Route.extend({
         {
           title: "MentPlus & DJ Scratch Nice",
           created: "2020-09-17",
-          play: "/NTSRadio/NTSRadio/youll-soon-know-17th-september-2020/",
+          play: "/NTSRadio/youll-soon-know-17th-september-2020/",
           text: "",
           download: "https://archives.youllsoonknow.us/nts-17-9-20.mp3",
           soundcloud: "",
