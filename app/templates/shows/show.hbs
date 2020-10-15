@@ -4,9 +4,10 @@
             <div class="body">
                   <img src="/images/{{show.created}}.jpg" class="fullimg perma-fullimg" id="fullimg">
 
-                  <div class="play-show-container" {{action "play" show}}>
+                  <!-- {{action "play" show}} -->
+                  <a href="http://mixcloud.com/{{show.play}}" target="_blank" class="play-show-container">
                       <div class="play-show"></div>Play Show
-                  </div>
+                  </a>
             </div>
         </article>
     </section>
