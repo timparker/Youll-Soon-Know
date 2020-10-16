@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
         {
+          title: "Sniff & Radio Etc",
+          created: "2020-10-15",
+          play: "/NTSRadio/youll-soon-know-w-tim-parker-sniff-radio-etc-15th-of-october-2020/",
+          text: "",
+          download: "https://archives.youllsoonknow.us/nts-15-10-20.mp3",
+          soundcloud: "",
+          nts:"https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-15th-october-2020"
+        },
+        {
           title: "MentPlus & DJ Scratch Nice",
           created: "2020-09-17",
           play: "/NTSRadio/youll-soon-know-17th-september-2020/",

@@ -417,8 +417,11 @@ ul.tablelist li.schedule-list a:hover {
   color: $white;
   background: $green;
   border-radius: 4px;
+  text-decoration: none;
 
   &:hover {
+    color: $white;
+    
     .play-show {
       &:after {
         opacity: 1;
