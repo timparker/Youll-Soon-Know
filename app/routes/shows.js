@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
         {
+          title: "ELWD",
+          created: "2020-11-12",
+          play: "/NTSRadio/tim-parker-12th-november-2020/",
+          text: "",
+          download: "https://archives.youllsoonknow.us/nts-12-11-20.mp3",
+          soundcloud: "",
+          nts:"https://www.nts.live/shows/youll-soon-know/episodes/yo-ll-soon-know-12th-november-2020"
+        },
+        {
           title: "Sniff & Radio Etc",
           created: "2020-10-15",
           play: "/NTSRadio/youll-soon-know-w-tim-parker-sniff-radio-etc-15th-of-october-2020/",

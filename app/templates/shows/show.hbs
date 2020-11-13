@@ -4,10 +4,16 @@
             <div class="body">
                   <img src="/images/{{show.created}}.jpg" class="fullimg perma-fullimg" id="fullimg">
 
-                  <!-- {{action "play" show}} -->
-                  <a href="http://mixcloud.com/{{show.play}}" target="_blank" class="play-show-container">
-                      <div class="play-show"></div>Play Show
-                  </a>
+                  {{#if show.nts}}
+                      <a href="{{show.nts}}" target="_blank" class="play-show-container">
+                          <div class="play-show"></div>Play Show
+                      </a>
+                  {{else}}
+                      <!-- {{action "play" show}} -->
+                      <a href="http://mixcloud.com/{{show.play}}" target="_blank" class="play-show-container">
+                          <div class="play-show"></div>Play Show
+                      </a>
+                  {{/if}}
             </div>
         </article>
     </section>
