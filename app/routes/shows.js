@@ -4,9 +4,18 @@ export default Ember.Route.extend({
   model: function() {
     return [
         {
-          title: "Tim",
+          title: "February",
           created: "2021-01-07",
-          play: "/NTSRadio/youll-soon-know-w-house-shoes-10th-december-2020/",
+          play: "/NTSRadio/youll-soon-know-w-tim-parker-4th-february-2021/",
+          text: "",
+          download: "https://archives.youllsoonknow.us/nts-04-02-21.mp3",
+          soundcloud: "",
+          nts:"https://www.nts.live/shows/youll-soon-know/episodes/yo-ll-soon-know-4th-february-2021"
+        },
+        {
+          title: "January",
+          created: "2021-01-07",
+          play: "/NTSRadio/youll-soon-know-w-tim-parker-7th-january-2021/",
           text: "",
           download: "https://archives.youllsoonknow.us/nts-07-01-21.mp3",
           soundcloud: "",
