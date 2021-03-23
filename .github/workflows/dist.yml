@@ -10,12 +10,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: docker://ghcr.io/timparker/youllsoonknow:2019.06.08
+      credentials:
+        username: ${{ github.repository_owner }}
+        password: ${{ secrets.PACKAGES_ACCESS_TOKEN }}
     steps:
-      - uses: docker://ghcr.io/timparker/youllsoonknow:2019.06.08
-        with:
-          registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.PACKAGES_ACCESS_TOKEN }}
       - name: build
         run: |
           pwd
