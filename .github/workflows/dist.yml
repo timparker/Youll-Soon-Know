@@ -15,6 +15,11 @@ jobs:
       credentials:
         username: ${{ github.repository_owner }}
         password: ${{ secrets.PACKAGES_ACCESS_TOKEN }}
+      volumes:
+        - /home/runner/work/Youll-Soon-Know/Youll-Soon-Know/app:/app/app
+        - /home/runner/work/Youll-Soon-Know/Youll-Soon-Know/config:/app/config
+        - /home/runner/work/Youll-Soon-Know/Youll-Soon-Know/dist:/app/dist
+        - /home/runner/work/Youll-Soon-Know/Youll-Soon-Know/public:/app/public
       options: --user root
     steps:
       - name: Check out repository
@@ -22,11 +27,5 @@ jobs:
       - name: build
         shell: bash
         run: |
-          echo WORKFLOW
-          find /github/workflow
-          echo WORKDIR
-          find /__w
-          echo APP
-          find /app
           cd /app
           yarn run build
