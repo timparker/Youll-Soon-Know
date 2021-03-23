@@ -16,33 +16,26 @@ jobs:
         username: ${{ github.repository_owner }}
         password: ${{ secrets.PACKAGES_ACCESS_TOKEN }}
       options: --user root
+    defaults:
+      run:
+        shell: bash
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-      - name: find /app
-        shell: bash
-        run: |
-          find /app
-      - name: find cp app
-        shell: bash
-        run: |
-          echo APP
-          find ${GITHUB_WORKSPACE}/app
-          echo CONFIG
-          find ${GITHUB_WORKSPACE}/config
-          echo DIST
-          find ${GITHUB_WORKSPACE}/dist
-          echo PUBLIC
-          find ${GITHUB_WORKSPACE}/public
-      - name: setup /app
-        shell: bash
+        with:
+          fetch-depth: 0
+      - name: Update /app from repository
         run: |
           cp -fr ${GITHUB_WORKSPACE}/app /app/
           cp -fr ${GITHUB_WORKSPACE}/config /app/
           cp -fr ${GITHUB_WORKSPACE}/dist /app/
           cp -fr ${GITHUB_WORKSPACE}/public /app/
-      - name: build
-        shell: bash
+      - name: Build
         run: |
           cd /app
           yarn run build
+      - name: Update dist
+        run: |
+          cp -fr /app/dist ${GITHUB_WORKSPACE}/
+      - name: Commit & push changes
+        uses: actions-x/commit@v2
