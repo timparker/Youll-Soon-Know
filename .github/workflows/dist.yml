@@ -16,11 +16,14 @@ jobs:
         username: ${{ github.repository_owner }}
         password: ${{ secrets.PACKAGES_ACCESS_TOKEN }}
       volumes:
-        - dist:/app/dist
-        - app:/app/app
-        - config:/app/config
-        - public:/app/public
+        - ./dist:/app/dist
+        - ./app:/app/app
+        - ./config:/app/config
+        - ./public:/app/public
+      options: --user root
     steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
       - name: build
         shell: bash
         run: |
