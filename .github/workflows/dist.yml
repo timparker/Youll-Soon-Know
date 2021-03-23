@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  dist:
     runs-on: ubuntu-latest
     container:
       image: docker://ghcr.io/timparker/youllsoonknow:2019.06.08
@@ -38,4 +38,13 @@ jobs:
         run: |
           cp -fr /app/dist ${GITHUB_WORKSPACE}/
       - name: Commit & push changes
-        uses: actions-x/commit@v2
+        run: |
+          pwd
+          git remote -v
+          ls -lah
+          git config --list
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update dist"
+          git push
