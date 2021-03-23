@@ -24,8 +24,13 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
+      - name: debug
+        shell: bash
+        run: |
+          find /app
       - name: build
         shell: bash
         run: |
           cd /app
+          mkdir /app/tmp
           yarn run build
