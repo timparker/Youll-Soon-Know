@@ -15,15 +15,25 @@ jobs:
       credentials:
         username: ${{ github.repository_owner }}
         password: ${{ secrets.PACKAGES_ACCESS_TOKEN }}
-      volumes:
-        - /home/runner/work/Youll-Soon-Know/Youll-Soon-Know/app:/app/app
-        - /home/runner/work/Youll-Soon-Know/Youll-Soon-Know/config:/app/config
-        - /home/runner/work/Youll-Soon-Know/Youll-Soon-Know/dist:/app/dist
-        - /home/runner/work/Youll-Soon-Know/Youll-Soon-Know/public:/app/public
       options: --user root
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
+      - name: find /app
+        shell: bash
+        run: |
+          find /app
+      - name: find cp app
+        shell: bash
+        run: |
+          echo APP
+          find ${GITHUB_WORKSPACE}/app
+          echo CONFIG
+          find ${GITHUB_WORKSPACE}/config
+          echo DIST
+          find ${GITHUB_WORKSPACE}/dist
+          echo PUBLIC
+          find ${GITHUB_WORKSPACE}/public
       - name: setup /app
         shell: bash
         run: |
@@ -31,10 +41,6 @@ jobs:
           cp -fr ${GITHUB_WORKSPACE}/config /app/
           cp -fr ${GITHUB_WORKSPACE}/dist /app/
           cp -fr ${GITHUB_WORKSPACE}/public /app/
-      - name: find /app
-        shell: bash
-        run: |
-          find /app
       - name: build
         shell: bash
         run: |
