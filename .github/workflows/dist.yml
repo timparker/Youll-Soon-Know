@@ -14,7 +14,7 @@ jobs:
       image: docker://ghcr.io/timparker/youllsoonknow:2019.06.08
       credentials:
         username: ${{ github.repository_owner }}
-        password: ${{ secrets.PACKAGES_ACCESS_TOKEN }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: build
         run: |
