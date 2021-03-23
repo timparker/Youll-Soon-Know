@@ -15,10 +15,15 @@ jobs:
       credentials:
         username: ${{ github.repository_owner }}
         password: ${{ secrets.GITHUB_TOKEN }}
+      volumes:
+        - dist:/app/dist
+        - app:/app/app
+        - config:/app/config
+        - public:/app/public
     steps:
       - name: build
+        shell: bash
         run: |
-          pwd
           ls
-          type yarn
-          find .
+          cd /app
+          yarn run build
