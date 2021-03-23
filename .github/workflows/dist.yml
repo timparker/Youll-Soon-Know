@@ -16,10 +16,7 @@ jobs:
         username: ${{ github.repository_owner }}
         password: ${{ secrets.PACKAGES_ACCESS_TOKEN }}
       volumes:
-        - ./dist:/app/dist
-        - ./app:/app/app
-        - ./config:/app/config
-        - ./public:/app/public
+        - $PWD:/app
       options: --user root
     steps:
       - name: Check out repository
@@ -27,6 +24,11 @@ jobs:
       - name: build
         shell: bash
         run: |
-          ls
+          echo WORKFLOW
+          find /github/workflow
+          echo WORKDIR
+          find /__w
+          echo APP
+          find /app
           cd /app
           yarn run build
