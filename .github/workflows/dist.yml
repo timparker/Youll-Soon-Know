@@ -24,7 +24,12 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-      - name: debug
+      - name: find-GITHUB_WORKSPACE
+        shell: bash
+        run: |
+          echo ${GITHUB_WORKSPACE}
+          find ${GITHUB_WORKSPACE}
+      - name: find-app
         shell: bash
         run: |
           find /app
