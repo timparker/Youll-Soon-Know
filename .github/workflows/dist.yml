@@ -24,12 +24,14 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-      - name: find-GITHUB_WORKSPACE
+      - name: setup /app
         shell: bash
         run: |
-          echo ${GITHUB_WORKSPACE}
-          find ${GITHUB_WORKSPACE}
-      - name: find-app
+          cp -fr ${GITHUB_WORKSPACE}/app /app/
+          cp -fr ${GITHUB_WORKSPACE}/config /app/
+          cp -fr ${GITHUB_WORKSPACE}/dist /app/
+          cp -fr ${GITHUB_WORKSPACE}/public /app/
+      - name: find /app
         shell: bash
         run: |
           find /app
@@ -37,5 +39,4 @@ jobs:
         shell: bash
         run: |
           cd /app
-          mkdir /app/tmp
           yarn run build
