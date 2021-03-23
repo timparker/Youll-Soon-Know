@@ -22,8 +22,7 @@ DOCKER_IMAGE := youllsoonknow:2019.06.08
 ### DEPS ###
 #
 DOCKER := /usr/local/bin/docker
-COMPOSE := $(DOCKER)-compose
-$(DOCKER) $(COMPOSE):
+$(DOCKER):
 	@brew cask install docker
 
 CADDY := /usr/local/bin/caddy
@@ -47,6 +46,7 @@ help:
 build: $(DOCKER) ## b  | Build Docker image
 	@$(DOCKER) build \
 	  --tag $(DOCKER_IMAGE) \
+	  --tag ghcr.io/timparker/$(DOCKER_IMAGE) \
 	  $(CURDIR)
 .PHONY: b
 b: build
