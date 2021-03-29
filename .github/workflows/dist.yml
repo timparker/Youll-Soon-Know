@@ -11,10 +11,10 @@ jobs:
   dist:
     runs-on: ubuntu-latest
     container:
-      image: docker://ghcr.io/timparker/youllsoonknow:2019.06.08
+      image: docker://ghcr.io/timparker/youllsoonknow:2021.03.29
       credentials:
         username: ${{ github.repository_owner }}
-        password: ${{ secrets.PACKAGES_ACCESS_TOKEN }}
+        password: ${{ secrets.GITHUB_TOKEN }}
       options: --user root
     defaults:
       run:

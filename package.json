@@ -1,6 +1,6 @@
 {
   "name": "youllsoonknow",
-  "version": "0.0.0",
+  "version": "2021.03.29",
   "description": "Small description for youllsoonknow goes here",
   "private": true,
   "directories": {
@@ -14,7 +14,7 @@
   },
   "repository": "",
   "engines": {
-    "node": "6.11.0"
+    "node": "6.17.1"
   },
   "author": "",
   "license": "MIT",
