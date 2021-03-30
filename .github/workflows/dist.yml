@@ -39,12 +39,12 @@ jobs:
           cp -fr /app/dist ${GITHUB_WORKSPACE}/
       - name: Commit & push changes
         run: |
-          pwd
-          git remote -v
-          ls -lah
-          git config --list
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Update dist"
+          git commit -m "Generate public site
+
+          via https://github.com/timparker/Youll-Soon-Know/runs/$GITHUB_RUN_ID
+
+          https://youllsoonknow.us/ will be updated within 5mins"
           git push
