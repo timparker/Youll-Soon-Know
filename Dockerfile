@@ -17,6 +17,7 @@ RUN echo "Install deps..." \
     ; ${FAIL_FAST_VERBOSE} \
     ; ${PKG_INSTALL} curl ca-certificates xz-utils
 
+# https://nodejs.org/dist/latest-v6.x/
 RUN echo "Install node.js 6.x..." \
     ; ${FAIL_FAST_VERBOSE} \
     ; cd /opt \
