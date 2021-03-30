@@ -15,18 +15,17 @@ endif
 
 ### VARS ###
 
-DOCKER_IMAGE := youllsoonknow:2019.06.08
+DOCKER_IMAGE := youllsoonknow:2021.03.29
 
 
 
 ### DEPS ###
 #
-DOCKER := /usr/local/bin/docker
-COMPOSE := $(DOCKER)-compose
-$(DOCKER) $(COMPOSE):
+DOCKER ?= /usr/local/bin/docker
+$(DOCKER):
 	@brew cask install docker
 
-CADDY := /usr/local/bin/caddy
+CADDY ?= /usr/local/bin/caddy
 $(CADDY):
 	@brew install caddy
 
@@ -47,6 +46,7 @@ help:
 build: $(DOCKER) ## b  | Build Docker image
 	@$(DOCKER) build \
 	  --tag $(DOCKER_IMAGE) \
+	  --tag ghcr.io/timparker/$(DOCKER_IMAGE) \
 	  $(CURDIR)
 .PHONY: b
 b: build
@@ -79,6 +79,11 @@ run: ## r  | Run website locally
 	@$(DOCKER) run \
 	  --interactive --tty \
 	  --publish 4200:4200 \
+	  --volume $(CURDIR)/dist:/app/dist \
+	  --volume $(CURDIR)/app:/app/app \
+	  --volume $(CURDIR)/config:/app/config \
+	  --volume $(CURDIR)/public:/app/public \
+	  --user root \
 	  $(DOCKER_IMAGE) \
 	  yarn run start
 .PHONY: r

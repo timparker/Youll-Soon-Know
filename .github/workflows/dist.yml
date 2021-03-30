@@ -11,7 +11,7 @@ jobs:
   dist:
     runs-on: ubuntu-latest
     container:
-      image: docker://ghcr.io/timparker/youllsoonknow:2019.06.08
+      image: docker://ghcr.io/timparker/youllsoonknow:2021.03.29
       credentials:
         username: ${{ github.repository_owner }}
         password: ${{ secrets.PACKAGES_ACCESS_TOKEN }}
@@ -39,12 +39,17 @@ jobs:
           cp -fr /app/dist ${GITHUB_WORKSPACE}/
       - name: Commit & push changes
         run: |
-          pwd
-          git remote -v
-          ls -lah
-          git config --list
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Update dist"
-          git push
+          if [ -n "$(git status --porcelain)" ]
+          then
+            git commit -m "Generate public site
+
+          via https://github.com/timparker/Youll-Soon-Know/runs/${GITHUB_RUN_ID}?check_suite_focus=true
+
+          https://youllsoonknow.us/ will be updated within 5 mins"
+            git push
+          else
+            echo "There is nothing new to commit, we are done ✅"
+          fi
