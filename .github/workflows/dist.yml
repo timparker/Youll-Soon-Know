@@ -46,9 +46,9 @@ jobs:
           then
             git commit -m "Generate public site
 
-            via https://github.com/timparker/Youll-Soon-Know/runs/$GITHUB_RUN_ID
+          via https://github.com/timparker/Youll-Soon-Know/runs/${GITHUB_RUN_ID}?check_suite_focus=true
 
-            https://youllsoonknow.us/ will be updated within 5mins"
+          https://youllsoonknow.us/ will be updated within 5 mins"
             git push
           else
             echo "There is nothing new to commit, we are done ✅"
