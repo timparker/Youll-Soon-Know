@@ -14,7 +14,7 @@ jobs:
       image: docker://ghcr.io/timparker/youllsoonknow:2021.03.29
       credentials:
         username: ${{ github.repository_owner }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        password: ${{ secrets.PACKAGES_ACCESS_TOKEN }}
       options: --user root
     defaults:
       run:
