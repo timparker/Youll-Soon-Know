@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
+        title: "10th Anniversary with S.Maharba",
+        created: "2021-04-01",
+        play: "/NTSRadio/youll-soon-know-w-tim-parker-smaharba-1st-april-2021/",
+        text: "10th Anniversary of doing the radio show on NTS. To celebrate S.Maharba joined me with entirely new and original music, enjoy.",
+        download: "https://archives.youllsoonknow.us/nts-01-04-21.mp3",
+        soundcloud: "",
+        nts:"https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-w-tim-parker-smaharba-1st-april-2021"
+      },
+      {
         title: "March",
         created: "2021-03-04",
         play: "/NTSRadio/youll-know-soon-w-tim-parker-4th-march-2021/",
