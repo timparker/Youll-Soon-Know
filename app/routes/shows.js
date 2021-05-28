@@ -4,6 +4,15 @@ export default Ember.Route.extend({
   model: function() {
     return [
       {
+        title: "May",
+        created: "2021-05-27",
+        play: "/NTSRadio/tim-parker-27th-may-2021/",
+        text: "",
+        download: "https://archives.youllsoonknow.us/nts-27-05-21.mp3",
+        soundcloud: "",
+        nts:"https://www.nts.live/shows/youll-soon-know/episodes/you-ll-soon-know-w-tim-parker-27th-may-2021"
+      },
+      {
         title: "Antoje",
         created: "2021-04-30",
         play: "/NTSRadio/tim-parker-29th-april-2021/",
